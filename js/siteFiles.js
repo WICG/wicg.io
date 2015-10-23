@@ -19,8 +19,6 @@
     "js/accordion.js",
     "js/lib/async.js",
     "js/lib/cachetasks.js",
-    "js/lib/swMessage.js",
-    "js/registration.js",
     "js/siteFiles.js",
     "manifest.json",
     "styles/fonts/nexa/Nexa_Bold.otf",

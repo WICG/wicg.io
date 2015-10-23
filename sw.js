@@ -45,25 +45,13 @@ const SWTasks = {
     }
     return response;
   }),
-  hasCacheEntry: async(function* (request, cacheName) {
-    var cache = yield caches.open(cacheName);
-    var response = yield cache.match(request);
-    return (response) ? true : false;
-  }),
 };
 
 // Let's set up life cycle listeners ("install", "activate", "fetch")
 self.addEventListener("install", async(function* (ev) {
-  console.log("Handling", ev.type);
-  yield self.skipWaiting();
   yield SWTasks.deleteAllCaches();
   yield SWTasks.cacheSite(ev, siteFiles);
   console.log("Successfully completed install tasks...");
-}));
-
-self.addEventListener("activate", async(function* (ev) {
-  console.log("Handling", ev.type);
-  yield self.clients.claim();
 }));
 
 self.addEventListener("fetch", function(ev) {
