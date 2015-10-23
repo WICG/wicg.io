@@ -95,7 +95,7 @@
         </li>
         <li>
           <a href="https://lists.w3.org/Archives/Public/public-wicg/">
-              Mailing list.
+              Mailing list
             </a>
         </li>
       </ul>
@@ -139,10 +139,12 @@
       </p>
     </section>
   </footer>
-  <script src="js/lib/async.js"></script>
-  <script src="js/lib/swMessage.js"></script>
-  <script src="js/registration.js"></script>
   <script src="js/accordion.js"></script>
+  <script>
+    if("serviceWorker" in navigator){
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
 </body>
 </html>
 
