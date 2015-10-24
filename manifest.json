@@ -1,0 +1,10 @@
+{
+  "name": "Web Incubator Community Group",
+  "short_name": "WICG",
+  "icons": [
+      {"src": "images/logo.svg", "sizes":"any"}
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "natural"
+}

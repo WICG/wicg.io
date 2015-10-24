@@ -1,76 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta name=viewport content="width=device-width">
-        <title>WICG - Web-platform Incubator Community Group </title>
-        <style>
-            body {
-                max-width: calc(980em / 16);
-                margin: auto;
-                margin-top: 3em;
-                padding-left: 2vw;
-                padding-right: 2vw;
-                font-family: Helvetica, Arial, sans-serif;
-            }
-            .header_img {
-                float: left;
-            }
-            header {
-                font-size: 2em;
-                margin-right: 4vw;
-                margin-left: 4vw;
 
-            }
-            .action_container {
-                width: 96%;
-                margin: auto;
-            }
-            .action {
-                width: 32%;
-                height: 260px;
-                background-color: #ECE4D4;
-                border-radius: 15px;
-                text-align: center;
-                vertical-align: middle;
-                display: inline-block;
-                line-height: 260px;
-                font-size: 3em;
-                border: solid 3px black;
-            }
-            .action a {
-                text-decoration: none;
-            }
-            .links {
-                font-size: 2em;
-                text-align: center;
-                margin: auto;
+<head>
+  <meta charset="UTF-8">
+  <link rel="manifest" href="manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="WICG">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="images/logo.svg" rel="icon" sizes="any">
+  <title>
+    Web Incubator Community Group (WICG)
+  </title>
+</head>
 
-            }
-            .links li {
-                list-style-type: none;
+<body>
+  <header role="banner">
+    <div>
+      <h1><img src="images/logo.svg" height="40px" alt="">Web Incubator CG</h1>
+    </div>
+  </header>
+  <main role="main">
+    <section id="join">
+      <h2 class="visuallyhidden">Join our community!</h2>
+      <p>
+        Join our community of developers and browser makers to define the next
+        generation of web technologies.
+      </p>
+      <ul class="buttonlist fancypill">
+        <li>
+          <a href="https://github.com/WICG/">
+              GitHub
+            </a>
+        </li>
+        <li>
+          <a href="http://lists.w3.org/Archives/Public/public-web-mobile/">Discourse
+            </a>
+        </li>
+      </ul>
+    </section>
+    <section id="publications" class="collapsable accelerated">
+      <h2 class="opener">
+        Incubations
+      </h2>
+      <ul class="docslist multicol">
+        <li>
+          <a href="https://github.com/WICG/a11yapi">
+            Accessible elements API
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/WICG/paymentrequest">
+            Payment request
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/WICG/directory-upload">
+            Directory upload
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/WICG/img-conversion">
+            Image conversion extensions
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/WICG/modality">
+            Input modality
+          </a>
+        </li>
+      </ul>
+    </section>
 
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <p>The WICG is a friendly group of Web developers and browser folks destined at making it easier to contribute to the
-            Web platform.</p>
-            <p>We are here to offer you a forum in which you can propose your ideas, formulate them and push them forward. </p>
-        </header>
-        <section class=action_container>
-            <div class=action><a href="https://www.w3.org/community/wicg/">JOIN</a></div>
-            <div class=action><a href="https://twitter.com/wicg_/">FOLLOW</a></div>
-            <div class=action><a href="https://discourse.wicg.io">DISCUSS</a></div>
-        </section>
-        <section class=links>
-            <h3>Related links:</h3>
-            <ul>
-                <li><a href="https://wicg.github.io/admin/charter.html">Charter</a></li>
-                <li><a href="https://github.com/WICG/admin#user-content-contributing-new-proposals">Contribute new proposals</a></li>
-                <li><a href="https://wicg.github.io/admin/intent-to-migrate.html">Intent to migrate</a></li>
-            </ul>
-        </section>
-    </body>
+    <section id="links" class="collapsable accelerated">
+      <h2 class="opener">
+          Useful Resources
+        </h2>
+      <ul class="linkslist multicol">
+        <li>
+          <a href="https://wicg.github.io/admin/charter.html">
+              Charter
+            </a>
+        </li>
+        <li>
+          <a href="https://www.w3.org/community/wicg/participants">
+              Participants
+            </a>
+        </li>
+        <li>
+          <a href="http://www.w3.org/2004/01/pp-impl/65406/instructions">
+              W3C membership
+            </a>
+        </li>
+        <li>
+          <a href="https://lists.w3.org/Archives/Public/public-wicg/">
+              Mailing list
+            </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer role="contentinfo">
+    <ul class="buttonlist">
+      <li>
+        <a href="https://twitter.com/wicg_">
+          <img src="images/twitter_white.svg" width="30" height="30" alt="Follow us on Twitter!">
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/WICG/">
+          <img src="images/github.svg" width="30" height="30" alt="Joing us on Github!">
+        </a>
+      </li>
+      <li>
+        <a href="http://w3.org">
+          <img src="images/w3c_white.svg" height="30" width="61" alt="Join the W3C!">
+        </a>
+      </li>
+    </ul>
+    <section id="attributions">
+      <h2 class="visuallyhidden">Attributions</h2>
+      <p>
+        <small>
+            Icons: Document by
+            <a href="http://www.icons8.com">
+              Icons8</a>, Mail by
+            <a href="http://RamiMcM.in">Rami McMin</a>,
+            <a href="http://www.zurb.com">
+              Zurb</a>, Link and Mail made by
+            <a href="http://www.simpleicon.com">
+              SimpleIcon</a>, from
+            <a href="http://www.flaticon.com">
+              www.flaticon.com</a>. Header font is `nexa`, from
+            <a href="www.fontfabric.com">
+              www.fontfabric.com</a>.
+          </small>
+      </p>
+    </section>
+  </footer>
+  <script src="js/accordion.js"></script>
+  <script>
+    if("serviceWorker" in navigator){
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
+</body>
 </html>
 

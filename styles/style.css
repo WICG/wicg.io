@@ -1,0 +1,259 @@
+@font-face{
+  font-family: nexa;
+  src: url("fonts/nexa/Nexa_Bold.otf");
+}
+
+/*ie does not suppport main*/
+main {
+  display: block;
+}
+
+html, body, p, h2, header, section, li, ul{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-color: black;
+}
+
+a{
+  color: rgb(102, 93, 84);
+  text-decoration: none
+}
+
+abbr{
+  border: none;
+  text-decoration: none;
+}
+
+body{
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  background: #2B2B2B;
+  color: rgb(102, 93, 84);
+}
+
+header{
+  text-align: center;
+  color: white;
+  font-family: nexa, sans-serif;
+  font-size: 1em;
+  background-color: #4E4E530;
+  background-image: url("../images/code@1x.jpg");
+}
+
+header:after{
+  content: "";
+  width: auto;
+  display:block;
+  position: relative;
+  height: .5em;
+  background: linear-gradient(to right,  #F89C20 0%,#F89C20 6%,#F89C20 6%,#F89C20 13%,#D02E27 13%,#D02E27 19%,#D02E27 19%,#D02E27 25%,#E54E26 25%,#E54E26 31%,#E54E26 31%,#E54E26 37%,#7F1333 37%,#7F1333 44%,#7F1333 44%,#7F1333 50%,#694D9F 50%,#694D9F 56%,#694D9F 56%,#694D9F 63%,#263C81 63%,#263C81 69%,#263C81 69%,#263C81 75%,#2EB3C4 75%,#2EB3C4 81%,#2EB3C4 81%,#2EB3C4 88%,#92A771 88%,#92A771 94%,#92A771 94%,#92A771 100%);
+  border-bottom: .2em solid rgb(200, 194, 183);
+}
+
+header img {
+  background-color: #F7F5F1;
+  padding: .3em;
+  border-radius: .3em;
+  margin-right: 1em;
+  position: relative;
+  left: 0px;
+  top: 0em;
+  z-index: 1000;
+}
+
+header h1{
+  display: inline-block;
+  border-bottom: none;
+  font-size: 1.2em;
+}
+
+p, .fancypill{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#join{
+  line-height: 1.5em;
+  text-align: center;
+  font-style: italic;
+  padding: .5em 0;
+  font-size: 1em;
+  font-weight: bold;
+  background-size: contain;
+  padding-top: .5cm;
+}
+
+.fancypill{
+  padding: 0;
+  margin: 0;
+  margin: auto;
+  text-align: center;
+  width: auto;
+  margin-top: 1.2em;
+  font-style: normal;
+  min-width: 45%;
+}
+
+.fancypill > li{
+  width: 30%;
+  line-height: 2.875em;
+  background-color: #2EB3C4;
+}
+
+.fancypill a{
+  color: rgb(249, 245, 236);
+}
+
+.fancypill li:first-child{
+  border-radius: 0.625em 0 0 0.625em;
+}
+.fancypill li:last-child{
+  border-radius:  0 0.625em 0.625em 0;
+}
+
+section > p{
+  margin: 0 1em;
+}
+
+section > h2{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-size: 1em;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: rgb(94, 85, 76);
+  background-color: rgb(229, 222, 213);
+  line-height: 2.2em;
+  padding-left: 0.625em;
+  border-bottom: 0.2em solid #e0d9ce;
+}
+
+footer{
+   margin: 0.625em 0;
+   text-align: center;
+   transform: translate3d(0, 0, 0);
+}
+
+#attributions{
+  text-align: center;
+  font-size: .7em;
+  background-color: black;
+  color: rgb(200,200,200);
+  font-family: sans-serif;
+  padding-top: 1em;
+}
+
+#attributions a{
+  color: rgb(200,200,200);
+}
+
+.buttonlist{
+  list-style-type: none;
+  padding-bottom: .7em;
+  padding-top: 0;
+}
+
+.buttonlist > li{
+  display: inline-block;
+  padding: 0 1em;
+}
+
+ul{
+  padding: 1em 2.2em;
+  list-style-type: none;
+  line-height: 2.2em;
+}
+
+.interactivelist > li{
+  padding: .5em 0;
+}
+
+.interactivelist a{
+  text-align: center;
+  display: inline-block;
+  width: 2.3em;
+  border-radius: 0.625em 0.625em;
+  background-color: rgb(214, 208, 198);
+}
+
+img{
+  vertical-align: middle;
+}
+
+.docslist, .interactivelist{
+  line-height: 2em;
+}
+
+.docslist > li, .linkslist > li{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-position: .9em 40%;
+  background-repeat: no-repeat;
+  padding-left: 2.3em;
+  background-size: 1em;
+}
+
+.docslist > li{
+  background-image: url("../images/document.svg");
+}
+
+.linkslist > li {
+  background-image: url("../images/link.svg");
+}
+
+.linkslist > li.mail {
+  background-image: url("../images/mail.svg");
+}
+
+main{
+  background-color: rgb(250, 245, 236);
+}
+
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px; width: 1px;
+  margin: -1px; padding: 0; border: 0;
+}
+
+.accelerated{
+  overflow: hidden;
+  transition: height .7s;
+  transform: translate3d(0, 0, 0);
+}
+
+section.collapsable{
+  overflow: hidden;
+  height: 2.35em;
+  will-change: height;
+}
+
+@media (min-width: 36em) {
+    section > h2{
+      font-size: .9em;
+    }
+    section.collapsable{
+      height: auto;
+    }
+    ul.multicol{
+         -moz-column-count: 2;
+      -webkit-column-count: 2;
+              column-count: 2;
+    }
+    header{
+        background-position: 50% 40%;
+    }
+}
+
+@media (min-width: 64em) {
+  ul.multicol{
+       -moz-column-count: 3;
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
+  header{
+    background-position: 0% 60%;
+  }
+}
