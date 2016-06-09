@@ -23,6 +23,7 @@
     "manifest.json",
     "styles/fonts/nexa/Nexa_Bold.otf",
     "styles/style.css",
+    "./sw.js",
   ];
   exports.siteFiles = siteFiles;
 }(self || window));
