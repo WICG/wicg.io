@@ -1,83 +1,50 @@
-/* This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this file,
- * You can obtain one at http://mozilla.org/MPL/2.0/. */
-
-/*
- * This is an approximate implementation of ES7's async-await pattern.
- * see: https://github.com/tc39/ecmascript-asyncawait
- *
- * It allows for simple creation of async function and "tasks".
- *
- * For example:
- *
- *  var myThinger = {
- *    doAsynThing: async(function*(url){
- *      var result = yield fetch(url);
- *      return process(result);
- *    });
- * }
- *
- * And Task-like things can be created as follows:
- *
- * var myTask = async(function*{
- *   var result = yield fetch(url);
- *   return result;
- * });
- * //returns a promise
- *
- * myTask().then(doSomethingElse);
- *
- */
-
-(function(exports) {
-  "use strict";
+/*jshint  -W082 */
+/*globals define*/
+'use strict';
+{
+  // async function takes a generator, and optional "this"
   function async(func, self) {
-    return function asyncFunction() {
-      var args = Array.from(arguments);
-      return new Promise(function(resolve, reject) {
-        var gen;
-        if (typeof func !== "function") {
-          reject(new TypeError("Expected a Function."));
-        }
-        //not a generator, wrap it.
-        if (func.constructor.name !== "GeneratorFunction") {
+    if (typeof func !== 'function') {
+      throw new TypeError('Expected a Function or GeneratorFunction.');
+    }
+    // returns returns a function asyncFunction that returns promise
+    // It is called with zero or more arguments...
+    return function asyncFunction(...args) {
+      return new Promise((resolve, reject) => {
+        let gen;
+        if (func.constructor.name === 'GeneratorFunction') {
+          gen = func.call(self, ...args);
+        } else { // Wrap it
           gen = (function*() {
             return func.call(self, ...args);
           }());
-        } else {
-          gen = func.call(self, ...args);
-        }
-        try {
-          step(gen.next(undefined));
-        } catch (err) {
-          console.warn("The generator threw immediately.", err);
-          reject(err);
         }
 
-        function step(next) {
-          const value = next.value;
-          if (next.done) {
+        step(gen.next());
+
+        function step({value, done}) {
+          if (done) {
             return resolve(value);
           }
-          if (value instanceof Promise) {
-            return value.then(
+          Promise
+            .resolve(value) // Normalize thenable
+            .then(
               result => step(gen.next(result)),
-              error => {
-                try {
-                  step(gen.throw(error));
-                } catch (err) {
-                  throw err;
-                }
-              }
-            ).catch((err) => {
-              console.warn("Unhandled error in async function.", err);
-              reject(err);
-            });
-          }
-          step(gen.next(value));
+              error => step(gen.throw(error))
+            )
+            .catch(reject);
         }
       });
     };
   }
-  exports.async = async;
-}(this || self));
+
+  async.task = (func, self) => async(func, self)();
+
+  if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+    module.exports = async;
+  } else if (typeof define === 'function' && define.amd) {
+    define([], () => async);
+  } else {
+    (self || window).async = async;
+  }
+}
