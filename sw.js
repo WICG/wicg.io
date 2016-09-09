@@ -2,7 +2,7 @@
 "use strict";
 self.importScripts("./js/lib/async.js");
 
-const SITE_CACHE = "site-v4";
+const SITE_CACHE = "site-v5";
 
 self.addEventListener("install", (ev) => {
   const resources = [
