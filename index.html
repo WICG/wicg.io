@@ -177,10 +177,9 @@ wicg init "The Awesome API"</pre>
         <small>
             Icons: Document by
             <a href="http://www.icons8.com">
-              Icons8</a>, Mail by
-            <a href="http://RamiMcM.in">Rami McMin</a>,
-            <a href="http://www.zurb.com">
-              Zurb</a>, Link and Mail made by
+              Icons8</a>,
+              <a href="http://www.zurb.com">
+              Zurb</a>, Link made by
             <a href="http://www.simpleicon.com">
               SimpleIcon</a>, from
             <a href="http://www.flaticon.com">
@@ -192,7 +191,10 @@ wicg init "The Awesome API"</pre>
     </section>
   </footer>
   <aside id="update-toast">
-    <p>Site has been updated! <button id="refresh">refresh?</button> <button id="dismiss">No thanks!</button></p>
+    <p>Site has been updated!
+      <button id="refresh">refresh?</button>
+      <button id="dismiss">No thanks!</button>
+    </p>
   </aside>
   <script src="js/lib/async.js"></script>
   <script>
@@ -204,7 +206,7 @@ wicg init "The Awesome API"</pre>
 
     const reg = yield navigator.serviceWorker.register("sw.js");
 
-    if(!navigator.serviceWorker.controller){
+    if (!navigator.serviceWorker.controller) {
       return;
     }
 
@@ -228,7 +230,7 @@ wicg init "The Awesome API"</pre>
 
     function trackInstallation(sw) {
       sw.addEventListener("statechange", () => {
-        switch(sw.state){
+        switch (sw.state) {
           case "installed":
             updateReady(sw);
             break;
