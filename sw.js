@@ -21,6 +21,7 @@ self.addEventListener("install", (ev) => {
     "./manifest.json",
     "./styles/fonts/nexa/Nexa_Bold.otf",
     "./styles/style.css",
+    "./sw.js",
   ];
   ev.waitUntil(async.task(function*() {
     const cache = yield caches.open(SITE_CACHE);
