@@ -8,6 +8,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="application-name" content="WICG">
   <meta name="format-detection" content="telephone=no">
+  <script src="js/accordion.js" async></script>
   <link rel="stylesheet" href="styles/style.css">
   <link href="images/logo.svg" rel="icon" sizes="any">
   <title>
@@ -25,8 +26,7 @@
     <section id="join">
       <h2 class="visuallyhidden">Join our community!</h2>
       <p>
-        Join our community of developers and browser makers to define the next
-        generation of web technologies.
+        Join our community of developers and browser makers to define the next generation of web technologies.
       </p>
       <ul class="buttonlist fancypill">
         <li>
@@ -40,7 +40,7 @@
         </li>
       </ul>
     </section>
-      <section id="publications" class="collapsable accelerated">
+    <section id="publications" class="collapsable accelerated">
       <h2 class="opener">
         Getting started
       </h2>
@@ -125,7 +125,6 @@ wicg init "The Awesome API"</pre>
         </li>
       </ul>
     </section>
-
     <section id="links" class="collapsable accelerated">
       <h2 class="opener">
           Useful Resources
@@ -192,12 +191,68 @@ wicg init "The Awesome API"</pre>
       </p>
     </section>
   </footer>
-  <script src="js/accordion.js"></script>
+  <aside id="update-toast">
+    <p>Site has been updated! <button id="refresh">refresh?</button> <button id="dismiss">No thanks!</button></p>
+  </aside>
+  <script src="js/lib/async.js"></script>
   <script>
-    if("serviceWorker" in navigator){
-      navigator.serviceWorker.register("sw.js");
+  "use strict";
+  async.task(function*() {
+    if (!navigator.serviceWorker) {
+      return;
     }
+
+    const reg = yield navigator.serviceWorker.register("sw.js");
+
+    if(!navigator.serviceWorker.controller){
+      return;
+    }
+
+    if (reg.installing) {
+      trackInstallation(reg.installing);
+      return;
+    }
+
+    if (reg.waiting) {
+      updateReady(reg.waiting);
+      return;
+    }
+
+    reg.addEventListener('updatefound', () => {
+      trackInstallation(reg.installing);
+    });
+
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      window.location.reload();
+    });
+
+    function trackInstallation(sw) {
+      sw.addEventListener("statechange", () => {
+        switch(sw.state){
+          case "installed":
+            updateReady(sw);
+            break;
+        }
+      });
+    }
+
+    function updateReady(sw) {
+      console.info("Update ready");
+      const toast = document.querySelector("#update-toast");
+      const refresh = document.querySelector("#refresh");
+      const dismiss = document.querySelector("#dismiss");
+      toast.classList.add("show");
+      dismiss.onclick = () => toast.classList.remove("show");
+      refresh.onclick = () => {
+        toast.classList.remove("show");
+        // Let SW know it can take over
+        sw.postMessage({
+          action: "skipWaiting"
+        });
+      }
+    }
+  }).catch(err => console.error(err));
   </script>
 </body>
-</html>
 
+</html>

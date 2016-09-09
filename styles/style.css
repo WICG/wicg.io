@@ -235,6 +235,44 @@ section.collapsable {
   will-change: auto;
 }
 
+#update-toast {
+  display: none;
+  padding: .5cm .5cm .5cm .5cm;
+  background: black;
+  border: 1px solid blue;
+  border-bottom: none;
+  position: fixed;
+  bottom: 0px;
+  width: 50%;
+  left: 20%;
+  margin: 0 auto;
+  animation: fadein 2s;
+  border-radius: 1em 1em 0 0;
+}
+
+#update-toast.show{
+  display: inline-block;
+}
+
+#update-toast button {
+  border: none;
+  background: inherit;
+  color: pink;
+  font-size: inherit;
+  padding-right: .2cm;
+  padding-left: .2cm;
+  text-decoration: underline;
+}
+
+#update-toast button:focus {
+  outline:0;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 @media (min-width: 36em) {
   section > h2 {
     font-size: .9em;
