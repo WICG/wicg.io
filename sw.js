@@ -2,7 +2,7 @@
 "use strict";
 self.importScripts("./js/lib/async.js");
 
-const SITE_CACHE = "site-v2";
+const SITE_CACHE = "site-v4";
 
 self.addEventListener("install", (ev) => {
   const resources = [
@@ -13,6 +13,7 @@ self.addEventListener("install", (ev) => {
     "./images/irc.svg",
     "./images/link.svg",
     "./images/logo.svg",
+    "./images/logo.png",
     "./images/twitter_white.svg",
     "./images/w3c_white.svg",
     "./js/accordion.js",

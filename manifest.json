@@ -2,7 +2,16 @@
   "name": "Web Incubator Community Group",
   "short_name": "WICG",
   "icons": [
-      {"src": "images/logo.svg", "sizes":"any"}
+    {
+      "src": "images/logo.png",
+      "type": "image/png",
+      "sizes": "288x288"
+    },
+    {
+      "src": "images/logo.svg",
+      "type": "image/svg",
+      "sizes": "any"
+    }
   ],
   "start_url": "/",
   "display": "standalone",
