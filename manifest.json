@@ -4,7 +4,7 @@
   "icons": [
       {"src": "images/logo.svg", "sizes":"any"}
   ],
-  "start_url": "index.html",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "natural"
 }
