@@ -1,6 +1,6 @@
 /*globals self, async, caches, fetch */
 "use strict";
-self.importScripts("/js/lib/async.js");
+self.importScripts("./js/lib/async.js");
 
 const SITE_CACHE = "site-v1";
 
