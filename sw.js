@@ -6,20 +6,20 @@ const SITE_CACHE = "site-v1";
 
 self.addEventListener("install", (ev) => {
   const resources = [
-    "/",
-    "/images/code@1x.jpg",
-    "/images/document.svg",
-    "/images/github.svg",
-    "/images/irc.svg",
-    "/images/link.svg",
-    "/images/logo.svg",
-    "/images/twitter_white.svg",
-    "/images/w3c_white.svg",
-    "/js/accordion.js",
-    "/js/lib/async.js",
-    "/manifest.json",
-    "/styles/fonts/nexa/Nexa_Bold.otf",
-    "/styles/style.css",
+    "./",
+    "./images/code@1x.jpg",
+    "./images/document.svg",
+    "./images/github.svg",
+    "./images/irc.svg",
+    "./images/link.svg",
+    "./images/logo.svg",
+    "./images/twitter_white.svg",
+    "./images/w3c_white.svg",
+    "./js/accordion.js",
+    "./js/lib/async.js",
+    "./manifest.json",
+    "./styles/fonts/nexa/Nexa_Bold.otf",
+    "./styles/style.css",
   ];
   ev.waitUntil(async.task(function*() {
     const cache = yield caches.open(SITE_CACHE);
