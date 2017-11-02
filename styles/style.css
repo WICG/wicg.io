@@ -108,6 +108,8 @@ p,
 
 .fancypill a {
   color: rgb(249, 245, 236);
+  display: inine-block;
+  width: 100%;
 }
 
 .fancypill li:first-child {
