@@ -1,7 +1,7 @@
 /*globals self, async, caches, fetch */
 "use strict";
 
-const SITE_CACHE = "site-v8";
+const SITE_CACHE = "site-v9";
 
 self.addEventListener("install", ev => {
   ev.waitUntil(cacheIsPopulated());
@@ -24,7 +24,6 @@ async function cacheIsPopulated() {
     "./manifest.json",
     "./styles/fonts/nexa/Nexa_Bold.otf",
     "./styles/style.css",
-    "./sw.js",
     "https://raw.githubusercontent.com/WICG/admin/gh-pages/biblio.json",
   ];
   const cache = await caches.open(SITE_CACHE);
