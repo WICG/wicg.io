@@ -15,8 +15,8 @@ async function cacheIsPopulated() {
     "./images/github.svg",
     "./images/irc.svg",
     "./images/link.svg",
-    "./images/logo.svg",
     "./images/logo.png",
+    "./images/logo.svg",
     "./images/twitter_white.svg",
     "./images/w3c_white.svg",
     "./js/accordion.js",
@@ -25,6 +25,7 @@ async function cacheIsPopulated() {
     "./styles/fonts/nexa/Nexa_Bold.otf",
     "./styles/style.css",
     "./sw.js",
+    "https://raw.githubusercontent.com/WICG/admin/gh-pages/biblio.json",
   ];
   const cache = await caches.open(SITE_CACHE);
   await cache.addAll(resources);
