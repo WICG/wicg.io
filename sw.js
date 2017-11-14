@@ -1,10 +1,13 @@
 /*globals self, async, caches, fetch */
 "use strict";
-self.importScripts("./js/lib/async.js");
 
-const SITE_CACHE = "site-v6";
+const SITE_CACHE = "site-v7";
 
-self.addEventListener("install", (ev) => {
+self.addEventListener("install", ev => {
+  ev.waitUntil(cacheIsPopulated());
+});
+
+async function cacheIsPopulated() {
   const resources = [
     "./",
     "./images/code@1x.jpg",
@@ -17,25 +20,19 @@ self.addEventListener("install", (ev) => {
     "./images/twitter_white.svg",
     "./images/w3c_white.svg",
     "./js/accordion.js",
-    "./js/lib/async.js",
+    "./js/lib/hyperhtml.js",
     "./manifest.json",
     "./styles/fonts/nexa/Nexa_Bold.otf",
     "./styles/style.css",
     "./sw.js",
   ];
-  ev.waitUntil(async.task(function*() {
-    const cache = yield caches.open(SITE_CACHE);
-    yield cache.addAll(resources);
-  }));
-});
+  const cache = await caches.open(SITE_CACHE);
+  await cache.addAll(resources);
+}
 
-self.addEventListener("activate", () => {
-  async.task(function*() {
-    const keys = yield caches.keys();
-    yield keys
-      .filter(key => key !== SITE_CACHE)
-      .map(key => caches.delete(key));
-  });
+self.addEventListener("activate", async () => {
+  const keys = await caches.keys();
+  await keys.filter(key => key !== SITE_CACHE).map(key => caches.delete(key));
 });
 
 self.addEventListener("message", ({ data: { action } }) => {
@@ -46,23 +43,25 @@ self.addEventListener("message", ({ data: { action } }) => {
   }
 });
 
-self.addEventListener("fetch", (ev) => {
-  ev.respondWith(async.task(function*() {
-    const response = yield caches.match(ev.request);
-    if (response) {
-      return response;
-    }
-    console.warn("No caches match for?:", ev.request.url);
-    // go to network instead
-    try {
-      const netResponse = yield fetch(ev.request);
-      if (netResponse.ok) {
-        return netResponse;
-      }
-    } catch (err) {
-      // just return the index if all goes bad.
-      console.error(err);
-    }
-    return yield caches.match("/");
-  }));
+self.addEventListener("fetch", ev => {
+  ev.respondWith(aCachedResponse(ev));
 });
+
+async function aCachedResponse(ev) {
+  const response = await caches.match(ev.request);
+  if (response) {
+    return response;
+  }
+  console.warn("No caches match for?:", ev.request.url);
+  // go to network instead
+  try {
+    const netResponse = await fetch(ev.request);
+    if (netResponse.ok) {
+      return netResponse;
+    }
+  } catch (err) {
+    // just return the index if all goes bad.
+    console.error(err);
+  }
+  return await caches.match("/");
+}

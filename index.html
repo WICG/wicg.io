@@ -9,6 +9,7 @@
   <meta name="application-name" content="WICG">
   <meta name="format-detection" content="telephone=no">
   <script src="js/accordion.js" async></script>
+  <script src="js/lib/hyperhtml.js" async></script>
   <link rel="stylesheet" href="styles/style.css">
   <link href="images/logo.svg" rel="icon" sizes="any">
   <title>
@@ -52,77 +53,7 @@ wicg init "The Awesome API"</pre>
       <h2 class="opener">
         Incubations
       </h2>
-      <ul class="docslist multicol">
-        <li>
-          <a href="https://github.com/WICG/BackgroundSync">
-            Background Sync
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/WICG/interventions">
-            Browser Interventions
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/WICG/ContentPerformancePolicy">
-            Content Performance Policy
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/WICG/directory-upload">
-            Directory upload
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/WICG/EventListenerOptions">
-            EventListener Options
-          </a>
-        </li>
-        <li>
-          <a href="https://wicg.github.io/feature-policy/">
-            Feature Policy
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/WICG/img-conversion">
-            Image conversion extensions
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/WICG/InputDeviceCapabilities">
-            InputDevice API
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/WICG/IntersectionObserver">
-            Intersection Observer
-          </a>
-        </li>
-        <li>
-          <a href="http://wicg.github.io/netinfo/">
-            Network Information API
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/WICG/ResizeObserver">
-            Resize Observer
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/WICG/shape-detection-api">
-            Shape Detection API
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/WICG/ViewportAPI">
-            Visual Viewport API
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/WICG/webusb">
-            Web USB
-          </a>
-        </li>
+      <ul class="docslist multicol" id="incubation-list">
       </ul>
     </section>
     <section id="links" class="collapsable accelerated">
@@ -194,15 +125,53 @@ wicg init "The Awesome API"</pre>
       <button id="dismiss">No thanks!</button>
     </p>
   </aside>
-  <script src="js/lib/async.js"></script>
   <script>
   "use strict";
-  async.task(function*() {
+
+  async function fillSpecs() {
+    const content = fetch(
+      "https://raw.githubusercontent.com/WICG/admin/gh-pages/biblio.json"
+    )
+      .then(r => r.json())
+      .then(specs =>
+        Array.from(Object.entries(specs))
+          .sort(byKey)
+          .map(toListItem)
+      );
+    const render = hyperHTML.bind(document.getElementById("incubation-list"));
+    render`
+      ${{
+        any: content,
+        placeholder: "Loading specs...",
+      }}
+      `;
+  }
+
+  function byKey([keyA], [keyB]) {
+    return keyA.toLowerCase().localeCompare(keyB.toLowerCase());
+  }
+
+  function toListItem([key, { href, title }]) {
+    return hyperHTML`<li>
+        <a href="${href}">
+          ${title}
+        </a>
+        </li>`;
+  }
+
+  window.onload = async () => {
+    // fill in incubation box...
+    const promiseToFillSpecs = fillSpecs();
     if (!navigator.serviceWorker) {
       return;
     }
-
-    const reg = yield navigator.serviceWorker.register("sw.js");
+    let reg;
+    try {
+      reg = await navigator.serviceWorker.register("sw.js");
+    } catch (err) {
+      console.error(err);
+      return;
+    }
 
     if (!navigator.serviceWorker.controller) {
       return;
@@ -218,13 +187,15 @@ wicg init "The Awesome API"</pre>
       return;
     }
 
-    reg.addEventListener('updatefound', () => {
+    reg.addEventListener("updatefound", () => {
       trackInstallation(reg.installing);
     });
 
     navigator.serviceWorker.addEventListener("controllerchange", () => {
       window.location.reload();
     });
+
+    await promiseToFillSpecs; // finally, just wait for the specs to show up
 
     function trackInstallation(sw) {
       sw.addEventListener("statechange", () => {
@@ -247,11 +218,11 @@ wicg init "The Awesome API"</pre>
         toast.classList.remove("show");
         // Let SW know it can take over
         sw.postMessage({
-          action: "skipWaiting"
+          action: "skipWaiting",
         });
-      }
+      };
     }
-  }).catch(err => console.error(err));
+  };
   </script>
 </body>
 
