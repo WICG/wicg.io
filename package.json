@@ -1,0 +1,25 @@
+{
+  "name": "wicg.io",
+  "version": "0.0.0-semantic-versioned",
+  "description": "wicg landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "http-server": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WICG/wicg.io.git"
+  },
+  "author": "Marcos Cáceres <marcos@marcosc.com> (https://marcosc.com)",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/WICG/wicg.io/issues"
+  },
+  "homepage": "https://github.com/WICG/wicg.io#readme",
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "hyperhtml": "^1.12.5"
+  }
+}
