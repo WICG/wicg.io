@@ -20,6 +20,6 @@
   "homepage": "https://github.com/WICG/wicg.io#readme",
   "dependencies": {
     "http-server": "^0.10.0",
-    "hyperhtml": "^1.12.5"
+    "hyperhtml": "^2.0.1"
   }
 }
