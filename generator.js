@@ -1,7 +1,7 @@
 const gh = require("simple-github")({
   owner: "wicg",
   //debug: "true",
-  token: "9dc5c11bd56e0de8f244c83c9807e9acb28655e3",
+  token: `${process.env.WICG_TOKEN}`,
 });
 
 const ms_to_days_ratio = 1000*60*60*24;
@@ -59,7 +59,6 @@ const ignore_set = {"admin": true, "wicg.io": true, "starter-kit": true, "repo_i
     }
 // sort the damn thing
 active = active.sort((a,b) => { return b.score - a.score; });
-console.log(active);
 
 })()
 
