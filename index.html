@@ -1,229 +1,249 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="WICG" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="js/accordion.js"></script>
+    <script src="js/lib/hyperhtml.js" async></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="images/logo.svg" rel="icon" sizes="any" />
+    <title>
+      Web Incubator Community Group (WICG)
+    </title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="manifest" href="manifest.json">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="application-name" content="WICG">
-  <meta name="format-detection" content="telephone=no">
-  <script src="js/accordion.js"></script>
-  <script src="js/lib/hyperhtml.js" async></script>
-  <link rel="stylesheet" href="styles/style.css">
-  <link href="images/logo.svg" rel="icon" sizes="any">
-  <title>
-    Web Incubator Community Group (WICG)
-  </title>
-</head>
-
-<body>
-  <header role="banner">
-    <div>
-      <h1><img src="images/logo.svg" height="40" width="40" alt="">Web Incubator CG</h1>
-    </div>
-  </header>
-  <main role="main">
-    <section id="join">
-      <h2 class="visuallyhidden">Join our community!</h2>
-      <p>
-        Join our community of developers and browser makers to define the next generation of web technologies.
-      </p>
-      <ul class="buttonlist fancypill">
-        <li>
-          <a href="https://github.com/WICG/">
+  <body>
+    <header role="banner">
+      <div>
+        <h1>
+          <img src="images/logo.svg" height="40" width="40" alt="" />Web
+          Incubator CG
+        </h1>
+      </div>
+    </header>
+    <main role="main">
+      <section id="join">
+        <h2 class="visuallyhidden">Join our community!</h2>
+        <p>
+          Join our community of developers and browser makers to define the next
+          generation of web technologies.
+        </p>
+        <ul class="buttonlist fancypill">
+          <li>
+            <a href="https://github.com/WICG/">
               GitHub
             </a>
-        </li>
-        <li>
-          <a href="https://discourse.wicg.io/">Discourse
+          </li>
+          <li>
+            <a href="https://www.w3.org/community/wicg/">
+              Join
             </a>
-        </li>
-      </ul>
-    </section>
-    <section id="publications" class="collapsable accelerated">
-      <h2 class="opener">
-        Getting started
-      </h2>
-      <pre class="bash">
+          </li>
+          <li>
+            <a href="https://discourse.wicg.io/">Discourse </a>
+          </li>
+        </ul>
+      </section>
+      <section id="publications" class="collapsable accelerated">
+        <h2 class="opener">
+          Getting started
+        </h2>
+        <pre class="bash">
 npm install -g wicg
-wicg init "The Awesome API"</pre>
-    </section>
-    <section id="publications" class="collapsable accelerated">
-      <h2 class="opener">
-        Incubations
-      </h2>
-      <ul class="docslist multicol" id="incubation-list">
-      </ul>
-    </section>
-    <section id="links" class="collapsable accelerated">
-      <h2 class="opener">
+wicg init "The Awesome API"</pre
+        >
+      </section>
+      <section id="publications" class="collapsable accelerated">
+        <h2 class="opener">
+          Incubations
+        </h2>
+        <ul class="docslist multicol" id="incubation-list"></ul>
+      </section>
+      <section id="links" class="collapsable accelerated">
+        <h2 class="opener">
           Useful Resources
         </h2>
-      <ul class="linkslist multicol">
-        <li>
-          <a href="https://wicg.github.io/admin/charter.html">
+        <ul class="linkslist multicol">
+          <li>
+            <a href="https://wicg.github.io/admin/charter.html">
               Charter
             </a>
-        </li>
-        <li>
-          <a href="https://www.w3.org/community/wicg/participants">
+          </li>
+          <li>
+            <a href="https://www.w3.org/community/wicg/participants">
               Participants
             </a>
-        </li>
-        <li>
-          <a href="https://www.w3.org/community/wicg/">
+          </li>
+          <li>
+            <a href="https://www.w3.org/community/wicg/">
               Join
+            </a>
+          </li>
+          <li>
+            <a href="https://lists.w3.org/Archives/Public/public-wicg/">
+              Mailing list
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer role="contentinfo">
+      <ul class="buttonlist">
+        <li>
+          <a href="https://twitter.com/wicg_">
+            <img
+              src="images/twitter_white.svg"
+              width="30"
+              height="30"
+              alt="Follow us on Twitter!"
+            />
           </a>
         </li>
         <li>
-          <a href="https://lists.w3.org/Archives/Public/public-wicg/">
-              Mailing list
-            </a>
+          <a href="https://github.com/WICG/">
+            <img
+              src="images/github.svg"
+              width="30"
+              height="30"
+              alt="Joing us on Github!"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="http://w3.org">
+            <img
+              src="images/w3c_white.svg"
+              height="30"
+              width="61"
+              alt="Join the W3C!"
+            />
+          </a>
         </li>
       </ul>
-    </section>
-  </main>
-  <footer role="contentinfo">
-    <ul class="buttonlist">
-      <li>
-        <a href="https://twitter.com/wicg_">
-          <img src="images/twitter_white.svg" width="30" height="30" alt="Follow us on Twitter!">
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/WICG/">
-          <img src="images/github.svg" width="30" height="30" alt="Joing us on Github!">
-        </a>
-      </li>
-      <li>
-        <a href="http://w3.org">
-          <img src="images/w3c_white.svg" height="30" width="61" alt="Join the W3C!">
-        </a>
-      </li>
-    </ul>
-    <section id="attributions">
-      <h2 class="visuallyhidden">Attributions</h2>
-      <p>
-        <small>
+      <section id="attributions">
+        <h2 class="visuallyhidden">Attributions</h2>
+        <p>
+          <small>
             Icons: Document by
-            <a href="https://icons8.com">
-              Icons8</a>, Link made by
-            <a href="http://simpleicon.com">
-              SimpleIcon</a>, from
-            <a href="https://www.flaticon.com">
-              Flaticon</a>. Header font is "Nexa", from
-            <a href="https://www.fontfabric.com">
-              Fontfabric</a>.
+            <a href="https://icons8.com"> Icons8</a>, Link made by
+            <a href="http://simpleicon.com"> SimpleIcon</a>, from
+            <a href="https://www.flaticon.com"> Flaticon</a>. Header font is
+            "Nexa", from <a href="https://www.fontfabric.com"> Fontfabric</a>.
           </small>
+        </p>
+      </section>
+    </footer>
+    <aside id="update-toast">
+      <p>
+        Site has been updated!
+        <button id="refresh">refresh?</button>
+        <button id="dismiss">No thanks!</button>
       </p>
-    </section>
-  </footer>
-  <aside id="update-toast">
-    <p>Site has been updated!
-      <button id="refresh">refresh?</button>
-      <button id="dismiss">No thanks!</button>
-    </p>
-  </aside>
-  <script>
-  "use strict";
+    </aside>
+    <script>
+      "use strict";
 
-  async function fillSpecs() {
-    const content = fetch(
-      "https://raw.githubusercontent.com/WICG/admin/gh-pages/biblio.json"
-    )
-      .then(r => r.json())
-      .then(specs =>
-        Array.from(Object.entries(specs))
-          .sort(byKey)
-          .map(toListItem)
-      );
-    const render = hyperHTML.bind(document.getElementById("incubation-list"));
-    render`
+      async function fillSpecs() {
+        const content = fetch(
+          "https://raw.githubusercontent.com/WICG/admin/gh-pages/biblio.json"
+        )
+          .then(r => r.json())
+          .then(specs =>
+            Array.from(Object.entries(specs))
+              .sort(byKey)
+              .map(toListItem)
+          );
+        const render = hyperHTML.bind(
+          document.getElementById("incubation-list")
+        );
+        render`
       ${{
         any: content,
         placeholder: "Loading specs...",
       }}
       `;
-  }
+      }
 
-  function byKey([keyA], [keyB]) {
-    return keyA.toLowerCase().localeCompare(keyB.toLowerCase());
-  }
+      function byKey([keyA], [keyB]) {
+        return keyA.toLowerCase().localeCompare(keyB.toLowerCase());
+      }
 
-  function toListItem([key, { href, title }]) {
-    return hyperHTML`<li>
+      function toListItem([key, { href, title }]) {
+        return hyperHTML`<li>
         <a href="${href}">
           ${title}
         </a>
         </li>`;
-  }
+      }
 
-  window.onload = async () => {
-    // fill in incubation box...
-    const promiseToFillSpecs = fillSpecs();
-    if (!navigator.serviceWorker) {
-      return;
-    }
-    let reg;
-    try {
-      reg = await navigator.serviceWorker.register("sw.js");
-    } catch (err) {
-      console.error(err);
-      return;
-    }
-
-    if (!navigator.serviceWorker.controller) {
-      return;
-    }
-
-    if (reg.installing) {
-      trackInstallation(reg.installing);
-      return;
-    }
-
-    if (reg.waiting) {
-      updateReady(reg.waiting);
-      return;
-    }
-
-    reg.addEventListener("updatefound", () => {
-      trackInstallation(reg.installing);
-    });
-
-    navigator.serviceWorker.addEventListener("controllerchange", () => {
-      window.location.reload();
-    });
-
-    await promiseToFillSpecs; // finally, just wait for the specs to show up
-
-    function trackInstallation(sw) {
-      sw.addEventListener("statechange", () => {
-        switch (sw.state) {
-          case "installed":
-            updateReady(sw);
-            break;
+      window.onload = async () => {
+        // fill in incubation box...
+        const promiseToFillSpecs = fillSpecs();
+        if (!navigator.serviceWorker) {
+          return;
         }
-      });
-    }
+        let reg;
+        try {
+          reg = await navigator.serviceWorker.register("sw.js");
+        } catch (err) {
+          console.error(err);
+          return;
+        }
 
-    function updateReady(sw) {
-      console.info("Update ready");
-      const toast = document.querySelector("#update-toast");
-      const refresh = document.querySelector("#refresh");
-      const dismiss = document.querySelector("#dismiss");
-      toast.classList.add("show");
-      dismiss.onclick = () => toast.classList.remove("show");
-      refresh.onclick = () => {
-        toast.classList.remove("show");
-        // Let SW know it can take over
-        sw.postMessage({
-          action: "skipWaiting",
+        if (!navigator.serviceWorker.controller) {
+          return;
+        }
+
+        if (reg.installing) {
+          trackInstallation(reg.installing);
+          return;
+        }
+
+        if (reg.waiting) {
+          updateReady(reg.waiting);
+          return;
+        }
+
+        reg.addEventListener("updatefound", () => {
+          trackInstallation(reg.installing);
         });
-      };
-    }
-  };
-  </script>
-</body>
 
+        navigator.serviceWorker.addEventListener("controllerchange", () => {
+          window.location.reload();
+        });
+
+        await promiseToFillSpecs; // finally, just wait for the specs to show up
+
+        function trackInstallation(sw) {
+          sw.addEventListener("statechange", () => {
+            switch (sw.state) {
+              case "installed":
+                updateReady(sw);
+                break;
+            }
+          });
+        }
+
+        function updateReady(sw) {
+          console.info("Update ready");
+          const toast = document.querySelector("#update-toast");
+          const refresh = document.querySelector("#refresh");
+          const dismiss = document.querySelector("#dismiss");
+          toast.classList.add("show");
+          dismiss.onclick = () => toast.classList.remove("show");
+          refresh.onclick = () => {
+            toast.classList.remove("show");
+            // Let SW know it can take over
+            sw.postMessage({
+              action: "skipWaiting",
+            });
+          };
+        }
+      };
+    </script>
+  </body>
 </html>
