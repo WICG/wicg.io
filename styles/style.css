@@ -164,14 +164,15 @@ footer {
 }
 
 .buttonlist {
+  display: flex;
   list-style-type: none;
   padding-bottom: .7em;
-  padding-top: 0;
+  margin: 0 .2em;
 }
 
 .buttonlist > li {
-  display: inline-block;
   padding: 0 1em;
+  margin: 0 .2em;
 }
 
 ul {
