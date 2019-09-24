@@ -1,7 +1,7 @@
 /*globals self, async, caches, fetch */
 "use strict";
 
-const SITE_CACHE = "site-v9";
+const SITE_CACHE = "site-v10";
 
 self.addEventListener("install", ev => {
   ev.waitUntil(cacheIsPopulated());
