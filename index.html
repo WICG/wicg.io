@@ -146,23 +146,16 @@ wicg init "The Awesome API"</pre
     </aside>
     <script>
       "use strict";
-
       async function fillSpecs() {
-        const content = fetch(
-          "repos.json"
-        )
-          .then(r => r.json())
-          .then(specs =>
-            Array.from(Object.entries(specs))
-              .sort(byKey)
-              .map(toListItem)
-          );
+        const specs = await fetch("repos.json").then(r => r.json());
+        const markup = specs.map(toListItem);
         const render = hyperHTML.bind(
           document.getElementById("incubation-list")
         );
+      const content =
         render`
       ${{
-        any: content,
+        any: markup,
         placeholder: "Loading specs...",
       }}
       `;
@@ -172,10 +165,21 @@ wicg init "The Awesome API"</pre
         return keyA.toLowerCase().localeCompare(keyB.toLowerCase());
       }
 
-      function toListItem([key, { href, title }]) {
+      function toListItem(entry) {
+        const {name, repo} = entry;
+        let { spec } = entry;
+        // derived from repo
+        if (!spec) {
+          const { pathname } = new URL(repo);
+          const path = pathname.substring(pathname.lastIndexOf('/') + 1);
+          spec = new URL(path, "https://wicg.github.io/");
+        }
         return hyperHTML`<li>
-        <a href="${href}">
-          ${title}
+        <a href="${spec}">
+          ${name}
+        </a>
+        <a href="${repo}">
+          <img src="images/gh32px.png" alt="GitHub repo" width="16" height="16">
         </a>
         </li>`;
       }
