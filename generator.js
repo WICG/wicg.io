@@ -1,3 +1,5 @@
+const { promises: fs } = require("fs");
+const path = require("path");
 const gh = require("simple-github")({
   owner: "wicg",
   //debug: "true",
@@ -36,7 +38,7 @@ const combined_score = (issue, commit) => {
 const ignore_set = {"admin": true, "wicg.io": true, "starter-kit": true, "repo_info_generator": true};
 
 (async () => {
-    let active = []; 
+    let active = [];
     let archived = []
     const repos = await gh.request("GET /orgs/:owner/repos", {});
     for (repo of repos) {
@@ -59,6 +61,10 @@ const ignore_set = {"admin": true, "wicg.io": true, "starter-kit": true, "repo_i
     }
 // sort the damn thing
 active = active.sort((a,b) => { return b.score - a.score; });
-
+try {
+    await fs.writeFile(path.resolve(__dirname, "repos.json"), JSON.stringify(active, null, 2), "utf-8");
+} catch (err) {
+    console.error(err);
+}
 })()
 
