@@ -496,5 +496,11 @@
     "repo": "https://github.com/WICG/media-latency-hint",
     "spec": null,
     "score": 0
+  },
+  {
+    "name": "video-requestVideoFrameCallback",
+    "repo": "https://github.com/WICG/video-rvfc",
+    "spec": "https://wicg.github.io/video-rvfc",
+    "score": 0
   }
 ]
