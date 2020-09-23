@@ -24,9 +24,9 @@
     "score": 931.1999999999999
   },
   {
-    "name": "native-file-system",
-    "repo": "https://github.com/WICG/native-file-system",
-    "spec": "https://wicg.github.io/native-file-system/",
+    "name": "file-system-access",
+    "repo": "https://github.com/WICG/file-system-access",
+    "spec": "https://wicg.github.io/file-system-access/",
     "score": 927
   },
   {
