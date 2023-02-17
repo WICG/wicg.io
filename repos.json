@@ -3,19 +3,19 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3947.3999999999996
+    "score": 3946.5
   },
   {
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2327.4
+    "score": 2327.1
   },
   {
     "name": "webpackage",
     "repo": "https://github.com/WICG/webpackage",
     "spec": null,
-    "score": 1358.1
+    "score": 1356.3
   },
   {
     "name": "nav-speculation",
@@ -33,25 +33,25 @@
     "name": "view-transitions",
     "repo": "https://github.com/WICG/view-transitions",
     "spec": "https://drafts.csswg.org/css-view-transitions-1/",
-    "score": 996.9
+    "score": 996.3
   },
   {
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 920.1
+    "score": 919.8
   },
   {
     "name": "first-party-sets",
     "repo": "https://github.com/WICG/first-party-sets",
     "spec": "https://wicg.github.io/first-party-sets/",
-    "score": 885.3
+    "score": 884.4
   },
   {
     "name": "trust-token-api",
     "repo": "https://github.com/WICG/trust-token-api",
     "spec": "https://wicg.github.io/trust-token-api/",
-    "score": 803.4
+    "score": 804.3
   },
   {
     "name": "pending-beacon",
@@ -63,7 +63,7 @@
     "name": "sanitizer-api",
     "repo": "https://github.com/WICG/sanitizer-api",
     "spec": "https://wicg.github.io/sanitizer-api/",
-    "score": 613.5
+    "score": 612.9
   },
   {
     "name": "storage-buckets",
@@ -99,7 +99,7 @@
     "name": "scroll-to-text-fragment",
     "repo": "https://github.com/WICG/scroll-to-text-fragment",
     "spec": null,
-    "score": 460.2
+    "score": 459.3
   },
   {
     "name": "client-hints-infrastructure",
@@ -123,7 +123,7 @@
     "name": "import-maps",
     "repo": "https://github.com/WICG/import-maps",
     "spec": "https://html.spec.whatwg.org/multipage/webappapis.html#import-maps",
-    "score": 370.8
+    "score": 370.2
   },
   {
     "name": "color-api",
@@ -261,7 +261,7 @@
     "name": "anonymous-iframe",
     "repo": "https://github.com/WICG/anonymous-iframe",
     "spec": null,
-    "score": 109.2
+    "score": 108.89999999999999
   },
   {
     "name": "floc",
@@ -279,7 +279,7 @@
     "name": "window-controls-overlay",
     "repo": "https://github.com/WICG/window-controls-overlay",
     "spec": "https://wicg.github.io/window-controls-overlay/",
-    "score": 98.39999999999999
+    "score": 98.1
   },
   {
     "name": "file-handling",
@@ -333,7 +333,7 @@
     "name": "element-timing",
     "repo": "https://github.com/WICG/element-timing",
     "spec": "https://wicg.github.io/element-timing/",
-    "score": 76.5
+    "score": 76.2
   },
   {
     "name": "mobile-document-request-api",
@@ -705,7 +705,7 @@
     "name": "WebApiDevice",
     "repo": "https://github.com/WICG/WebApiDevice",
     "spec": "",
-    "score": 7.5
+    "score": 7.199999999999999
   },
   {
     "name": "display-override",
