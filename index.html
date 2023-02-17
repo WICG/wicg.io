@@ -11,9 +11,7 @@
     <script src="js/lib/hyperhtml.js" async></script>
     <link rel="stylesheet" href="styles/style.css" />
     <link href="images/logo.svg" rel="icon" sizes="any" />
-    <title>
-      Web Incubator Community Group (WICG)
-    </title>
+    <title>Web Incubator Community Group (WICG)</title>
   </head>
 
   <body>
@@ -34,24 +32,18 @@
         </p>
         <ul class="buttonlist fancypill">
           <li>
-            <a href="https://github.com/WICG/">
-              GitHub
-            </a>
+            <a href="https://github.com/WICG/">GitHub</a>
           </li>
           <li>
-            <a href="https://www.w3.org/community/wicg/">
-              Join
-            </a>
+            <a href="https://www.w3.org/community/wicg/">Join</a>
           </li>
           <li>
-            <a href="https://discourse.wicg.io/">Discourse </a>
+            <a href="https://discourse.wicg.io/">Discourse</a>
           </li>
         </ul>
       </section>
       <section id="publications" class="collapsable accelerated">
-        <h2 class="opener">
-          Getting started
-        </h2>
+        <h2 class="opener">Getting started</h2>
         <pre class="bash">
 npm install -g wicg
 wicg init "The Awesome API"</pre
@@ -59,19 +51,15 @@ wicg init "The Awesome API"</pre
       </section>
       <section id="publications" class="collapsable accelerated">
         <h2 class="opener">
-          Incubations
+          Incubations <span class="incubation-count"></span>
         </h2>
         <ul class="docslist multicol" id="incubation-list"></ul>
       </section>
       <section id="links" class="collapsable accelerated">
-        <h2 class="opener">
-          Useful Resources
-        </h2>
+        <h2 class="opener">Useful Resources</h2>
         <ul class="linkslist multicol">
           <li>
-            <a href="https://wicg.github.io/admin/charter.html">
-              Charter
-            </a>
+            <a href="https://wicg.github.io/admin/charter.html"> Charter </a>
           </li>
           <li>
             <a href="https://www.w3.org/community/wicg/participants">
@@ -79,9 +67,7 @@ wicg init "The Awesome API"</pre
             </a>
           </li>
           <li>
-            <a href="https://www.w3.org/community/wicg/">
-              Join
-            </a>
+            <a href="https://www.w3.org/community/wicg/"> Join </a>
           </li>
           <li>
             <a href="https://lists.w3.org/Archives/Public/public-wicg/">
@@ -147,18 +133,21 @@ wicg init "The Awesome API"</pre
     <script>
       "use strict";
       async function fillSpecs() {
-        const specs = await fetch("repos.json").then(r => r.json());
-        const markup = specs.map(toListItem);
-        const render = hyperHTML.bind(
+        const jsonPromise = fetch("repos.json").then((r) => r.json());
+        const incubationList = hyperHTML.hyper(
           document.getElementById("incubation-list")
         );
-      const content =
-        render`
-      ${{
-        any: markup,
-        placeholder: "Loading specs...",
-      }}
-      `;
+        const incubationCount = hyperHTML.hyper(
+          document.querySelector(".incubation-count")
+        );
+        incubationList`${{
+          placeholder: "Loading specs...",
+          any: jsonPromise.then(specs => specs.map(toListItem)),
+        }}`;
+        incubationCount`${{
+          placeholder: "",
+          any: jsonPromise.then(specs => `(${specs.length})`),
+        }}`;
       }
 
       function byKey([keyA], [keyB]) {
@@ -166,12 +155,12 @@ wicg init "The Awesome API"</pre
       }
 
       function toListItem(entry) {
-        const {name, repo} = entry;
+        const { name, repo } = entry;
         let { spec } = entry;
         // derived from repo
         if (!spec) {
           const { pathname } = new URL(repo);
-          const path = pathname.substring(pathname.lastIndexOf('/') + 1);
+          const path = pathname.substring(pathname.lastIndexOf("/") + 1);
           spec = new URL(path, "https://wicg.github.io/");
         }
         return hyperHTML`<li>

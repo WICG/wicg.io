@@ -3,7 +3,7 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3951.8999999999996
+    "score": 3950.7
   },
   {
     "name": "turtledove",
@@ -15,7 +15,7 @@
     "name": "webpackage",
     "repo": "https://github.com/WICG/webpackage",
     "spec": null,
-    "score": 1362
+    "score": 1360.8
   },
   {
     "name": "nav-speculation",
@@ -75,13 +75,13 @@
     "name": "webmonetization",
     "repo": "https://github.com/WICG/webmonetization",
     "spec": "https://webmonetization.org",
-    "score": 588
+    "score": 587.6999999999999
   },
   {
     "name": "web-app-launch",
     "repo": "https://github.com/WICG/web-app-launch",
     "spec": "",
-    "score": 560.6999999999999
+    "score": 558
   },
   {
     "name": "ua-client-hints",
@@ -93,7 +93,7 @@
     "name": "navigation-api",
     "repo": "https://github.com/WICG/navigation-api",
     "spec": "https://wicg.github.io/navigation-api/",
-    "score": 465.9
+    "score": 465.59999999999997
   },
   {
     "name": "scroll-to-text-fragment",
@@ -147,13 +147,13 @@
     "name": "serial",
     "repo": "https://github.com/WICG/serial",
     "spec": "https://wicg.github.io/serial/",
-    "score": 309.9
+    "score": 309.59999999999997
   },
   {
     "name": "fenced-frame",
     "repo": "https://github.com/WICG/fenced-frame",
     "spec": "https://wicg.github.io/fenced-frame/",
-    "score": 295.8
+    "score": 295.2
   },
   {
     "name": "inert",
@@ -603,7 +603,7 @@
     "name": "deprecation-reporting",
     "repo": "https://github.com/WICG/deprecation-reporting",
     "spec": "https://wicg.github.io/deprecation-reporting/",
-    "score": 21.3
+    "score": 21
   },
   {
     "name": "web-smart-card",
@@ -652,6 +652,12 @@
     "repo": "https://github.com/WICG/accessible-loading-and-searching-of-content",
     "spec": null,
     "score": 17.4
+  },
+  {
+    "name": "credentiallessness",
+    "repo": "https://github.com/WICG/credentiallessness",
+    "spec": null,
+    "score": 16.5
   },
   {
     "name": "media-latency-hint",
@@ -706,18 +712,6 @@
     "repo": "https://github.com/WICG/display-override",
     "spec": null,
     "score": 4.2
-  },
-  {
-    "name": "media-source",
-    "repo": "https://github.com/WICG/media-source",
-    "spec": "https://wicg.github.io/media-source/",
-    "score": 1.7999999999999998
-  },
-  {
-    "name": "credentiallessness",
-    "repo": "https://github.com/WICG/credentiallessness",
-    "spec": null,
-    "score": 0.8999999999999999
   },
   {
     "name": "discourse-wicg-theme",
