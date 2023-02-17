@@ -3,7 +3,7 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3940.2
+    "score": 3938.7
   },
   {
     "name": "turtledove",
@@ -21,13 +21,13 @@
     "name": "trust-token-api",
     "repo": "https://github.com/WICG/trust-token-api",
     "spec": "https://wicg.github.io/trust-token-api/",
-    "score": 1292.7
+    "score": 1323.8999999999999
   },
   {
     "name": "nav-speculation",
     "repo": "https://github.com/WICG/nav-speculation",
     "spec": "https://wicg.github.io/nav-speculation/",
-    "score": 1192.2
+    "score": 1191.6
   },
   {
     "name": "file-system-access",
@@ -39,7 +39,7 @@
     "name": "view-transitions",
     "repo": "https://github.com/WICG/view-transitions",
     "spec": "https://drafts.csswg.org/css-view-transitions-1/",
-    "score": 994.8
+    "score": 994.1999999999999
   },
   {
     "name": "webcomponents",
@@ -63,7 +63,7 @@
     "name": "sanitizer-api",
     "repo": "https://github.com/WICG/sanitizer-api",
     "spec": "https://wicg.github.io/sanitizer-api/",
-    "score": 611.6999999999999
+    "score": 611.4
   },
   {
     "name": "storage-buckets",
@@ -105,13 +105,13 @@
     "name": "client-hints-infrastructure",
     "repo": "https://github.com/WICG/client-hints-infrastructure",
     "spec": "https://wicg.github.io/client-hints-infrastructure",
-    "score": 439.5
+    "score": 439.2
   },
   {
     "name": "shared-storage",
     "repo": "https://github.com/WICG/shared-storage",
     "spec": null,
-    "score": 432.3
+    "score": 430.8
   },
   {
     "name": "proposals",
@@ -141,7 +141,7 @@
     "name": "document-picture-in-picture",
     "repo": "https://github.com/WICG/document-picture-in-picture",
     "spec": "https://wicg.github.io/document-picture-in-picture/",
-    "score": 332.4
+    "score": 331.8
   },
   {
     "name": "serial",
@@ -219,7 +219,7 @@
     "name": "local-font-access",
     "repo": "https://github.com/WICG/local-font-access",
     "spec": "https://wicg.github.io/local-font-access",
-    "score": 162.9
+    "score": 161.4
   },
   {
     "name": "direct-sockets",
@@ -447,7 +447,7 @@
     "name": "visual-viewport",
     "repo": "https://github.com/WICG/visual-viewport",
     "spec": "https://wicg.github.io/visual-viewport/",
-    "score": 41.4
+    "score": 41.1
   },
   {
     "name": "custom-state-pseudo-class",
