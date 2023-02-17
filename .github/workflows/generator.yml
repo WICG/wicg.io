@@ -4,16 +4,13 @@ on:
   schedule:
     - cron: "*/60 * * * *"
 jobs:
-  # This workflow contains a single job called "cron"
   cron:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
-      - name: Run a one-line script
       - uses: actions/checkout@v3
       - run: npm i
       - run: node generator.js
