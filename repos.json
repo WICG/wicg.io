@@ -3,13 +3,13 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3938.7
+    "score": 3937.5
   },
   {
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2321.1
+    "score": 2320.7999999999997
   },
   {
     "name": "webpackage",
@@ -27,7 +27,7 @@
     "name": "nav-speculation",
     "repo": "https://github.com/WICG/nav-speculation",
     "spec": "https://wicg.github.io/nav-speculation/",
-    "score": 1191
+    "score": 1190.3999999999999
   },
   {
     "name": "file-system-access",
@@ -45,7 +45,7 @@
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 918
+    "score": 916.8
   },
   {
     "name": "first-party-sets",
@@ -93,13 +93,13 @@
     "name": "navigation-api",
     "repo": "https://github.com/WICG/navigation-api",
     "spec": "https://wicg.github.io/navigation-api/",
-    "score": 463.2
+    "score": 462.9
   },
   {
     "name": "scroll-to-text-fragment",
     "repo": "https://github.com/WICG/scroll-to-text-fragment",
     "spec": null,
-    "score": 459.3
+    "score": 459
   },
   {
     "name": "client-hints-infrastructure",
@@ -123,7 +123,7 @@
     "name": "import-maps",
     "repo": "https://github.com/WICG/import-maps",
     "spec": "https://html.spec.whatwg.org/multipage/webappapis.html#import-maps",
-    "score": 369.59999999999997
+    "score": 369.3
   },
   {
     "name": "color-api",
@@ -177,7 +177,7 @@
     "name": "webhid",
     "repo": "https://github.com/WICG/webhid",
     "spec": null,
-    "score": 190.5
+    "score": 190.2
   },
   {
     "name": "urlpattern",
@@ -189,7 +189,7 @@
     "name": "soft-navigations",
     "repo": "https://github.com/WICG/soft-navigations",
     "spec": null,
-    "score": 179.7
+    "score": 185.1
   },
   {
     "name": "cookie-store",
@@ -219,7 +219,7 @@
     "name": "local-font-access",
     "repo": "https://github.com/WICG/local-font-access",
     "spec": "https://wicg.github.io/local-font-access",
-    "score": 160.2
+    "score": 159.9
   },
   {
     "name": "direct-sockets",
@@ -339,7 +339,7 @@
     "name": "mobile-document-request-api",
     "repo": "https://github.com/WICG/mobile-document-request-api",
     "spec": null,
-    "score": 74.39999999999999
+    "score": 74.1
   },
   {
     "name": "compression",
@@ -387,7 +387,7 @@
     "name": "close-watcher",
     "repo": "https://github.com/WICG/close-watcher",
     "spec": "https://wicg.github.io/close-watcher/",
-    "score": 61.199999999999996
+    "score": 60.9
   },
   {
     "name": "multicapture",
