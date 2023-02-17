@@ -3,13 +3,13 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3943.5
+    "score": 3940.7999999999997
   },
   {
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2324.7
+    "score": 2322.6
   },
   {
     "name": "webpackage",
@@ -18,16 +18,16 @@
     "score": 1356
   },
   {
-    "name": "nav-speculation",
-    "repo": "https://github.com/WICG/nav-speculation",
-    "spec": "https://wicg.github.io/nav-speculation/",
-    "score": 1192.5
-  },
-  {
     "name": "trust-token-api",
     "repo": "https://github.com/WICG/trust-token-api",
     "spec": "https://wicg.github.io/trust-token-api/",
-    "score": 1168.2
+    "score": 1293
+  },
+  {
+    "name": "nav-speculation",
+    "repo": "https://github.com/WICG/nav-speculation",
+    "spec": "https://wicg.github.io/nav-speculation/",
+    "score": 1192.2
   },
   {
     "name": "file-system-access",
@@ -45,7 +45,7 @@
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 918.9
+    "score": 918.6
   },
   {
     "name": "first-party-sets",
@@ -57,13 +57,13 @@
     "name": "pending-beacon",
     "repo": "https://github.com/WICG/pending-beacon",
     "spec": "https://wicg.github.io/pending-beacon/",
-    "score": 628.8
+    "score": 628.5
   },
   {
     "name": "sanitizer-api",
     "repo": "https://github.com/WICG/sanitizer-api",
     "spec": "https://wicg.github.io/sanitizer-api/",
-    "score": 612
+    "score": 611.6999999999999
   },
   {
     "name": "storage-buckets",
@@ -87,13 +87,13 @@
     "name": "ua-client-hints",
     "repo": "https://github.com/WICG/ua-client-hints",
     "spec": "https://wicg.github.io/ua-client-hints/",
-    "score": 497.4
+    "score": 497.09999999999997
   },
   {
     "name": "navigation-api",
     "repo": "https://github.com/WICG/navigation-api",
     "spec": "https://wicg.github.io/navigation-api/",
-    "score": 463.79999999999995
+    "score": 463.5
   },
   {
     "name": "scroll-to-text-fragment",
@@ -147,13 +147,13 @@
     "name": "serial",
     "repo": "https://github.com/WICG/serial",
     "spec": "https://wicg.github.io/serial/",
-    "score": 309.59999999999997
+    "score": 309.3
   },
   {
     "name": "fenced-frame",
     "repo": "https://github.com/WICG/fenced-frame",
     "spec": "https://wicg.github.io/fenced-frame/",
-    "score": 294.9
+    "score": 294.59999999999997
   },
   {
     "name": "inert",
@@ -198,15 +198,15 @@
     "score": 167.1
   },
   {
-    "name": "manifest-incubations",
-    "repo": "https://github.com/WICG/manifest-incubations",
-    "spec": "https://wicg.github.io/manifest-incubations/",
-    "score": 165.29999999999998
-  },
-  {
     "name": "portals",
     "repo": "https://github.com/WICG/portals",
     "spec": "https://wicg.github.io/portals/",
+    "score": 165
+  },
+  {
+    "name": "manifest-incubations",
+    "repo": "https://github.com/WICG/manifest-incubations",
+    "spec": "https://wicg.github.io/manifest-incubations/",
     "score": 165
   },
   {
@@ -219,7 +219,7 @@
     "name": "local-font-access",
     "repo": "https://github.com/WICG/local-font-access",
     "spec": "https://wicg.github.io/local-font-access",
-    "score": 163.79999999999998
+    "score": 163.5
   },
   {
     "name": "direct-sockets",
@@ -255,7 +255,7 @@
     "name": "aom",
     "repo": "https://github.com/WICG/aom",
     "spec": "http://wicg.github.io/aom/",
-    "score": 111
+    "score": 110.7
   },
   {
     "name": "anonymous-iframe",
@@ -273,7 +273,7 @@
     "name": "background-fetch",
     "repo": "https://github.com/WICG/background-fetch",
     "spec": "https://wicg.github.io/background-fetch/",
-    "score": 101.1
+    "score": 100.8
   },
   {
     "name": "window-controls-overlay",
@@ -339,7 +339,7 @@
     "name": "mobile-document-request-api",
     "repo": "https://github.com/WICG/mobile-document-request-api",
     "spec": null,
-    "score": 75
+    "score": 74.39999999999999
   },
   {
     "name": "compression",
@@ -369,7 +369,7 @@
     "name": "capability-delegation",
     "repo": "https://github.com/WICG/capability-delegation",
     "spec": "",
-    "score": 64.5
+    "score": 64.2
   },
   {
     "name": "construct-stylesheets",
@@ -399,7 +399,7 @@
     "name": "savedata",
     "repo": "https://github.com/WICG/savedata",
     "spec": "https://wicg.github.io/savedata/",
-    "score": 58.5
+    "score": 58.199999999999996
   },
   {
     "name": "privacy-preserving-ads",
@@ -483,7 +483,7 @@
     "name": "user-preference-media-features-headers",
     "repo": "https://github.com/WICG/user-preference-media-features-headers",
     "spec": "https://wicg.github.io/user-preference-media-features-headers/",
-    "score": 38.1
+    "score": 37.8
   },
   {
     "name": "idle-detection",
