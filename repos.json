@@ -195,7 +195,7 @@
     "name": "manifest-incubations",
     "repo": "https://github.com/WICG/manifest-incubations",
     "spec": "https://wicg.github.io/manifest-incubations/",
-    "score": 165.9
+    "score": 165.6
   },
   {
     "name": "portals",
@@ -279,7 +279,7 @@
     "name": "window-controls-overlay",
     "repo": "https://github.com/WICG/window-controls-overlay",
     "spec": "https://wicg.github.io/window-controls-overlay/",
-    "score": 99
+    "score": 98.7
   },
   {
     "name": "file-handling",
