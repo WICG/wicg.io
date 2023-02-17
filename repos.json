@@ -3,13 +3,13 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3940.7999999999997
+    "score": 3940.2
   },
   {
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2322.6
+    "score": 2322
   },
   {
     "name": "webpackage",
@@ -21,7 +21,7 @@
     "name": "trust-token-api",
     "repo": "https://github.com/WICG/trust-token-api",
     "spec": "https://wicg.github.io/trust-token-api/",
-    "score": 1293
+    "score": 1292.7
   },
   {
     "name": "nav-speculation",
@@ -39,13 +39,13 @@
     "name": "view-transitions",
     "repo": "https://github.com/WICG/view-transitions",
     "spec": "https://drafts.csswg.org/css-view-transitions-1/",
-    "score": 995.4
+    "score": 994.8
   },
   {
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 918.6
+    "score": 918
   },
   {
     "name": "first-party-sets",
@@ -93,7 +93,7 @@
     "name": "navigation-api",
     "repo": "https://github.com/WICG/navigation-api",
     "spec": "https://wicg.github.io/navigation-api/",
-    "score": 463.5
+    "score": 463.2
   },
   {
     "name": "scroll-to-text-fragment",
@@ -111,7 +111,7 @@
     "name": "shared-storage",
     "repo": "https://github.com/WICG/shared-storage",
     "spec": null,
-    "score": 432.59999999999997
+    "score": 432.3
   },
   {
     "name": "proposals",
@@ -186,6 +186,12 @@
     "score": 187.79999999999998
   },
   {
+    "name": "soft-navigations",
+    "repo": "https://github.com/WICG/soft-navigations",
+    "spec": null,
+    "score": 179.7
+  },
+  {
     "name": "cookie-store",
     "repo": "https://github.com/WICG/cookie-store",
     "spec": "https://wicg.github.io/cookie-store/",
@@ -207,19 +213,13 @@
     "name": "manifest-incubations",
     "repo": "https://github.com/WICG/manifest-incubations",
     "spec": "https://wicg.github.io/manifest-incubations/",
-    "score": 165
-  },
-  {
-    "name": "soft-navigations",
-    "repo": "https://github.com/WICG/soft-navigations",
-    "spec": null,
-    "score": 164.1
+    "score": 164.7
   },
   {
     "name": "local-font-access",
     "repo": "https://github.com/WICG/local-font-access",
     "spec": "https://wicg.github.io/local-font-access",
-    "score": 163.5
+    "score": 162.9
   },
   {
     "name": "direct-sockets",
