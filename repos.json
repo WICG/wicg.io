@@ -3,13 +3,13 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3945.2999999999997
+    "score": 3944.7
   },
   {
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2325.9
+    "score": 2325.6
   },
   {
     "name": "webpackage",
@@ -24,28 +24,28 @@
     "score": 1192.5
   },
   {
+    "name": "trust-token-api",
+    "repo": "https://github.com/WICG/trust-token-api",
+    "spec": "https://wicg.github.io/trust-token-api/",
+    "score": 1090.5
+  },
+  {
     "name": "file-system-access",
     "repo": "https://github.com/WICG/file-system-access",
     "spec": "https://wicg.github.io/file-system-access/",
-    "score": 1048.2
+    "score": 1047.8999999999999
   },
   {
     "name": "view-transitions",
     "repo": "https://github.com/WICG/view-transitions",
     "spec": "https://drafts.csswg.org/css-view-transitions-1/",
-    "score": 996.3
-  },
-  {
-    "name": "trust-token-api",
-    "repo": "https://github.com/WICG/trust-token-api",
-    "spec": "https://wicg.github.io/trust-token-api/",
-    "score": 966
+    "score": 995.6999999999999
   },
   {
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 919.8
+    "score": 919.5
   },
   {
     "name": "first-party-sets",
@@ -87,13 +87,13 @@
     "name": "ua-client-hints",
     "repo": "https://github.com/WICG/ua-client-hints",
     "spec": "https://wicg.github.io/ua-client-hints/",
-    "score": 498.59999999999997
+    "score": 497.7
   },
   {
     "name": "navigation-api",
     "repo": "https://github.com/WICG/navigation-api",
     "spec": "https://wicg.github.io/navigation-api/",
-    "score": 465.29999999999995
+    "score": 464.4
   },
   {
     "name": "scroll-to-text-fragment",
@@ -123,7 +123,7 @@
     "name": "import-maps",
     "repo": "https://github.com/WICG/import-maps",
     "spec": "https://html.spec.whatwg.org/multipage/webappapis.html#import-maps",
-    "score": 370.2
+    "score": 369.9
   },
   {
     "name": "color-api",
@@ -135,7 +135,7 @@
     "name": "local-network-access",
     "repo": "https://github.com/WICG/local-network-access",
     "spec": "https://wicg.github.io/local-network-access/",
-    "score": 341.7
+    "score": 341.4
   },
   {
     "name": "document-picture-in-picture",
@@ -309,7 +309,7 @@
     "name": "layout-instability",
     "repo": "https://github.com/WICG/layout-instability",
     "spec": "https://wicg.github.io/layout-instability/",
-    "score": 85.2
+    "score": 84.89999999999999
   },
   {
     "name": "media-feeds",
@@ -378,16 +378,16 @@
     "score": 62.099999999999994
   },
   {
-    "name": "close-watcher",
-    "repo": "https://github.com/WICG/close-watcher",
-    "spec": "https://wicg.github.io/close-watcher/",
-    "score": 62.099999999999994
-  },
-  {
     "name": "input-device-capabilities",
     "repo": "https://github.com/WICG/input-device-capabilities",
     "spec": null,
     "score": 61.8
+  },
+  {
+    "name": "close-watcher",
+    "repo": "https://github.com/WICG/close-watcher",
+    "spec": "https://wicg.github.io/close-watcher/",
+    "score": 61.5
   },
   {
     "name": "multicapture",
