@@ -9,7 +9,7 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2328.2999999999997
+    "score": 2327.7
   },
   {
     "name": "webpackage",
@@ -21,7 +21,7 @@
     "name": "nav-speculation",
     "repo": "https://github.com/WICG/nav-speculation",
     "spec": "https://wicg.github.io/nav-speculation/",
-    "score": 1192.8
+    "score": 1192.5
   },
   {
     "name": "file-system-access",
@@ -39,13 +39,13 @@
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 920.4
+    "score": 920.1
   },
   {
     "name": "first-party-sets",
     "repo": "https://github.com/WICG/first-party-sets",
     "spec": "https://wicg.github.io/first-party-sets/",
-    "score": 886.1999999999999
+    "score": 885.9
   },
   {
     "name": "trust-token-api",
@@ -63,7 +63,7 @@
     "name": "sanitizer-api",
     "repo": "https://github.com/WICG/sanitizer-api",
     "spec": "https://wicg.github.io/sanitizer-api/",
-    "score": 622.8
+    "score": 614.1
   },
   {
     "name": "storage-buckets",
@@ -93,7 +93,7 @@
     "name": "navigation-api",
     "repo": "https://github.com/WICG/navigation-api",
     "spec": "https://wicg.github.io/navigation-api/",
-    "score": 465.59999999999997
+    "score": 465.29999999999995
   },
   {
     "name": "scroll-to-text-fragment",
@@ -117,13 +117,13 @@
     "name": "proposals",
     "repo": "https://github.com/WICG/proposals",
     "spec": "https://wicg.io/",
-    "score": 430.8
+    "score": 430.2
   },
   {
     "name": "import-maps",
     "repo": "https://github.com/WICG/import-maps",
     "spec": "https://html.spec.whatwg.org/multipage/webappapis.html#import-maps",
-    "score": 371.7
+    "score": 371.4
   },
   {
     "name": "color-api",
@@ -135,13 +135,13 @@
     "name": "local-network-access",
     "repo": "https://github.com/WICG/local-network-access",
     "spec": "https://wicg.github.io/local-network-access/",
-    "score": 342.3
+    "score": 341.7
   },
   {
     "name": "document-picture-in-picture",
     "repo": "https://github.com/WICG/document-picture-in-picture",
     "spec": "https://wicg.github.io/document-picture-in-picture/",
-    "score": 332.7
+    "score": 332.4
   },
   {
     "name": "serial",
@@ -261,7 +261,7 @@
     "name": "anonymous-iframe",
     "repo": "https://github.com/WICG/anonymous-iframe",
     "spec": null,
-    "score": 110.1
+    "score": 109.8
   },
   {
     "name": "floc",
@@ -273,7 +273,7 @@
     "name": "background-fetch",
     "repo": "https://github.com/WICG/background-fetch",
     "spec": "https://wicg.github.io/background-fetch/",
-    "score": 101.39999999999999
+    "score": 101.1
   },
   {
     "name": "window-controls-overlay",
