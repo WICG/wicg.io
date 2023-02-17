@@ -9,7 +9,7 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2328.6
+    "score": 2328.2999999999997
   },
   {
     "name": "webpackage",
@@ -45,7 +45,7 @@
     "name": "first-party-sets",
     "repo": "https://github.com/WICG/first-party-sets",
     "spec": "https://wicg.github.io/first-party-sets/",
-    "score": 886.5
+    "score": 886.1999999999999
   },
   {
     "name": "trust-token-api",
@@ -75,7 +75,7 @@
     "name": "webmonetization",
     "repo": "https://github.com/WICG/webmonetization",
     "spec": "https://webmonetization.org",
-    "score": 587.6999999999999
+    "score": 587.4
   },
   {
     "name": "web-app-launch",
