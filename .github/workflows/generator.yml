@@ -1,8 +1,11 @@
 name: regeneate incubation listing
 
 on:
+  push:
+    branches:
+    - gh-pages
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/60 * * * *"
 jobs:
   cron:
     runs-on: ubuntu-latest
