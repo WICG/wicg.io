@@ -3,19 +3,19 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3949.5
+    "score": 3947.3999999999996
   },
   {
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2327.7
+    "score": 2327.4
   },
   {
     "name": "webpackage",
     "repo": "https://github.com/WICG/webpackage",
     "spec": null,
-    "score": 1359
+    "score": 1358.1
   },
   {
     "name": "nav-speculation",
@@ -45,7 +45,7 @@
     "name": "first-party-sets",
     "repo": "https://github.com/WICG/first-party-sets",
     "spec": "https://wicg.github.io/first-party-sets/",
-    "score": 885.9
+    "score": 885.3
   },
   {
     "name": "trust-token-api",
@@ -63,7 +63,7 @@
     "name": "sanitizer-api",
     "repo": "https://github.com/WICG/sanitizer-api",
     "spec": "https://wicg.github.io/sanitizer-api/",
-    "score": 614.1
+    "score": 613.5
   },
   {
     "name": "storage-buckets",
@@ -75,7 +75,7 @@
     "name": "webmonetization",
     "repo": "https://github.com/WICG/webmonetization",
     "spec": "https://webmonetization.org",
-    "score": 587.4
+    "score": 587.1
   },
   {
     "name": "web-app-launch",
@@ -87,7 +87,7 @@
     "name": "ua-client-hints",
     "repo": "https://github.com/WICG/ua-client-hints",
     "spec": "https://wicg.github.io/ua-client-hints/",
-    "score": 500.09999999999997
+    "score": 499.79999999999995
   },
   {
     "name": "navigation-api",
@@ -99,7 +99,7 @@
     "name": "scroll-to-text-fragment",
     "repo": "https://github.com/WICG/scroll-to-text-fragment",
     "spec": null,
-    "score": 460.79999999999995
+    "score": 460.2
   },
   {
     "name": "client-hints-infrastructure",
@@ -123,7 +123,7 @@
     "name": "import-maps",
     "repo": "https://github.com/WICG/import-maps",
     "spec": "https://html.spec.whatwg.org/multipage/webappapis.html#import-maps",
-    "score": 371.4
+    "score": 370.8
   },
   {
     "name": "color-api",
@@ -159,7 +159,7 @@
     "name": "inert",
     "repo": "https://github.com/WICG/inert",
     "spec": "",
-    "score": 252.29999999999998
+    "score": 252
   },
   {
     "name": "focus-visible",
@@ -177,7 +177,7 @@
     "name": "webhid",
     "repo": "https://github.com/WICG/webhid",
     "spec": null,
-    "score": 190.79999999999998
+    "score": 190.5
   },
   {
     "name": "urlpattern",
@@ -207,7 +207,7 @@
     "name": "soft-navigations",
     "repo": "https://github.com/WICG/soft-navigations",
     "spec": null,
-    "score": 164.4
+    "score": 164.1
   },
   {
     "name": "local-font-access",
@@ -225,7 +225,7 @@
     "name": "direct-sockets",
     "repo": "https://github.com/WICG/direct-sockets",
     "spec": "",
-    "score": 146.4
+    "score": 146.1
   },
   {
     "name": "bundle-preloading",
@@ -237,7 +237,7 @@
     "name": "webcrypto-secure-curves",
     "repo": "https://github.com/WICG/webcrypto-secure-curves",
     "spec": "https://wicg.github.io/webcrypto-secure-curves/",
-    "score": 132
+    "score": 131.7
   },
   {
     "name": "isolated-web-apps",
@@ -261,7 +261,7 @@
     "name": "anonymous-iframe",
     "repo": "https://github.com/WICG/anonymous-iframe",
     "spec": null,
-    "score": 109.8
+    "score": 109.2
   },
   {
     "name": "floc",
@@ -288,15 +288,15 @@
     "score": 97.2
   },
   {
-    "name": "scheduling-apis",
-    "repo": "https://github.com/WICG/scheduling-apis",
-    "spec": "https://wicg.github.io/scheduling-apis/",
-    "score": 90.6
-  },
-  {
     "name": "spatial-navigation",
     "repo": "https://github.com/WICG/spatial-navigation",
     "spec": "https://drafts.csswg.org/css-nav-1/",
+    "score": 90.3
+  },
+  {
+    "name": "scheduling-apis",
+    "repo": "https://github.com/WICG/scheduling-apis",
+    "spec": "https://wicg.github.io/scheduling-apis/",
     "score": 90.3
   },
   {
@@ -345,7 +345,7 @@
     "name": "compression",
     "repo": "https://github.com/WICG/compression",
     "spec": null,
-    "score": 73.2
+    "score": 72.89999999999999
   },
   {
     "name": "audio-focus",
