@@ -3,7 +3,7 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3950.7
+    "score": 3949.5
   },
   {
     "name": "turtledove",
@@ -15,7 +15,7 @@
     "name": "webpackage",
     "repo": "https://github.com/WICG/webpackage",
     "spec": null,
-    "score": 1360.5
+    "score": 1359
   },
   {
     "name": "nav-speculation",
@@ -45,7 +45,7 @@
     "name": "first-party-sets",
     "repo": "https://github.com/WICG/first-party-sets",
     "spec": "https://wicg.github.io/first-party-sets/",
-    "score": 887.1
+    "score": 886.8
   },
   {
     "name": "trust-token-api",
@@ -135,7 +135,7 @@
     "name": "local-network-access",
     "repo": "https://github.com/WICG/local-network-access",
     "spec": "https://wicg.github.io/local-network-access/",
-    "score": 343.8
+    "score": 342.9
   },
   {
     "name": "document-picture-in-picture",
@@ -159,7 +159,7 @@
     "name": "inert",
     "repo": "https://github.com/WICG/inert",
     "spec": "",
-    "score": 252.6
+    "score": 252.29999999999998
   },
   {
     "name": "focus-visible",
@@ -195,7 +195,7 @@
     "name": "manifest-incubations",
     "repo": "https://github.com/WICG/manifest-incubations",
     "spec": "https://wicg.github.io/manifest-incubations/",
-    "score": 165.6
+    "score": 165.29999999999998
   },
   {
     "name": "portals",
@@ -249,13 +249,13 @@
     "name": "speech-api",
     "repo": "https://github.com/WICG/speech-api",
     "spec": "https://wicg.github.io/speech-api/",
-    "score": 113.1
+    "score": 112.8
   },
   {
     "name": "aom",
     "repo": "https://github.com/WICG/aom",
     "spec": "http://wicg.github.io/aom/",
-    "score": 111.3
+    "score": 111
   },
   {
     "name": "anonymous-iframe",
@@ -279,7 +279,7 @@
     "name": "window-controls-overlay",
     "repo": "https://github.com/WICG/window-controls-overlay",
     "spec": "https://wicg.github.io/window-controls-overlay/",
-    "score": 98.7
+    "score": 98.39999999999999
   },
   {
     "name": "file-handling",
@@ -453,7 +453,7 @@
     "name": "custom-state-pseudo-class",
     "repo": "https://github.com/WICG/custom-state-pseudo-class",
     "spec": "https://wicg.github.io/custom-state-pseudo-class/",
-    "score": 41.1
+    "score": 40.8
   },
   {
     "name": "is-input-pending",
@@ -489,7 +489,7 @@
     "name": "idle-detection",
     "repo": "https://github.com/WICG/idle-detection",
     "spec": null,
-    "score": 36
+    "score": 35.699999999999996
   },
   {
     "name": "responsive-image-client-hints",
@@ -597,7 +597,7 @@
     "name": "conditional-focus",
     "repo": "https://github.com/WICG/conditional-focus",
     "spec": "",
-    "score": 21.599999999999998
+    "score": 21.3
   },
   {
     "name": "deprecation-reporting",
