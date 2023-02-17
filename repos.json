@@ -3,13 +3,13 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3937.5
+    "score": 3936.8999999999996
   },
   {
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2320.7999999999997
+    "score": 2320.5
   },
   {
     "name": "webpackage",
@@ -33,7 +33,7 @@
     "name": "file-system-access",
     "repo": "https://github.com/WICG/file-system-access",
     "spec": "https://wicg.github.io/file-system-access/",
-    "score": 1047.3
+    "score": 1047
   },
   {
     "name": "view-transitions",
@@ -57,7 +57,7 @@
     "name": "pending-beacon",
     "repo": "https://github.com/WICG/pending-beacon",
     "spec": "https://wicg.github.io/pending-beacon/",
-    "score": 628.5
+    "score": 628.1999999999999
   },
   {
     "name": "sanitizer-api",
@@ -111,7 +111,7 @@
     "name": "shared-storage",
     "repo": "https://github.com/WICG/shared-storage",
     "spec": null,
-    "score": 430.5
+    "score": 430.2
   },
   {
     "name": "proposals",
@@ -153,7 +153,7 @@
     "name": "fenced-frame",
     "repo": "https://github.com/WICG/fenced-frame",
     "spec": "https://wicg.github.io/fenced-frame/",
-    "score": 294.3
+    "score": 294
   },
   {
     "name": "inert",
@@ -171,7 +171,7 @@
     "name": "webusb",
     "repo": "https://github.com/WICG/webusb",
     "spec": "https://wicg.github.io/webusb/",
-    "score": 209.1
+    "score": 208.79999999999998
   },
   {
     "name": "webhid",
@@ -243,7 +243,7 @@
     "name": "isolated-web-apps",
     "repo": "https://github.com/WICG/isolated-web-apps",
     "spec": null,
-    "score": 125.39999999999999
+    "score": 125.1
   },
   {
     "name": "speech-api",
