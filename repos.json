@@ -204,6 +204,12 @@
     "score": 167.1
   },
   {
+    "name": "direct-sockets",
+    "repo": "https://github.com/WICG/direct-sockets",
+    "spec": "",
+    "score": 165.6
+  },
+  {
     "name": "manifest-incubations",
     "repo": "https://github.com/WICG/manifest-incubations",
     "spec": "https://wicg.github.io/manifest-incubations/",
@@ -219,12 +225,6 @@
     "name": "local-font-access",
     "repo": "https://github.com/WICG/local-font-access",
     "spec": "https://wicg.github.io/local-font-access",
-    "score": 159.6
-  },
-  {
-    "name": "direct-sockets",
-    "repo": "https://github.com/WICG/direct-sockets",
-    "spec": "",
     "score": 159.6
   },
   {
