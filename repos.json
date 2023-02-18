@@ -9,7 +9,7 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2319.6
+    "score": 2319.2999999999997
   },
   {
     "name": "webpackage",
@@ -147,7 +147,7 @@
     "name": "serial",
     "repo": "https://github.com/WICG/serial",
     "spec": "https://wicg.github.io/serial/",
-    "score": 309
+    "score": 308.4
   },
   {
     "name": "fenced-frame",
@@ -228,6 +228,12 @@
     "score": 146.1
   },
   {
+    "name": "isolated-web-apps",
+    "repo": "https://github.com/WICG/isolated-web-apps",
+    "spec": null,
+    "score": 140.1
+  },
+  {
     "name": "bundle-preloading",
     "repo": "https://github.com/WICG/bundle-preloading",
     "spec": "",
@@ -238,12 +244,6 @@
     "repo": "https://github.com/WICG/webcrypto-secure-curves",
     "spec": "https://wicg.github.io/webcrypto-secure-curves/",
     "score": 131.4
-  },
-  {
-    "name": "isolated-web-apps",
-    "repo": "https://github.com/WICG/isolated-web-apps",
-    "spec": null,
-    "score": 124.5
   },
   {
     "name": "speech-api",
