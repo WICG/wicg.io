@@ -57,7 +57,7 @@
     "name": "pending-beacon",
     "repo": "https://github.com/WICG/pending-beacon",
     "spec": "https://wicg.github.io/pending-beacon/",
-    "score": 628.1999999999999
+    "score": 627.6
   },
   {
     "name": "sanitizer-api",
@@ -207,7 +207,7 @@
     "name": "portals",
     "repo": "https://github.com/WICG/portals",
     "spec": "https://wicg.github.io/portals/",
-    "score": 165
+    "score": 164.7
   },
   {
     "name": "manifest-incubations",
