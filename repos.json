@@ -9,7 +9,7 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2317.5
+    "score": 2317.2
   },
   {
     "name": "webpackage",
@@ -135,7 +135,7 @@
     "name": "local-network-access",
     "repo": "https://github.com/WICG/local-network-access",
     "spec": "https://wicg.github.io/local-network-access/",
-    "score": 356.7
+    "score": 356.4
   },
   {
     "name": "document-picture-in-picture",
