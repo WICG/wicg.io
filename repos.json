@@ -45,7 +45,7 @@
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 916.1999999999999
+    "score": 915.9
   },
   {
     "name": "first-party-sets",
@@ -204,16 +204,16 @@
     "score": 167.1
   },
   {
-    "name": "portals",
-    "repo": "https://github.com/WICG/portals",
-    "spec": "https://wicg.github.io/portals/",
-    "score": 164.7
-  },
-  {
     "name": "manifest-incubations",
     "repo": "https://github.com/WICG/manifest-incubations",
     "spec": "https://wicg.github.io/manifest-incubations/",
     "score": 164.7
+  },
+  {
+    "name": "portals",
+    "repo": "https://github.com/WICG/portals",
+    "spec": "https://wicg.github.io/portals/",
+    "score": 164.4
   },
   {
     "name": "local-font-access",
