@@ -171,7 +171,7 @@
     "name": "webusb",
     "repo": "https://github.com/WICG/webusb",
     "spec": "https://wicg.github.io/webusb/",
-    "score": 208.5
+    "score": 208.2
   },
   {
     "name": "cookie-store",
@@ -225,7 +225,7 @@
     "name": "direct-sockets",
     "repo": "https://github.com/WICG/direct-sockets",
     "spec": "",
-    "score": 146.1
+    "score": 159.6
   },
   {
     "name": "isolated-web-apps",
