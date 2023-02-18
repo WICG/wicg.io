@@ -249,13 +249,13 @@
     "name": "speech-api",
     "repo": "https://github.com/WICG/speech-api",
     "spec": "https://wicg.github.io/speech-api/",
-    "score": 112.8
+    "score": 112.5
   },
   {
     "name": "aom",
     "repo": "https://github.com/WICG/aom",
     "spec": "http://wicg.github.io/aom/",
-    "score": 109.5
+    "score": 109.2
   },
   {
     "name": "anonymous-iframe",
@@ -267,7 +267,7 @@
     "name": "floc",
     "repo": "https://github.com/WICG/floc",
     "spec": "https://wicg.github.io/floc",
-    "score": 106.2
+    "score": 105.89999999999999
   },
   {
     "name": "background-fetch",
@@ -417,7 +417,7 @@
     "name": "canvas-formatted-text",
     "repo": "https://github.com/WICG/canvas-formatted-text",
     "spec": "",
-    "score": 54.6
+    "score": 54.3
   },
   {
     "name": "origin-policy",
