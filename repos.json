@@ -15,7 +15,7 @@
     "name": "webpackage",
     "repo": "https://github.com/WICG/webpackage",
     "spec": null,
-    "score": 1356
+    "score": 1355.7
   },
   {
     "name": "trust-token-api",
@@ -33,7 +33,7 @@
     "name": "file-system-access",
     "repo": "https://github.com/WICG/file-system-access",
     "spec": "https://wicg.github.io/file-system-access/",
-    "score": 1046.1
+    "score": 1045.5
   },
   {
     "name": "view-transitions",
@@ -183,7 +183,7 @@
     "name": "webhid",
     "repo": "https://github.com/WICG/webhid",
     "spec": null,
-    "score": 190.2
+    "score": 189.9
   },
   {
     "name": "urlpattern",
