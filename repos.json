@@ -9,7 +9,7 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2319
+    "score": 2318.7
   },
   {
     "name": "webpackage",
@@ -111,7 +111,7 @@
     "name": "proposals",
     "repo": "https://github.com/WICG/proposals",
     "spec": "https://wicg.io/",
-    "score": 429.9
+    "score": 429.59999999999997
   },
   {
     "name": "shared-storage",
