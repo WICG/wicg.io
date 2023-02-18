@@ -9,13 +9,13 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2317.7999999999997
+    "score": 2317.5
   },
   {
     "name": "webpackage",
     "repo": "https://github.com/WICG/webpackage",
     "spec": null,
-    "score": 1355.7
+    "score": 1355.3999999999999
   },
   {
     "name": "trust-token-api",
@@ -45,7 +45,7 @@
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 916.5
+    "score": 916.1999999999999
   },
   {
     "name": "first-party-sets",
@@ -93,7 +93,7 @@
     "name": "navigation-api",
     "repo": "https://github.com/WICG/navigation-api",
     "spec": "https://wicg.github.io/navigation-api/",
-    "score": 462.59999999999997
+    "score": 462.29999999999995
   },
   {
     "name": "scroll-to-text-fragment",
@@ -195,7 +195,7 @@
     "name": "soft-navigations",
     "repo": "https://github.com/WICG/soft-navigations",
     "spec": null,
-    "score": 186
+    "score": 185.7
   },
   {
     "name": "priority-hints",
