@@ -9,7 +9,7 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2317.2
+    "score": 2332.7999999999997
   },
   {
     "name": "webpackage",
@@ -51,7 +51,7 @@
     "name": "first-party-sets",
     "repo": "https://github.com/WICG/first-party-sets",
     "spec": "https://wicg.github.io/first-party-sets/",
-    "score": 883.8
+    "score": 883.5
   },
   {
     "name": "pending-beacon",
@@ -99,7 +99,7 @@
     "name": "scroll-to-text-fragment",
     "repo": "https://github.com/WICG/scroll-to-text-fragment",
     "spec": null,
-    "score": 459
+    "score": 458.7
   },
   {
     "name": "client-hints-infrastructure",
