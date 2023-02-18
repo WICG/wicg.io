@@ -9,7 +9,7 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2320.2
+    "score": 2319.6
   },
   {
     "name": "webpackage",
@@ -33,7 +33,7 @@
     "name": "file-system-access",
     "repo": "https://github.com/WICG/file-system-access",
     "spec": "https://wicg.github.io/file-system-access/",
-    "score": 1047
+    "score": 1046.3999999999999
   },
   {
     "name": "view-transitions",
@@ -51,7 +51,7 @@
     "name": "first-party-sets",
     "repo": "https://github.com/WICG/first-party-sets",
     "spec": "https://wicg.github.io/first-party-sets/",
-    "score": 884.1
+    "score": 883.8
   },
   {
     "name": "pending-beacon",
@@ -105,7 +105,7 @@
     "name": "client-hints-infrastructure",
     "repo": "https://github.com/WICG/client-hints-infrastructure",
     "spec": "https://wicg.github.io/client-hints-infrastructure",
-    "score": 439.2
+    "score": 438.9
   },
   {
     "name": "proposals",
@@ -117,7 +117,7 @@
     "name": "shared-storage",
     "repo": "https://github.com/WICG/shared-storage",
     "spec": null,
-    "score": 429.9
+    "score": 429.3
   },
   {
     "name": "import-maps",
@@ -165,13 +165,19 @@
     "name": "focus-visible",
     "repo": "https://github.com/WICG/focus-visible",
     "spec": "https://wicg.github.io/focus-visible/demo/",
-    "score": 234
+    "score": 233.7
   },
   {
     "name": "webusb",
     "repo": "https://github.com/WICG/webusb",
     "spec": "https://wicg.github.io/webusb/",
-    "score": 208.79999999999998
+    "score": 208.5
+  },
+  {
+    "name": "cookie-store",
+    "repo": "https://github.com/WICG/cookie-store",
+    "spec": "https://wicg.github.io/cookie-store/",
+    "score": 191.7
   },
   {
     "name": "webhid",
@@ -190,12 +196,6 @@
     "repo": "https://github.com/WICG/soft-navigations",
     "spec": null,
     "score": 186
-  },
-  {
-    "name": "cookie-store",
-    "repo": "https://github.com/WICG/cookie-store",
-    "spec": "https://wicg.github.io/cookie-store/",
-    "score": 176.1
   },
   {
     "name": "priority-hints",
