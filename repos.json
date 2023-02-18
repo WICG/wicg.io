@@ -9,7 +9,7 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2318.4
+    "score": 2317.7999999999997
   },
   {
     "name": "webpackage",
@@ -93,7 +93,7 @@
     "name": "navigation-api",
     "repo": "https://github.com/WICG/navigation-api",
     "spec": "https://wicg.github.io/navigation-api/",
-    "score": 462.9
+    "score": 462.59999999999997
   },
   {
     "name": "scroll-to-text-fragment",
@@ -303,7 +303,7 @@
     "name": "shape-detection-api",
     "repo": "https://github.com/WICG/shape-detection-api",
     "spec": "https://wicg.github.io/shape-detection-api",
-    "score": 87.89999999999999
+    "score": 87.6
   },
   {
     "name": "layout-instability",
