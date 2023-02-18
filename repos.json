@@ -9,7 +9,7 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2318.7
+    "score": 2318.4
   },
   {
     "name": "webpackage",
@@ -33,7 +33,7 @@
     "name": "file-system-access",
     "repo": "https://github.com/WICG/file-system-access",
     "spec": "https://wicg.github.io/file-system-access/",
-    "score": 1046.3999999999999
+    "score": 1046.1
   },
   {
     "name": "view-transitions",
