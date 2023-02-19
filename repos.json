@@ -111,7 +111,7 @@
     "name": "proposals",
     "repo": "https://github.com/WICG/proposals",
     "spec": "https://wicg.io/",
-    "score": 429
+    "score": 428.7
   },
   {
     "name": "shared-storage",
@@ -306,12 +306,6 @@
     "score": 87.6
   },
   {
-    "name": "layout-instability",
-    "repo": "https://github.com/WICG/layout-instability",
-    "spec": "https://wicg.github.io/layout-instability/",
-    "score": 84.89999999999999
-  },
-  {
     "name": "media-feeds",
     "repo": "https://github.com/WICG/media-feeds",
     "spec": "https://wicg.github.io/media-feeds/",
@@ -321,6 +315,12 @@
     "name": "background-sync",
     "repo": "https://github.com/WICG/background-sync",
     "spec": "https://wicg.github.io/background-sync/spec/",
+    "score": 84.6
+  },
+  {
+    "name": "layout-instability",
+    "repo": "https://github.com/WICG/layout-instability",
+    "spec": "https://wicg.github.io/layout-instability/",
     "score": 84.6
   },
   {
