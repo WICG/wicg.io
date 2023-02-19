@@ -21,7 +21,7 @@
     "name": "trust-token-api",
     "repo": "https://github.com/WICG/trust-token-api",
     "spec": "https://wicg.github.io/trust-token-api/",
-    "score": 1323
+    "score": 1322.7
   },
   {
     "name": "nav-speculation",
@@ -75,7 +75,7 @@
     "name": "webmonetization",
     "repo": "https://github.com/WICG/webmonetization",
     "spec": "https://webmonetization.org",
-    "score": 586.1999999999999
+    "score": 585.9
   },
   {
     "name": "web-app-launch",
@@ -108,16 +108,16 @@
     "score": 438.9
   },
   {
-    "name": "proposals",
-    "repo": "https://github.com/WICG/proposals",
-    "spec": "https://wicg.io/",
-    "score": 428.7
-  },
-  {
     "name": "shared-storage",
     "repo": "https://github.com/WICG/shared-storage",
     "spec": null,
     "score": 428.7
+  },
+  {
+    "name": "proposals",
+    "repo": "https://github.com/WICG/proposals",
+    "spec": "https://wicg.io/",
+    "score": 428.4
   },
   {
     "name": "import-maps",
@@ -339,7 +339,7 @@
     "name": "mobile-document-request-api",
     "repo": "https://github.com/WICG/mobile-document-request-api",
     "spec": null,
-    "score": 73.8
+    "score": 73.5
   },
   {
     "name": "compression",
