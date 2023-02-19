@@ -57,7 +57,7 @@
     "name": "pending-beacon",
     "repo": "https://github.com/WICG/pending-beacon",
     "spec": "https://wicg.github.io/pending-beacon/",
-    "score": 627.6
+    "score": 627
   },
   {
     "name": "sanitizer-api",
@@ -189,7 +189,7 @@
     "name": "urlpattern",
     "repo": "https://github.com/WICG/urlpattern",
     "spec": "https://wicg.github.io/urlpattern",
-    "score": 187.5
+    "score": 187.2
   },
   {
     "name": "soft-navigations",
@@ -198,16 +198,16 @@
     "score": 185.7
   },
   {
+    "name": "direct-sockets",
+    "repo": "https://github.com/WICG/direct-sockets",
+    "spec": "",
+    "score": 181.2
+  },
+  {
     "name": "priority-hints",
     "repo": "https://github.com/WICG/priority-hints",
     "spec": "https://wicg.github.io/priority-hints/",
     "score": 166.79999999999998
-  },
-  {
-    "name": "direct-sockets",
-    "repo": "https://github.com/WICG/direct-sockets",
-    "spec": "",
-    "score": 165.6
   },
   {
     "name": "manifest-incubations",
