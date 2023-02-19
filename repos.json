@@ -39,7 +39,7 @@
     "name": "view-transitions",
     "repo": "https://github.com/WICG/view-transitions",
     "spec": "https://drafts.csswg.org/css-view-transitions-1/",
-    "score": 993.9
+    "score": 993.5999999999999
   },
   {
     "name": "webcomponents",
@@ -285,7 +285,7 @@
     "name": "file-handling",
     "repo": "https://github.com/WICG/file-handling",
     "spec": null,
-    "score": 97.2
+    "score": 96.89999999999999
   },
   {
     "name": "spatial-navigation",
