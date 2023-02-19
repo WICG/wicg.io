@@ -9,7 +9,7 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2332.7999999999997
+    "score": 2332.5
   },
   {
     "name": "webpackage",
@@ -111,13 +111,13 @@
     "name": "proposals",
     "repo": "https://github.com/WICG/proposals",
     "spec": "https://wicg.io/",
-    "score": 429.59999999999997
+    "score": 429.3
   },
   {
     "name": "shared-storage",
     "repo": "https://github.com/WICG/shared-storage",
     "spec": null,
-    "score": 429.3
+    "score": 428.7
   },
   {
     "name": "import-maps",
@@ -201,7 +201,7 @@
     "name": "priority-hints",
     "repo": "https://github.com/WICG/priority-hints",
     "spec": "https://wicg.github.io/priority-hints/",
-    "score": 167.1
+    "score": 166.79999999999998
   },
   {
     "name": "direct-sockets",
@@ -267,7 +267,7 @@
     "name": "floc",
     "repo": "https://github.com/WICG/floc",
     "spec": "https://wicg.github.io/floc",
-    "score": 105.89999999999999
+    "score": 105.3
   },
   {
     "name": "background-fetch",
