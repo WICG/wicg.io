@@ -123,7 +123,7 @@
     "name": "import-maps",
     "repo": "https://github.com/WICG/import-maps",
     "spec": "https://html.spec.whatwg.org/multipage/webappapis.html#import-maps",
-    "score": 369
+    "score": 368.7
   },
   {
     "name": "color-api",
@@ -159,13 +159,13 @@
     "name": "inert",
     "repo": "https://github.com/WICG/inert",
     "spec": "",
-    "score": 252
+    "score": 251.7
   },
   {
     "name": "focus-visible",
     "repo": "https://github.com/WICG/focus-visible",
     "spec": "https://wicg.github.io/focus-visible/demo/",
-    "score": 233.7
+    "score": 233.39999999999998
   },
   {
     "name": "webusb",
