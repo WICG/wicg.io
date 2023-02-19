@@ -9,13 +9,13 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2332.5
+    "score": 2331.9
   },
   {
     "name": "webpackage",
     "repo": "https://github.com/WICG/webpackage",
     "spec": null,
-    "score": 1355.3999999999999
+    "score": 1354.8
   },
   {
     "name": "trust-token-api",
@@ -45,7 +45,7 @@
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 915.3
+    "score": 915
   },
   {
     "name": "first-party-sets",
@@ -99,7 +99,7 @@
     "name": "scroll-to-text-fragment",
     "repo": "https://github.com/WICG/scroll-to-text-fragment",
     "spec": null,
-    "score": 458.7
+    "score": 458.4
   },
   {
     "name": "client-hints-infrastructure",
@@ -279,7 +279,7 @@
     "name": "window-controls-overlay",
     "repo": "https://github.com/WICG/window-controls-overlay",
     "spec": "https://wicg.github.io/window-controls-overlay/",
-    "score": 98.1
+    "score": 97.5
   },
   {
     "name": "file-handling",
