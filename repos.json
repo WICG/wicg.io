@@ -99,7 +99,7 @@
     "name": "scroll-to-text-fragment",
     "repo": "https://github.com/WICG/scroll-to-text-fragment",
     "spec": null,
-    "score": 458.4
+    "score": 458.09999999999997
   },
   {
     "name": "client-hints-infrastructure",
@@ -243,7 +243,7 @@
     "name": "webcrypto-secure-curves",
     "repo": "https://github.com/WICG/webcrypto-secure-curves",
     "spec": "https://wicg.github.io/webcrypto-secure-curves/",
-    "score": 131.4
+    "score": 131.1
   },
   {
     "name": "speech-api",
@@ -447,7 +447,7 @@
     "name": "visual-viewport",
     "repo": "https://github.com/WICG/visual-viewport",
     "spec": "https://wicg.github.io/visual-viewport/",
-    "score": 41.1
+    "score": 40.8
   },
   {
     "name": "custom-state-pseudo-class",
