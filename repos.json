@@ -87,7 +87,7 @@
     "name": "ua-client-hints",
     "repo": "https://github.com/WICG/ua-client-hints",
     "spec": "https://wicg.github.io/ua-client-hints/",
-    "score": 496.5
+    "score": 496.2
   },
   {
     "name": "navigation-api",
