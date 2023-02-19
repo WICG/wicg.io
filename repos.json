@@ -225,7 +225,7 @@
     "name": "local-font-access",
     "repo": "https://github.com/WICG/local-font-access",
     "spec": "https://wicg.github.io/local-font-access",
-    "score": 159.6
+    "score": 159.29999999999998
   },
   {
     "name": "isolated-web-apps",
