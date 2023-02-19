@@ -3,7 +3,7 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3935.3999999999996
+    "score": 3935.1
   },
   {
     "name": "turtledove",
@@ -111,7 +111,7 @@
     "name": "proposals",
     "repo": "https://github.com/WICG/proposals",
     "spec": "https://wicg.io/",
-    "score": 429.3
+    "score": 429
   },
   {
     "name": "shared-storage",
@@ -189,7 +189,7 @@
     "name": "urlpattern",
     "repo": "https://github.com/WICG/urlpattern",
     "spec": "https://wicg.github.io/urlpattern",
-    "score": 187.79999999999998
+    "score": 187.5
   },
   {
     "name": "soft-navigations",
@@ -327,7 +327,7 @@
     "name": "eyedropper-api",
     "repo": "https://github.com/WICG/eyedropper-api",
     "spec": null,
-    "score": 80.7
+    "score": 80.39999999999999
   },
   {
     "name": "element-timing",
@@ -339,7 +339,7 @@
     "name": "mobile-document-request-api",
     "repo": "https://github.com/WICG/mobile-document-request-api",
     "spec": null,
-    "score": 74.1
+    "score": 73.8
   },
   {
     "name": "compression",
