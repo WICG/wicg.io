@@ -9,7 +9,7 @@
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2331.9
+    "score": 2331.2999999999997
   },
   {
     "name": "webpackage",
@@ -33,7 +33,7 @@
     "name": "file-system-access",
     "repo": "https://github.com/WICG/file-system-access",
     "spec": "https://wicg.github.io/file-system-access/",
-    "score": 1045.2
+    "score": 1044.8999999999999
   },
   {
     "name": "view-transitions",
@@ -45,7 +45,7 @@
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 914.6999999999999
+    "score": 914.4
   },
   {
     "name": "first-party-sets",
