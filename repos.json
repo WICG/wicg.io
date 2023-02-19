@@ -3,7 +3,7 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3935.7
+    "score": 3935.3999999999996
   },
   {
     "name": "turtledove",
@@ -45,7 +45,7 @@
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 915.9
+    "score": 915.3
   },
   {
     "name": "first-party-sets",
