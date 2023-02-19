@@ -69,7 +69,7 @@
     "name": "storage-buckets",
     "repo": "https://github.com/WICG/storage-buckets",
     "spec": "https://wicg.github.io/storage-buckets/explainer",
-    "score": 589.5
+    "score": 589.1999999999999
   },
   {
     "name": "webmonetization",
@@ -279,7 +279,7 @@
     "name": "window-controls-overlay",
     "repo": "https://github.com/WICG/window-controls-overlay",
     "spec": "https://wicg.github.io/window-controls-overlay/",
-    "score": 97.5
+    "score": 97.2
   },
   {
     "name": "file-handling",
@@ -327,7 +327,7 @@
     "name": "eyedropper-api",
     "repo": "https://github.com/WICG/eyedropper-api",
     "spec": null,
-    "score": 80.39999999999999
+    "score": 80.1
   },
   {
     "name": "element-timing",
@@ -345,7 +345,7 @@
     "name": "compression",
     "repo": "https://github.com/WICG/compression",
     "spec": null,
-    "score": 72.89999999999999
+    "score": 72.6
   },
   {
     "name": "audio-focus",
