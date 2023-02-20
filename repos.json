@@ -15,7 +15,7 @@
     "name": "webpackage",
     "repo": "https://github.com/WICG/webpackage",
     "spec": null,
-    "score": 1353.3
+    "score": 1353
   },
   {
     "name": "trust-token-api",
@@ -45,7 +45,7 @@
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 914.1
+    "score": 913.8
   },
   {
     "name": "first-party-sets",
@@ -237,7 +237,7 @@
     "name": "bundle-preloading",
     "repo": "https://github.com/WICG/bundle-preloading",
     "spec": "",
-    "score": 133.2
+    "score": 132.9
   },
   {
     "name": "webcrypto-secure-curves",
