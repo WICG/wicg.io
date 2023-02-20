@@ -1,7 +1,7 @@
 /*globals self, async, caches, fetch */
 "use strict";
 
-const SITE_CACHE = "site-v11";
+const SITE_CACHE = "site-v12";
 
 self.addEventListener("install", ev => {
   ev.waitUntil(cacheIsPopulated());
@@ -11,20 +11,17 @@ async function cacheIsPopulated() {
   const resources = [
     "./",
     "./images/code@1x.jpg",
-    "./images/document.svg",
     "./images/github.svg",
-    "./images/irc.svg",
-    "./images/link.svg",
     "./images/logo.png",
     "./images/logo.svg",
     "./images/twitter_white.svg",
     "./images/w3c_white.svg",
-    "./js/accordion.js",
     "./js/lib/hyperhtml.js",
     "./manifest.json",
     "./styles/fonts/nexa/Nexa_Bold.otf",
     "./styles/style.css",
-    "https://raw.githubusercontent.com/WICG/admin/gh-pages/biblio.json",
+    "./data/active.json",
+    "./data/archived.json",
   ];
   const cache = await caches.open(SITE_CACHE);
   await cache.addAll(resources);

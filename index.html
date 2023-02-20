@@ -7,13 +7,11 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="application-name" content="WICG" />
     <meta name="format-detection" content="telephone=no" />
-    <script src="js/accordion.js"></script>
     <script src="js/lib/hyperhtml.js" async></script>
     <link rel="stylesheet" href="styles/style.css" />
     <link href="images/logo.svg" rel="icon" sizes="any" />
     <title>Web Incubator Community Group (WICG)</title>
   </head>
-
   <body>
     <header role="banner">
       <div>
@@ -26,10 +24,6 @@
     <main role="main">
       <section id="join">
         <h2 class="visuallyhidden">Join our community!</h2>
-        <p>
-          Join our community of developers and browser makers to define the next
-          generation of web technologies.
-        </p>
         <ul class="buttonlist fancypill">
           <li>
             <a href="https://github.com/WICG/">GitHub</a>
@@ -37,37 +31,112 @@
           <li>
             <a href="https://www.w3.org/community/wicg/">Join</a>
           </li>
-          <li>
-            <a href="https://discourse.wicg.io/">Discourse</a>
-          </li>
         </ul>
+        <p>
+          Join our community of developers and browser makers to define the next
+          generation of web technologies.
+        </p>
       </section>
-      <section id="publications" class="collapsable accelerated">
-        <h2 class="opener">Getting started</h2>
-        <pre class="bash">
-npm install -g wicg
-wicg init "The Awesome API"</pre
-        >
+      <section id="about">
+        <h2>About the WICG</h2>
+        <p class="about">
+          The Web Incubator Community Group (WICG) is a community group of the
+          <a href="https://www.w3.org/">World Wide Web Consortium (W3C)</a> that
+          incubates new web platform features. The WICG is a place for
+          experimentation and discussion of new web platform features. The WICG
+          is not a standards body, but rather a forum for discussion and
+          incubation of new ideas that could one day become web standards.
+        </p>
       </section>
-      <section id="publications" class="collapsable accelerated">
-        <h2 class="opener">
-          Incubations <span class="incubation-count"></span>
-        </h2>
-        <ul class="docslist multicol" id="incubation-list"></ul>
-      </section>
-      <section id="links" class="collapsable accelerated">
-        <h2 class="opener">Useful Resources</h2>
-        <ul class="linkslist multicol">
+      <section id="proposals">
+        <h2>Making a proposal</h2>
+        <p>
+          If you are interested in contributing a proposal to the WICG, please
+          see our
+          <a href="https://github.com/WICG/proposals">proposals repository</a>
+          on GitHub. The usual steps for incubating a proposal in the WICG is as
+          follows:
+        </p>
+        <ol>
           <li>
-            <a href="https://wicg.github.io/admin/charter.html"> Charter </a>
+            <a href="https://github.com/WICG/proposals">Submit a proposal</a>
+            outlining your idea.
+          </li>
+          <li>Get feedback and improve your proposal.</li>
+          <li>Find collaborators and create a GitHub repository.</li>
+          <li>Work on your proposal and seek consensus from the community.</li>
+          <li>
+            Advocate for adoption of your proposal to the
+            <a href="https://www.w3.org/">W3C</a> or the
+            <a href="https://whatwg.org/">WHATWG</a> for standardization.
+          </li>
+        </ol>
+      </section>
+      <section id="incubations">
+        <h2>Active Incubations</h2>
+        <p>
+          There are <span class="incubation-count generated"></span> incubations
+          actively being worked on by the WICG community. The
+          <a href="https://en.wikipedia.org/wiki/Median">median</a> incubation
+          time is <span class="median-duration generated"></span>. The longest
+          running incubation is
+          <a class="longest-incubation-name generated"></a>, which has been
+          incubating for approximately
+          <span class="longest-incubation-duration generated"></span>. The
+          shortest incubation is
+          <a class="shortest-incubation-name generated"></a>, which has been
+          incubating for
+          <span class="shortest-incubation-duration generated"></span>.
+        </p>
+        <p>
+          Incubations are listed from most active participation to least active,
+          based on the community's interaction with issues and incoming commits.
+        </p>
+        <dl class="docslist multicol" id="incubation-list"></dl>
+      </section>
+      <section id="archived">
+        <h2>Archived incubations</h2>
+        <p>
+          The following
+          <span class="archived-count generated"></span> incubations have been
+          archived and are no longer actively being pursued by the WICG
+          community. This indicates that either they have successfully
+          progressed to the
+          <a href="https://www.w3.org/2021/Process-20211102/#rec-track"
+            >recommendation track</a
+          >
+          in a <a href="https://www.w3.org/">W3C</a>
+          <a href="https://www.w3.org/groups/wg/">Working Group</a> or the
+          <a href="https://whatwg.org/">WHATWG</a>, or they have been abandoned.
+        </p>
+        <p>
+          The
+          <a href="https://en.wikipedia.org/wiki/Median">median</a>
+          time for archived incubations is
+          <span class="median-archived-duration generated"></span>. The shortest
+          incubation before being archived was
+          <span class="shortest-archived-incubation-name generated"></span>,
+          which lasted for approximately
+          <span class="shortest-archived-incubation-duration generated"></span>.
+          The longest running incubation before being archived was
+          <a class="longest-archived-incubation-name generated"></a>, which
+          lasted for approximately
+          <span class="longest-archived-incubation-duration generated"></span>.
+        </p>
+        <dl class="docslist multicol" id="archived-incubation-list"></dl>
+      </section>
+      <section id="resources">
+        <h2>Useful Resources</h2>
+        <ul class="linkslist">
+          <li>
+            <a href="https://wicg.github.io/admin/charter.html"
+              >Group Charter</a
+            >
           </li>
           <li>
             <a href="https://www.w3.org/community/wicg/participants">
-              Participants
+              WICG Participants
             </a>
-          </li>
-          <li>
-            <a href="https://www.w3.org/community/wicg/"> Join </a>
           </li>
           <li>
             <a href="https://lists.w3.org/Archives/Public/public-wicg/">
@@ -132,50 +201,334 @@ wicg init "The Awesome API"</pre
     </aside>
     <script>
       "use strict";
-      async function fillSpecs() {
-        const jsonPromise = fetch("repos.json").then((r) => r.json());
+
+      async function fillArchivedSpecs(jsonPromise) {
+        const archivedIncubationList = hyperHTML.hyper(
+          document.getElementById("archived-incubation-list")
+        );
+        archivedIncubationList`${{
+          placeholder: "Loading archived specs...",
+          any: jsonPromise.then((specs) => specs.map(toArchivedListItem)),
+        }}`;
+      }
+      //
+
+      async function fillSpecs(jsonPromise) {
         const incubationList = hyperHTML.hyper(
           document.getElementById("incubation-list")
         );
-        const incubationCount = hyperHTML.hyper(
-          document.querySelector(".incubation-count")
-        );
         incubationList`${{
           placeholder: "Loading specs...",
-          any: jsonPromise.then(specs => specs.map(toListItem)),
-        }}`;
-        incubationCount`${{
-          placeholder: "",
-          any: jsonPromise.then(specs => `(${specs.length})`),
+          any: jsonPromise.then((specs) => specs.map(toListItem)),
         }}`;
       }
 
-      function byKey([keyA], [keyB]) {
-        return keyA.toLowerCase().localeCompare(keyB.toLowerCase());
+      function calculateProjectDurationStats(
+        incubations,
+        { usePushDate = false }
+      ) {
+        const currentDate = new Date();
+        const durations = incubations.map((incubation) => {
+          const createdDateTime = new Date(incubation.created_at);
+          const fromDate = usePushDate
+            ? new Date(incubation.pushed_at)
+            : currentDate;
+          const durationInMs = fromDate - createdDateTime;
+          const href = incubation.spec || incubation.repo;
+
+          return {
+            name: incubation.name,
+            duration: durationInMs,
+            href,
+            description: incubation.description,
+          };
+        });
+
+        const medianDurationInMs = calculateMedian(
+          durations.map((duration) => duration.duration)
+        );
+        const longestDuration = durations.reduce((longest, duration) =>
+          duration.duration > longest.duration ? duration : longest
+        );
+        const shortestDuration = durations.reduce((shortest, duration) =>
+          duration.duration < shortest.duration ? duration : shortest
+        );
+
+        const medianDuration = formatDuration(medianDurationInMs);
+        const longestDurationFormatted = formatDuration(
+          longestDuration.duration
+        );
+        const shortestDurationFormatted = formatDuration(
+          shortestDuration.duration
+        );
+        return {
+          medianDuration: medianDuration,
+          longestDuration: {
+            ...longestDuration,
+            duration: longestDurationFormatted,
+          },
+          shortestDuration: {
+            ...shortestDuration,
+            duration: shortestDurationFormatted,
+          },
+        };
+      }
+
+      function calculateMedian(numbers) {
+        const sortedNumbers = numbers.slice().sort((a, b) => a - b);
+        const midIndex = Math.floor(sortedNumbers.length / 2);
+
+        if (sortedNumbers.length % 2 === 0) {
+          return (sortedNumbers[midIndex - 1] + sortedNumbers[midIndex]) / 2;
+        } else {
+          return sortedNumbers[midIndex];
+        }
+      }
+
+      function formatDuration(durationInMs) {
+        const durationInDays = Math.floor(durationInMs / (1000 * 60 * 60 * 24));
+        const durationInYears = Math.floor(durationInDays / 365);
+        const durationInMonths = Math.floor((durationInDays % 365) / 30);
+        return toHumanReadableYearsAndMonths({
+          years: durationInYears,
+          months: durationInMonths,
+        });
+      }
+
+      function normalizeDescription(description) {
+        description = description?.trim();
+        if (
+          // If description does not end with a period or question mark, don't add one.
+          description &&
+          !description.endsWith(".") &&
+          !description.endsWith("?")
+        ) {
+          description += ".";
+        }
+        return description;
+      }
+
+      function toArchivedListItem(entry) {
+        const { name, repo, spec, stars } = entry;
+        /** @type {string} */
+        const description = normalizeDescription(entry.description);
+        const href = repo;
+        // Incubation time in years and months. We use pushed_at as Github API
+        // does not provide an archive date.
+        const incubationYearsAndMonths = toHumanReadableYearsAndMonths(
+          getYearsAndMonths(entry.created_at, entry.pushed_at)
+        );
+        // Update date suitable for the datetime attribute
+        const pushedAt = new Date(entry.pushed_at);
+        // Pretty date only showing the month and year
+        const prettyUpdateDate = pushedAt.toLocaleDateString("en-US", {
+          month: "long",
+          year: "numeric",
+        });
+        return hyperHTML`<div class="incubation"><dt>
+          <a href="${href}" class="spec">${name}</a><a href="${repo}">
+          <img src="images/gh32px.png" alt="GitHub repo" width="16" height="16">
+          </a>
+          </dt>
+            <dd class="description">
+            ${
+              description
+                ? hyperHTML`${description}`
+                : "No description available."
+            }
+            </dd>
+            <dd class="meta">
+              Incubated for <b>${incubationYearsAndMonths}</b>.
+              Work stopped approx. <b><time datetime="${pushedAt.toISOString()}">${prettyUpdateDate}</time></b>.
+            </dd>
+          </div>
+        `;
       }
 
       function toListItem(entry) {
-        const { name, repo } = entry;
-        let { spec } = entry;
-        // derived from repo
-        if (!spec) {
-          const { pathname } = new URL(repo);
-          const path = pathname.substring(pathname.lastIndexOf("/") + 1);
-          spec = new URL(path, "https://wicg.github.io/");
+        const { name, repo, spec, stars } = entry;
+        /** @type {string} */
+        let description = entry.description?.trim() ?? null;
+        if (
+          // If description does not end with a period or question mark, don't add one.
+          description &&
+          !description.endsWith(".") &&
+          !description.endsWith("?")
+        ) {
+          description += ".";
         }
-        return hyperHTML`<li>
-        <a href="${spec}">
-          ${name}
-        </a>
-        <a href="${repo}">
+        const href = spec || repo;
+        // Incubation time in years and months
+        const incubationYearsAndMonths = toHumanReadableYearsAndMonths(
+          getYearsAndMonths(entry.created_at)
+        );
+        // Date suitable for the datetime attribute
+        const createdDateTime = new Date(entry.created_at).toISOString();
+        // Update date suitable for the datetime attribute
+        const updatedDateTime = new Date(entry.updated_at).toISOString();
+        // Pretty date only showing the month and year
+        const prettyUpdateDate = new Date(entry.updated_at).toLocaleDateString(
+          "en-US",
+          { month: "long", year: "numeric" }
+        );
+        const starsAria = `${stars} stars on GitHub`;
+        return hyperHTML`<div class="incubation"><dt>
+          <a href="${href}" class="spec">${name}</a><a href="${repo}">
           <img src="images/gh32px.png" alt="GitHub repo" width="16" height="16">
-        </a>
-        </li>`;
+          </a>
+          </dt>
+            <dd class="description">
+            ${
+              description
+                ? hyperHTML`${description}`
+                : "No description available."
+            }
+            </dd>
+            <dd class="meta">
+              Incubating for <b><time datetime="${createdDateTime}">${incubationYearsAndMonths}</time></b>.
+              Last updated <b><time datetime="${updatedDateTime}">${prettyUpdateDate}</time></b> |
+              <span class="github-stars" aria-label="${starsAria}" title="${starsAria}">★ ${stars}</span>.
+            </dd>
+          </div>
+        `;
+      }
+
+      function getYearsAndMonths(
+        dateString,
+        toDateString = new Date().toISOString()
+      ) {
+        const inputDate = new Date(dateString);
+        const toDate = new Date(toDateString);
+
+        // Calculate the difference in months between the two dates
+        const diffMonths =
+          (toDate.getFullYear() - inputDate.getFullYear()) * 12 +
+          (toDate.getMonth() - inputDate.getMonth());
+
+        // Calculate the number of years and months from the difference in months
+        const years = Math.floor(diffMonths / 12);
+        const months = diffMonths % 12;
+        return { years, months };
+      }
+
+      function toHumanReadableYearsAndMonths({ years, months }) {
+        // Return the result as a string using a switch statement
+        switch (true) {
+          case years === 0 && months === 0:
+            return "less than a month";
+          case years === 0:
+            return `${months} month${months !== 1 ? "s" : ""}`;
+          case months === 0:
+            return `${years} year${years !== 1 ? "s" : ""}`;
+          default:
+            return `${years} year${years !== 1 ? "s" : ""} and ${months} month${
+              months !== 1 ? "s" : ""
+            }`;
+        }
+      }
+
+      async function fillStats(jsonPromise) {
+        const incubationCount = hyperHTML.hyper(
+          document.querySelector(".incubation-count")
+        );
+        incubationCount`${{
+          placeholder: "",
+          any: jsonPromise.then((specs) => `${specs.length}`),
+        }}`;
+
+        const { medianDuration, longestDuration, shortestDuration } =
+          calculateProjectDurationStats(await jsonPromise, {
+            usePushDate: false,
+          });
+
+        // Median
+        const medianDurationElement = hyperHTML.hyper(
+          document.querySelector(".median-duration")
+        );
+        medianDurationElement`${medianDuration}`;
+
+        // Longest incubation
+        const longestDurationNameElement = document.querySelector(
+          ".longest-incubation-name"
+        );
+        hyperHTML.hyper(longestDurationNameElement)`${longestDuration.name}`;
+        longestDurationNameElement.href = longestDuration.href;
+        if (longestDuration.description) {
+          longestDurationNameElement.title = longestDuration.description;
+        }
+        const longestDurationDurationElement = hyperHTML.hyper(
+          document.querySelector(".longest-incubation-duration")
+        );
+        longestDurationDurationElement`${longestDuration.duration}`;
+
+        // Shortest incubation
+        const shortestDurationNameElement = document.querySelector(
+          ".shortest-incubation-name"
+        );
+        hyperHTML.hyper(shortestDurationNameElement)`${shortestDuration.name}`;
+        shortestDurationNameElement.href = shortestDuration.href;
+        if (shortestDuration.description) {
+          shortestDurationNameElement.title = shortestDuration.description;
+        }
+        const shortestDurationDurationElement = hyperHTML.hyper(
+          document.querySelector(".shortest-incubation-duration")
+        );
+        shortestDurationDurationElement`${shortestDuration.duration}`;
+      }
+
+      async function fillArchiveStats(archivedSpecs) {
+        const archivedCount = hyperHTML.hyper(
+          document.querySelector(".archived-count")
+        );
+        archivedCount`${{
+          placeholder: "",
+          any: archivedSpecs.then((specs) => `${specs.length}`),
+        }}`;
+        const specs = await archivedSpecs;
+        const { medianDuration, longestDuration, shortestDuration } =
+          calculateProjectDurationStats(specs, {
+            usePushDate: true,
+          });
+        const medianDurationElement = hyperHTML.hyper(
+          document.querySelector(".median-archived-duration")
+        );
+        medianDurationElement`${medianDuration}`;
+        // Longest incubation
+        const longestDurationNameElement = document.querySelector(
+          ".longest-archived-incubation-name"
+        );
+        hyperHTML.hyper(longestDurationNameElement)`${longestDuration.name}`;
+        const longestDurationDurationElement = document.querySelector(
+          ".longest-archived-incubation-duration"
+        );
+        hyperHTML.hyper(
+          longestDurationDurationElement
+        )`${longestDuration.duration}`;
+
+        // Shortest incubation
+        const shortestDurationNameElement = document.querySelector(
+          ".shortest-archived-incubation-name"
+        );
+        hyperHTML.hyper(shortestDurationNameElement)`${shortestDuration.name}`;
+        const shortestDurationDurationElement = document.querySelector(
+          ".shortest-archived-incubation-duration"
+        );
+        hyperHTML.hyper(
+          shortestDurationDurationElement
+        )`${shortestDuration.duration}`;
       }
 
       window.onload = async () => {
-        // fill in incubation box...
-        const promiseToFillSpecs = fillSpecs();
+        const activeSpecs = fetch("./data/active.json").then((r) => r.json());
+        const archivedSpecs = fetch("./data/archived.json").then((r) =>
+          r.json()
+        );
+        const promiseToFillSpecs = fillSpecs(activeSpecs);
+        const promiseToFillStats = fillStats(activeSpecs);
+        const promiseToFillArchivedSpecs = fillArchivedSpecs(archivedSpecs);
+        const promiseToFillStatsForArchivedSpecs =
+          fillArchiveStats(archivedSpecs);
+
         if (!navigator.serviceWorker) {
           return;
         }
@@ -209,7 +562,13 @@ wicg init "The Awesome API"</pre
           window.location.reload();
         });
 
-        await promiseToFillSpecs; // finally, just wait for the specs to show up
+        // Now wait for the content to get rendered
+        await Promise.all([
+          promiseToFillSpecs,
+          promiseToFillStats,
+          promiseToFillArchivedSpecs,
+          promiseToFillStatsForArchivedSpecs,
+        ]);
 
         function trackInstallation(sw) {
           sw.addEventListener("statechange", () => {

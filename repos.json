@@ -3,679 +3,1228 @@
     "name": "attribution-reporting-api",
     "repo": "https://github.com/WICG/attribution-reporting-api",
     "spec": "https://wicg.github.io/attribution-reporting-api/",
-    "score": 3872.1
+    "stars": 270,
+    "description": "Attribution Reporting API",
+    "has_pages": true,
+    "created_at": "2019-05-22T17:48:10Z",
+    "updated_at": "2023-02-20T17:59:32Z",
+    "score": 3913
   },
   {
     "name": "turtledove",
     "repo": "https://github.com/WICG/turtledove",
     "spec": null,
-    "score": 2376.9
-  },
-  {
-    "name": "trust-token-api",
-    "repo": "https://github.com/WICG/trust-token-api",
-    "spec": "https://wicg.github.io/trust-token-api/",
-    "score": 1622.1
+    "stars": 428,
+    "description": "TURTLEDOVE",
+    "has_pages": true,
+    "created_at": "2020-01-16T14:32:18Z",
+    "updated_at": "2023-02-20T08:30:21Z",
+    "score": 2319
   },
   {
     "name": "webpackage",
     "repo": "https://github.com/WICG/webpackage",
     "spec": null,
-    "score": 1294.8
+    "stars": 1174,
+    "description": "Web packaging format",
+    "has_pages": true,
+    "created_at": "2016-10-20T01:15:38Z",
+    "updated_at": "2023-02-11T13:53:38Z",
+    "score": 1338
+  },
+  {
+    "name": "trust-token-api",
+    "repo": "https://github.com/WICG/trust-token-api",
+    "spec": "https://wicg.github.io/trust-token-api/",
+    "stars": 351,
+    "description": "Trust Token API",
+    "has_pages": true,
+    "created_at": "2019-08-12T13:29:29Z",
+    "updated_at": "2023-02-20T02:04:32Z",
+    "score": 1335
   },
   {
     "name": "nav-speculation",
     "repo": "https://github.com/WICG/nav-speculation",
     "spec": "https://wicg.github.io/nav-speculation/",
-    "score": 1143
+    "stars": 115,
+    "description": "Proposal to enable privacy-enhanced preloading",
+    "has_pages": true,
+    "created_at": "2020-08-11T15:15:36Z",
+    "updated_at": "2023-02-18T15:39:02Z",
+    "score": 1181
   },
   {
     "name": "file-system-access",
     "repo": "https://github.com/WICG/file-system-access",
     "spec": "https://wicg.github.io/file-system-access/",
-    "score": 1001.4
-  },
-  {
-    "name": "webcomponents",
-    "repo": "https://github.com/WICG/webcomponents",
-    "spec": null,
-    "score": 955.5
+    "stars": 599,
+    "description": "Expose the file system on the user’s device, so Web apps can interoperate with the user’s native applications.",
+    "has_pages": true,
+    "created_at": "2016-03-29T21:34:56Z",
+    "updated_at": "2023-02-19T09:24:13Z",
+    "score": 1032
   },
   {
     "name": "view-transitions",
     "repo": "https://github.com/WICG/view-transitions",
     "spec": "https://drafts.csswg.org/css-view-transitions-1/",
-    "score": 950.6999999999999
+    "stars": 694,
+    "description": null,
+    "has_pages": false,
+    "created_at": "2020-11-10T19:05:07Z",
+    "updated_at": "2023-02-19T10:44:18Z",
+    "score": 990
+  },
+  {
+    "name": "webcomponents",
+    "repo": "https://github.com/WICG/webcomponents",
+    "spec": null,
+    "stars": 4134,
+    "description": "Web Components specifications",
+    "has_pages": true,
+    "created_at": "2013-11-11T04:00:30Z",
+    "updated_at": "2023-02-20T20:14:58Z",
+    "score": 941
   },
   {
     "name": "first-party-sets",
     "repo": "https://github.com/WICG/first-party-sets",
     "spec": "https://wicg.github.io/first-party-sets/",
-    "score": 884.6999999999999
+    "stars": 164,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2018-08-01T23:25:34Z",
+    "updated_at": "2023-02-17T12:53:59Z",
+    "score": 878
   },
   {
     "name": "pending-beacon",
     "repo": "https://github.com/WICG/pending-beacon",
     "spec": "https://wicg.github.io/pending-beacon/",
-    "score": 646.5
+    "stars": 27,
+    "description": "A better beaconing API",
+    "has_pages": true,
+    "created_at": "2022-01-27T05:11:35Z",
+    "updated_at": "2023-02-18T16:20:06Z",
+    "score": 631
   },
   {
     "name": "sanitizer-api",
     "repo": "https://github.com/WICG/sanitizer-api",
     "spec": "https://wicg.github.io/sanitizer-api/",
-    "score": 600.3
+    "stars": 198,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2016-01-14T10:47:32Z",
+    "updated_at": "2023-01-28T18:43:57Z",
+    "score": 609
   },
   {
     "name": "storage-buckets",
     "repo": "https://github.com/WICG/storage-buckets",
     "spec": "https://wicg.github.io/storage-buckets/explainer",
-    "score": 588.3
+    "stars": 21,
+    "description": "API proposal for managing multiple storage buckets",
+    "has_pages": true,
+    "created_at": "2020-07-01T11:43:13Z",
+    "updated_at": "2023-01-31T18:20:43Z",
+    "score": 585
   },
   {
     "name": "webmonetization",
     "repo": "https://github.com/WICG/webmonetization",
     "spec": "https://webmonetization.org",
-    "score": 569.1
+    "stars": 350,
+    "description": "Proposed Web Monetization standard",
+    "has_pages": true,
+    "created_at": "2018-09-07T23:17:11Z",
+    "updated_at": "2023-02-15T22:55:47Z",
+    "score": 584
   },
   {
     "name": "web-app-launch",
     "repo": "https://github.com/WICG/web-app-launch",
     "spec": "",
-    "score": 534.6
+    "stars": 57,
+    "description": "Web App Launch Handler",
+    "has_pages": true,
+    "created_at": "2017-09-22T07:48:38Z",
+    "updated_at": "2023-01-10T17:32:57Z",
+    "score": 553
   },
   {
     "name": "ua-client-hints",
     "repo": "https://github.com/WICG/ua-client-hints",
     "spec": "https://wicg.github.io/ua-client-hints/",
-    "score": 506.7
+    "stars": 530,
+    "description": "Wouldn't it be nice if `User-Agent` was a (set of) client hints?",
+    "has_pages": true,
+    "created_at": "2018-10-24T12:20:52Z",
+    "updated_at": "2023-02-20T19:33:02Z",
+    "score": 492
   },
   {
     "name": "scroll-to-text-fragment",
     "repo": "https://github.com/WICG/scroll-to-text-fragment",
     "spec": null,
-    "score": 478.5
-  },
-  {
-    "name": "shared-storage",
-    "repo": "https://github.com/WICG/shared-storage",
-    "spec": null,
-    "score": 428.7
+    "stars": 538,
+    "description": "Proposal to allow specifying a text snippet in a URL fragment",
+    "has_pages": true,
+    "created_at": "2019-01-23T17:43:36Z",
+    "updated_at": "2023-02-17T14:00:46Z",
+    "score": 456
   },
   {
     "name": "navigation-api",
     "repo": "https://github.com/WICG/navigation-api",
     "spec": "https://wicg.github.io/navigation-api/",
-    "score": 426.3
+    "stars": 429,
+    "description": "The new navigation API provides a new interface for navigations and session history, with a focus on single-page application navigations.",
+    "has_pages": true,
+    "created_at": "2021-02-03T18:12:10Z",
+    "updated_at": "2023-02-16T01:42:28Z",
+    "score": 452
   },
   {
     "name": "client-hints-infrastructure",
     "repo": "https://github.com/WICG/client-hints-infrastructure",
     "spec": "https://wicg.github.io/client-hints-infrastructure",
-    "score": 423.59999999999997
+    "stars": 60,
+    "description": "Specification for the Client Hints infrastructure - privacy preserving proactive content negotiation",
+    "has_pages": true,
+    "created_at": "2019-03-14T14:00:07Z",
+    "updated_at": "2023-01-31T17:13:12Z",
+    "score": 436
   },
   {
-    "name": "proposals",
-    "repo": "https://github.com/WICG/proposals",
-    "spec": "https://wicg.io/",
-    "score": 419.7
+    "name": "shared-storage",
+    "repo": "https://github.com/WICG/shared-storage",
+    "spec": null,
+    "stars": 39,
+    "description": "Explainer for proposed web platform Shared Storage API",
+    "has_pages": true,
+    "created_at": "2021-05-25T21:30:11Z",
+    "updated_at": "2023-02-07T16:27:37Z",
+    "score": 425
   },
   {
     "name": "import-maps",
     "repo": "https://github.com/WICG/import-maps",
     "spec": "https://html.spec.whatwg.org/multipage/webappapis.html#import-maps",
-    "score": 389.4
+    "stars": 2364,
+    "description": "How to control the behavior of JavaScript imports",
+    "has_pages": true,
+    "created_at": "2018-03-15T08:15:41Z",
+    "updated_at": "2023-02-21T05:33:12Z",
+    "score": 366
   },
   {
     "name": "direct-sockets",
     "repo": "https://github.com/WICG/direct-sockets",
     "spec": "",
-    "score": 367.5
-  },
-  {
-    "name": "local-network-access",
-    "repo": "https://github.com/WICG/local-network-access",
-    "spec": "https://wicg.github.io/local-network-access/",
-    "score": 366
+    "stars": 234,
+    "description": "Direct Sockets API for the web platform",
+    "has_pages": true,
+    "created_at": "2020-07-23T00:46:46Z",
+    "updated_at": "2023-02-20T23:24:29Z",
+    "score": 360
   },
   {
     "name": "color-api",
     "repo": "https://github.com/WICG/color-api",
     "spec": "https://wicg.github.io/color-api/",
-    "score": 365.7
+    "stars": 106,
+    "description": "A proposal and draft spec for a Color object for the Web Platform, loosely influenced by our Color.js work. Heavily WIP, if you landed here randomly, please move along.",
+    "has_pages": true,
+    "created_at": "2021-05-16T14:29:30Z",
+    "updated_at": "2023-02-17T16:09:25Z",
+    "score": 357
+  },
+  {
+    "name": "local-network-access",
+    "repo": "https://github.com/WICG/local-network-access",
+    "spec": "https://wicg.github.io/local-network-access/",
+    "stars": 41,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2015-12-27T10:44:08Z",
+    "updated_at": "2023-01-30T14:15:00Z",
+    "score": 355
   },
   {
     "name": "document-picture-in-picture",
     "repo": "https://github.com/WICG/document-picture-in-picture",
     "spec": "https://wicg.github.io/document-picture-in-picture/",
-    "score": 339
+    "stars": 19,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2022-10-31T22:13:24Z",
+    "updated_at": "2023-02-16T21:16:54Z",
+    "score": 330
   },
   {
     "name": "serial",
     "repo": "https://github.com/WICG/serial",
     "spec": "https://wicg.github.io/serial/",
-    "score": 299.09999999999997
+    "stars": 225,
+    "description": "Serial ports API for the platform. ",
+    "has_pages": true,
+    "created_at": "2013-10-29T15:44:42Z",
+    "updated_at": "2023-02-05T17:40:37Z",
+    "score": 307
   },
   {
     "name": "fenced-frame",
     "repo": "https://github.com/WICG/fenced-frame",
     "spec": "https://wicg.github.io/fenced-frame/",
-    "score": 294.59999999999997
+    "stars": 89,
+    "description": "Proposal for a strong boundary between a page and its embedded content",
+    "has_pages": true,
+    "created_at": "2020-08-12T18:33:55Z",
+    "updated_at": "2023-02-16T03:27:35Z",
+    "score": 291
   },
   {
     "name": "inert",
     "repo": "https://github.com/WICG/inert",
     "spec": "",
-    "score": 241.5
+    "stars": 877,
+    "description": "Polyfill for the inert attribute and property.",
+    "has_pages": true,
+    "created_at": "2016-06-29T22:05:17Z",
+    "updated_at": "2023-02-19T12:25:59Z",
+    "score": 251
   },
   {
     "name": "focus-visible",
     "repo": "https://github.com/WICG/focus-visible",
     "spec": "https://wicg.github.io/focus-visible/demo/",
-    "score": 226.79999999999998
+    "stars": 1588,
+    "description": "Polyfill for `:focus-visible`",
+    "has_pages": true,
+    "created_at": "2017-03-08T07:05:18Z",
+    "updated_at": "2023-02-18T15:12:14Z",
+    "score": 231
   },
   {
     "name": "webusb",
     "repo": "https://github.com/WICG/webusb",
     "spec": "https://wicg.github.io/webusb/",
-    "score": 201.9
+    "stars": 1201,
+    "description": "Connecting hardware to the web.",
+    "has_pages": true,
+    "created_at": "2015-05-08T22:53:16Z",
+    "updated_at": "2023-02-20T12:52:00Z",
+    "score": 207
   },
   {
     "name": "cookie-store",
     "repo": "https://github.com/WICG/cookie-store",
     "spec": "https://wicg.github.io/cookie-store/",
-    "score": 189
+    "stars": 135,
+    "description": "Asynchronous access to cookies from JavaScript",
+    "has_pages": true,
+    "created_at": "2016-03-04T20:46:36Z",
+    "updated_at": "2023-02-15T18:16:06Z",
+    "score": 191
   },
   {
     "name": "webhid",
     "repo": "https://github.com/WICG/webhid",
     "spec": null,
-    "score": 182.7
-  },
-  {
-    "name": "soft-navigations",
-    "repo": "https://github.com/WICG/soft-navigations",
-    "spec": null,
-    "score": 181.79999999999998
+    "stars": 117,
+    "description": "Web API for accessing Human Interface Devices (HID)",
+    "has_pages": true,
+    "created_at": "2018-09-25T00:20:48Z",
+    "updated_at": "2023-02-11T01:45:03Z",
+    "score": 188
   },
   {
     "name": "urlpattern",
     "repo": "https://github.com/WICG/urlpattern",
     "spec": "https://wicg.github.io/urlpattern",
-    "score": 180.9
+    "stars": 125,
+    "description": "The URLPattern API provides a web platform primitive for matching URLs.",
+    "has_pages": true,
+    "created_at": "2019-08-27T01:14:52Z",
+    "updated_at": "2023-02-01T06:25:04Z",
+    "score": 185
+  },
+  {
+    "name": "soft-navigations",
+    "repo": "https://github.com/WICG/soft-navigations",
+    "spec": null,
+    "stars": 20,
+    "description": null,
+    "has_pages": false,
+    "created_at": "2022-10-06T07:45:33Z",
+    "updated_at": "2023-02-02T14:05:08Z",
+    "score": 185
   },
   {
     "name": "portals",
     "repo": "https://github.com/WICG/portals",
     "spec": "https://wicg.github.io/portals/",
-    "score": 161.4
+    "stars": 936,
+    "description": "A proposal for enabling seamless navigations between sites or pages",
+    "has_pages": true,
+    "created_at": "2018-04-26T01:35:45Z",
+    "updated_at": "2023-02-10T07:15:47Z",
+    "score": 163
   },
   {
     "name": "priority-hints",
     "repo": "https://github.com/WICG/priority-hints",
     "spec": "https://wicg.github.io/priority-hints/",
-    "score": 158.1
+    "stars": 171,
+    "description": "A browser API to enable developers signal the priorities of the resources they need to download.",
+    "has_pages": true,
+    "created_at": "2017-08-30T05:40:53Z",
+    "updated_at": "2023-02-14T20:35:33Z",
+    "score": 162
   },
   {
     "name": "manifest-incubations",
     "repo": "https://github.com/WICG/manifest-incubations",
     "spec": "https://wicg.github.io/manifest-incubations/",
-    "score": 156
-  },
-  {
-    "name": "isolated-web-apps",
-    "repo": "https://github.com/WICG/isolated-web-apps",
-    "spec": null,
-    "score": 150.6
+    "stars": 66,
+    "description": "Before install prompt API for installing web applications ",
+    "has_pages": true,
+    "created_at": "2020-03-19T01:18:49Z",
+    "updated_at": "2023-02-04T19:58:30Z",
+    "score": 162
   },
   {
     "name": "local-font-access",
     "repo": "https://github.com/WICG/local-font-access",
     "spec": "https://wicg.github.io/local-font-access",
-    "score": 143.4
+    "stars": 64,
+    "description": "Web API for enumerating fonts on the local system",
+    "has_pages": true,
+    "created_at": "2019-07-08T21:53:27Z",
+    "updated_at": "2023-02-08T19:01:59Z",
+    "score": 155
   },
   {
-    "name": "aom",
-    "repo": "https://github.com/WICG/aom",
-    "spec": "http://wicg.github.io/aom/",
-    "score": 136.5
+    "name": "isolated-web-apps",
+    "repo": "https://github.com/WICG/isolated-web-apps",
+    "spec": null,
+    "stars": 53,
+    "description": "Repository for explainers and other documents related to the Isolated Web Apps proposal.",
+    "has_pages": false,
+    "created_at": "2022-04-15T23:41:15Z",
+    "updated_at": "2023-02-13T04:12:24Z",
+    "score": 138
   },
   {
     "name": "bundle-preloading",
     "repo": "https://github.com/WICG/bundle-preloading",
     "spec": "",
-    "score": 127.8
+    "stars": 90,
+    "description": "Bundles of multiple resources, to improve loading JS and the Web.",
+    "has_pages": false,
+    "created_at": "2020-12-27T12:49:15Z",
+    "updated_at": "2023-02-17T16:27:20Z",
+    "score": 131
   },
   {
     "name": "webcrypto-secure-curves",
     "repo": "https://github.com/WICG/webcrypto-secure-curves",
     "spec": "https://wicg.github.io/webcrypto-secure-curves/",
-    "score": 125.1
-  },
-  {
-    "name": "background-fetch",
-    "repo": "https://github.com/WICG/background-fetch",
-    "spec": "https://wicg.github.io/background-fetch/",
-    "score": 113.39999999999999
+    "stars": 33,
+    "description": "Proposal for the addition of Curve25519 and Curve448 to the Web Cryptography API",
+    "has_pages": true,
+    "created_at": "2021-09-16T10:47:39Z",
+    "updated_at": "2023-02-12T01:10:53Z",
+    "score": 129
   },
   {
     "name": "speech-api",
     "repo": "https://github.com/WICG/speech-api",
     "spec": "https://wicg.github.io/speech-api/",
-    "score": 108.6
+    "stars": 126,
+    "description": "Web Speech API",
+    "has_pages": true,
+    "created_at": "2017-09-13T04:35:10Z",
+    "updated_at": "2023-02-10T16:46:26Z",
+    "score": 111
+  },
+  {
+    "name": "aom",
+    "repo": "https://github.com/WICG/aom",
+    "spec": "http://wicg.github.io/aom/",
+    "stars": 510,
+    "description": "Accessibility Object Model",
+    "has_pages": true,
+    "created_at": "2016-01-29T20:47:37Z",
+    "updated_at": "2023-02-20T03:45:17Z",
+    "score": 108
   },
   {
     "name": "anonymous-iframe",
     "repo": "https://github.com/WICG/anonymous-iframe",
     "spec": "",
-    "score": 103.2
+    "stars": 18,
+    "description": "Give developers the ability to embed third party HTML documents inside a new and ephemeral context. In return, COEP embedding rules can be relaxed. Thanks to anonymous iframe, developers using COEP can now embed third party content that do not.",
+    "has_pages": true,
+    "created_at": "2022-03-16T08:29:30Z",
+    "updated_at": "2023-02-20T12:16:39Z",
+    "score": 107
   },
   {
     "name": "floc",
     "repo": "https://github.com/WICG/floc",
     "spec": "https://wicg.github.io/floc",
-    "score": 101.7
+    "stars": 921,
+    "description": "FLoC",
+    "has_pages": true,
+    "created_at": "2019-08-22T12:02:24Z",
+    "updated_at": "2023-02-05T12:59:44Z",
+    "score": 104
   },
   {
-    "name": "compression",
-    "repo": "https://github.com/WICG/compression",
-    "spec": null,
-    "score": 100.8
-  },
-  {
-    "name": "file-handling",
-    "repo": "https://github.com/WICG/file-handling",
-    "spec": null,
-    "score": 95.7
+    "name": "background-fetch",
+    "repo": "https://github.com/WICG/background-fetch",
+    "spec": "https://wicg.github.io/background-fetch/",
+    "stars": 275,
+    "description": "API proposal for background downloading/uploading",
+    "has_pages": true,
+    "created_at": "2016-03-29T14:01:51Z",
+    "updated_at": "2023-02-16T07:51:04Z",
+    "score": 99
   },
   {
     "name": "window-controls-overlay",
     "repo": "https://github.com/WICG/window-controls-overlay",
     "spec": "https://wicg.github.io/window-controls-overlay/",
-    "score": 93.6
+    "stars": 83,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2020-07-08T20:59:51Z",
+    "updated_at": "2023-02-03T20:08:18Z",
+    "score": 97
   },
   {
-    "name": "eyedropper-api",
-    "repo": "https://github.com/WICG/eyedropper-api",
+    "name": "file-handling",
+    "repo": "https://github.com/WICG/file-handling",
     "spec": null,
-    "score": 92.39999999999999
+    "stars": 79,
+    "description": "API for web applications to handle files",
+    "has_pages": true,
+    "created_at": "2018-09-18T04:45:39Z",
+    "updated_at": "2023-02-03T20:07:19Z",
+    "score": 96
   },
   {
     "name": "spatial-navigation",
     "repo": "https://github.com/WICG/spatial-navigation",
     "spec": "https://drafts.csswg.org/css-nav-1/",
-    "score": 89.1
+    "stars": 179,
+    "description": "Directional focus navigation with arrow keys",
+    "has_pages": true,
+    "created_at": "2017-09-18T01:04:28Z",
+    "updated_at": "2023-02-15T14:47:56Z",
+    "score": 90
   },
   {
     "name": "scheduling-apis",
     "repo": "https://github.com/WICG/scheduling-apis",
     "spec": "https://wicg.github.io/scheduling-apis/",
-    "score": 88.2
+    "stars": 853,
+    "description": "APIs for scheduling and controlling prioritized tasks.",
+    "has_pages": true,
+    "created_at": "2018-09-18T21:54:41Z",
+    "updated_at": "2023-02-18T09:49:52Z",
+    "score": 90
+  },
+  {
+    "name": "spatial-navigation",
+    "repo": "https://github.com/WICG/spatial-navigation",
+    "spec": "https://drafts.csswg.org/css-nav-1/",
+    "score": 90
   },
   {
     "name": "shape-detection-api",
     "repo": "https://github.com/WICG/shape-detection-api",
     "spec": "https://wicg.github.io/shape-detection-api",
-    "score": 85.5
+    "stars": 285,
+    "description": "Detection of shapes (faces, QR codes) in images",
+    "has_pages": true,
+    "created_at": "2016-08-12T02:34:08Z",
+    "updated_at": "2023-02-04T08:22:15Z",
+    "score": 86
   },
   {
     "name": "background-sync",
     "repo": "https://github.com/WICG/background-sync",
     "spec": "https://wicg.github.io/background-sync/spec/",
-    "score": 83.39999999999999
+    "stars": 624,
+    "description": "A design and spec for ServiceWorker-based background synchronization",
+    "has_pages": true,
+    "created_at": "2014-04-11T05:19:38Z",
+    "updated_at": "2023-02-15T03:53:11Z",
+    "score": 84
   },
   {
     "name": "layout-instability",
     "repo": "https://github.com/WICG/layout-instability",
     "spec": "https://wicg.github.io/layout-instability/",
-    "score": 83.1
+    "stars": 145,
+    "description": "A proposal for a Layout Instability specification",
+    "has_pages": true,
+    "created_at": "2019-05-13T15:40:56Z",
+    "updated_at": "2023-02-15T15:57:28Z",
+    "score": 84
   },
   {
     "name": "media-feeds",
     "repo": "https://github.com/WICG/media-feeds",
     "spec": "https://wicg.github.io/media-feeds/",
-    "score": 82.8
+    "stars": 10,
+    "description": "Media Feeds",
+    "has_pages": true,
+    "created_at": "2020-03-11T10:48:08Z",
+    "updated_at": "2023-02-08T06:59:05Z",
+    "score": 84
+  },
+  {
+    "name": "eyedropper-api",
+    "repo": "https://github.com/WICG/eyedropper-api",
+    "spec": null,
+    "stars": 62,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2021-08-03T18:37:40Z",
+    "updated_at": "2022-12-17T20:24:56Z",
+    "score": 79
   },
   {
     "name": "construct-stylesheets",
     "repo": "https://github.com/WICG/construct-stylesheets",
     "spec": "",
-    "score": 76.2
-  },
-  {
-    "name": "capability-delegation",
-    "repo": "https://github.com/WICG/capability-delegation",
-    "spec": "",
-    "score": 75.3
+    "stars": 136,
+    "description": "API for constructing CSS stylesheet objects",
+    "has_pages": true,
+    "created_at": "2018-01-29T14:26:36Z",
+    "updated_at": "2023-02-21T05:10:40Z",
+    "score": 77
   },
   {
     "name": "element-timing",
     "repo": "https://github.com/WICG/element-timing",
     "spec": "https://wicg.github.io/element-timing/",
-    "score": 74.1
+    "stars": 58,
+    "description": "A proposal for an Element Timing specification.",
+    "has_pages": true,
+    "created_at": "2018-07-05T18:22:06Z",
+    "updated_at": "2022-11-22T08:41:52Z",
+    "score": 75
   },
   {
     "name": "savedata",
     "repo": "https://github.com/WICG/savedata",
     "spec": "https://wicg.github.io/savedata/",
-    "score": 71.7
+    "stars": 11,
+    "description": "A browser API to make developers aware of user preferences with regards to data savings",
+    "has_pages": true,
+    "created_at": "2019-04-02T16:12:26Z",
+    "updated_at": "2022-06-03T03:24:06Z",
+    "score": 73
   },
   {
     "name": "mobile-document-request-api",
     "repo": "https://github.com/WICG/mobile-document-request-api",
     "spec": null,
-    "score": 71.7
+    "stars": 7,
+    "description": null,
+    "has_pages": false,
+    "created_at": "2022-08-31T09:47:27Z",
+    "updated_at": "2022-10-21T18:11:39Z",
+    "score": 73
   },
   {
-    "name": "audio-focus",
-    "repo": "https://github.com/WICG/audio-focus",
+    "name": "compression",
+    "repo": "https://github.com/WICG/compression",
     "spec": null,
-    "score": 69
+    "stars": 75,
+    "description": "Standard text for CompressionStream and DecompressionStream API",
+    "has_pages": true,
+    "created_at": "2019-09-19T14:19:50Z",
+    "updated_at": "2023-01-03T19:34:46Z",
+    "score": 72
+  },
+  {
+    "name": "file-handling",
+    "repo": "https://github.com/WICG/file-handling",
+    "spec": null,
+    "stars": 17,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2016-09-30T07:58:36Z",
+    "updated_at": "2023-02-15T08:47:05Z",
+    "score": 70
   },
   {
     "name": "is-input-pending",
     "repo": "https://github.com/WICG/is-input-pending",
     "spec": "https://wicg.github.io/is-input-pending/",
-    "score": 68.7
+    "stars": 217,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2018-07-05T20:11:47Z",
+    "updated_at": "2023-02-03T11:44:14Z",
+    "score": 70
   },
   {
     "name": "netinfo",
     "repo": "https://github.com/WICG/netinfo",
     "spec": "https://wicg.github.io/netinfo/",
-    "score": 66
+    "stars": 96,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2014-02-26T10:23:25Z",
+    "updated_at": "2022-10-27T16:21:58Z",
+    "score": 67
   },
   {
-    "name": "js-self-profiling",
-    "repo": "https://github.com/WICG/js-self-profiling",
+    "name": "eyedropper-api",
+    "repo": "https://github.com/WICG/eyedropper-api",
     "spec": null,
-    "score": 63.3
+    "stars": 178,
+    "description": "Proposal for a programmable JS profiling API for collecting JS profiles from real end-user environments",
+    "has_pages": true,
+    "created_at": "2018-05-28T04:27:29Z",
+    "updated_at": "2023-01-09T22:20:44Z",
+    "score": 65
+  },
+  {
+    "name": "capability-delegation",
+    "repo": "https://github.com/WICG/capability-delegation",
+    "spec": "",
+    "stars": 8,
+    "description": "An API to allow developers transfer the ability to use restricted APIs to any target window in the frame tree.",
+    "has_pages": true,
+    "created_at": "2020-09-10T19:52:19Z",
+    "updated_at": "2022-05-13T15:32:56Z",
+    "score": 63
   },
   {
     "name": "input-device-capabilities",
     "repo": "https://github.com/WICG/input-device-capabilities",
     "spec": null,
-    "score": 59.699999999999996
+    "stars": 16,
+    "description": "InputDevice API proposal",
+    "has_pages": true,
+    "created_at": "2015-07-01T16:36:02Z",
+    "updated_at": "2021-03-31T15:13:16Z",
+    "score": 61
   },
   {
     "name": "multicapture",
     "repo": "https://github.com/WICG/multicapture",
     "spec": "https://wicg.github.io/multicapture/",
-    "score": 58.199999999999996
-  },
-  {
-    "name": "ab-worker-prototype",
-    "repo": "https://github.com/WICG/ab-worker-prototype",
-    "spec": null,
-    "score": 55.8
-  },
-  {
-    "name": "privacy-preserving-ads",
-    "repo": "https://github.com/WICG/privacy-preserving-ads",
-    "spec": "",
-    "score": 54.6
+    "stars": 8,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2022-03-02T13:11:45Z",
+    "updated_at": "2023-01-29T05:57:43Z",
+    "score": 60
   },
   {
     "name": "close-watcher",
     "repo": "https://github.com/WICG/close-watcher",
     "spec": "https://wicg.github.io/close-watcher/",
-    "score": 54.3
+    "stars": 32,
+    "description": "A web API proposal for watching for close signals (e.g. Esc, Android back button, ...)",
+    "has_pages": true,
+    "created_at": "2021-07-12T19:28:08Z",
+    "updated_at": "2023-01-18T19:16:03Z",
+    "score": 58
+  },
+  {
+    "name": "privacy-preserving-ads",
+    "repo": "https://github.com/WICG/privacy-preserving-ads",
+    "spec": "",
+    "stars": 73,
+    "description": "PARAKEET",
+    "has_pages": false,
+    "created_at": "2021-01-23T00:16:20Z",
+    "updated_at": "2023-01-06T16:09:59Z",
+    "score": 57
   },
   {
     "name": "keyboard-map",
     "repo": "https://github.com/WICG/keyboard-map",
     "spec": "https://wicg.github.io/keyboard-map/",
-    "score": 54
+    "stars": 30,
+    "description": "API to get current keyboard mapping.",
+    "has_pages": true,
+    "created_at": "2018-03-15T21:05:06Z",
+    "updated_at": "2023-01-06T16:06:23Z",
+    "score": 55
+  },
+  {
+    "name": "canvas-formatted-text",
+    "repo": "https://github.com/WICG/canvas-formatted-text",
+    "spec": "",
+    "stars": 66,
+    "description": null,
+    "has_pages": false,
+    "created_at": "2020-09-23T22:06:08Z",
+    "updated_at": "2023-02-08T13:41:53Z",
+    "score": 53
   },
   {
     "name": "origin-policy",
     "repo": "https://github.com/WICG/origin-policy",
     "spec": "",
+    "stars": 31,
+    "description": "[On hold for now] A mechanism for origins to set their origin-wide configuration in a central location",
+    "has_pages": true,
+    "created_at": "2016-07-22T07:36:52Z",
+    "updated_at": "2022-05-13T15:36:43Z",
     "score": 51
   },
   {
     "name": "keyboard-lock",
     "repo": "https://github.com/WICG/keyboard-lock",
     "spec": "https://wicg.github.io/keyboard-lock/",
-    "score": 50.4
-  },
-  {
-    "name": "canvas-formatted-text",
-    "repo": "https://github.com/WICG/canvas-formatted-text",
-    "spec": "",
-    "score": 49.5
+    "stars": 16,
+    "description": "Keyboard Lock",
+    "has_pages": true,
+    "created_at": "2017-04-26T01:41:54Z",
+    "updated_at": "2022-07-18T12:33:00Z",
+    "score": 51
   },
   {
     "name": "video-rvfc",
     "repo": "https://github.com/WICG/video-rvfc",
     "spec": "https://wicg.github.io/video-rvfc/",
-    "score": 48.6
+    "stars": 51,
+    "description": "video.requestVideoFrameCallback() incubation",
+    "has_pages": true,
+    "created_at": "2020-01-24T19:11:38Z",
+    "updated_at": "2023-02-12T02:24:24Z",
+    "score": 49
+  },
+  {
+    "name": "ab-worker-prototype",
+    "repo": "https://github.com/WICG/ab-worker-prototype",
+    "spec": null,
+    "stars": 8,
+    "description": "A prototype of an Edge worker that implements the Client Side A/B testing spec.",
+    "has_pages": false,
+    "created_at": "2022-02-07T19:56:35Z",
+    "updated_at": "2022-11-29T20:57:11Z",
+    "score": 42
   },
   {
     "name": "visual-viewport",
     "repo": "https://github.com/WICG/visual-viewport",
     "spec": "https://wicg.github.io/visual-viewport/",
-    "score": 39
+    "stars": 164,
+    "description": "A proposal to add explicit APIs to the Web for querying and setting the visual viewport",
+    "has_pages": true,
+    "created_at": "2016-03-18T16:09:47Z",
+    "updated_at": "2023-02-12T11:42:14Z",
+    "score": 40
   },
   {
     "name": "custom-state-pseudo-class",
     "repo": "https://github.com/WICG/custom-state-pseudo-class",
     "spec": "https://wicg.github.io/custom-state-pseudo-class/",
-    "score": 38.699999999999996
+    "stars": 10,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2019-12-03T00:39:27Z",
+    "updated_at": "2022-07-29T18:33:30Z",
+    "score": 40
   },
   {
     "name": "get-installed-related-apps",
     "repo": "https://github.com/WICG/get-installed-related-apps",
     "spec": "http://wicg.github.io/get-installed-related-apps/spec/",
-    "score": 38.4
+    "stars": 40,
+    "description": "proposal to add an API to the web for determining if related apps are installed",
+    "has_pages": true,
+    "created_at": "2016-06-06T04:14:29Z",
+    "updated_at": "2023-01-06T16:04:29Z",
+    "score": 39
   },
   {
     "name": "handwriting-recognition",
     "repo": "https://github.com/WICG/handwriting-recognition",
     "spec": "https://wicg.github.io/handwriting-recognition/",
-    "score": 38.4
+    "stars": 47,
+    "description": "Handwriting Recognition Web API Proposal",
+    "has_pages": true,
+    "created_at": "2020-10-09T06:47:13Z",
+    "updated_at": "2023-02-15T14:13:33Z",
+    "score": 39
   },
   {
     "name": "web-otp",
     "repo": "https://github.com/WICG/web-otp",
     "spec": "https://wicg.github.io/web-otp/",
-    "score": 37.199999999999996
+    "stars": 85,
+    "description": "phone number verification",
+    "has_pages": true,
+    "created_at": "2019-04-29T16:51:54Z",
+    "updated_at": "2022-12-07T06:14:48Z",
+    "score": 38
   },
   {
     "name": "permissions-request",
     "repo": "https://github.com/WICG/permissions-request",
     "spec": "https://wicg.github.io/permissions-request/",
-    "score": 36
-  },
-  {
-    "name": "deprecation-reporting",
-    "repo": "https://github.com/WICG/deprecation-reporting",
-    "spec": "https://wicg.github.io/deprecation-reporting/",
-    "score": 36
-  },
-  {
-    "name": "responsive-image-client-hints",
-    "repo": "https://github.com/WICG/responsive-image-client-hints",
-    "spec": "https://wicg.github.io/responsive-image-client-hints",
-    "score": 35.1
+    "stars": 5,
+    "description": "Incubation for permissions.request()",
+    "has_pages": true,
+    "created_at": "2017-09-20T21:09:06Z",
+    "updated_at": "2022-05-13T15:34:14Z",
+    "score": 37
   },
   {
     "name": "user-preference-media-features-headers",
     "repo": "https://github.com/WICG/user-preference-media-features-headers",
     "spec": "https://wicg.github.io/user-preference-media-features-headers/",
-    "score": 35.1
+    "stars": 23,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2021-04-29T12:12:23Z",
+    "updated_at": "2023-02-16T14:39:54Z",
+    "score": 37
+  },
+  {
+    "name": "deprecation-reporting",
+    "repo": "https://github.com/WICG/deprecation-reporting",
+    "spec": "https://wicg.github.io/deprecation-reporting/",
+    "stars": 2,
+    "description": "Deprecation reporting (from Web Perf WG)",
+    "has_pages": true,
+    "created_at": "2019-12-13T19:29:59Z",
+    "updated_at": "2020-09-28T12:06:38Z",
+    "score": 36
+  },
+  {
+    "name": "idle-detection",
+    "repo": "https://github.com/WICG/idle-detection",
+    "spec": null,
+    "stars": 62,
+    "description": "A proposal for an idle detection and notification API for the web",
+    "has_pages": true,
+    "created_at": "2018-08-15T20:08:46Z",
+    "updated_at": "2023-02-07T12:49:18Z",
+    "score": 35
+  },
+  {
+    "name": "responsive-image-client-hints",
+    "repo": "https://github.com/WICG/responsive-image-client-hints",
+    "spec": "https://wicg.github.io/responsive-image-client-hints",
+    "stars": 6,
+    "description": "A spec for a suite of client hints, useful for content negotiation for responsive images",
+    "has_pages": true,
+    "created_at": "2020-07-30T14:16:20Z",
+    "updated_at": "2022-10-15T20:23:34Z",
+    "score": 35
   },
   {
     "name": "lock-screen",
     "repo": "https://github.com/WICG/lock-screen",
     "spec": null,
-    "score": 33.6
-  },
-  {
-    "name": "idle-detection",
-    "repo": "https://github.com/WICG/idle-detection",
-    "spec": "",
-    "score": 33.3
-  },
-  {
-    "name": "crash-reporting",
-    "repo": "https://github.com/WICG/crash-reporting",
-    "spec": "https://wicg.github.io/crash-reporting/",
-    "score": 33
+    "stars": 9,
+    "description": "Lock screen API",
+    "has_pages": false,
+    "created_at": "2021-03-18T23:30:51Z",
+    "updated_at": "2022-07-18T12:09:25Z",
+    "score": 34
   },
   {
     "name": "document-policy",
     "repo": "https://github.com/WICG/document-policy",
     "spec": "https://wicg.github.io/document-policy/",
-    "score": 32.1
+    "stars": 14,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2020-11-25T17:37:34Z",
+    "updated_at": "2023-02-06T12:34:29Z",
+    "score": 33
   },
   {
     "name": "periodic-background-sync",
     "repo": "https://github.com/WICG/periodic-background-sync",
     "spec": "https://wicg.github.io/periodic-background-sync/",
-    "score": 31.799999999999997
+    "stars": 5,
+    "description": "API proposal for periodic background synchronization of data and content.",
+    "has_pages": true,
+    "created_at": "2020-01-20T16:02:41Z",
+    "updated_at": "2021-09-07T18:44:16Z",
+    "score": 32
   },
   {
     "name": "page-lifecycle",
     "repo": "https://github.com/WICG/page-lifecycle",
     "spec": "https://wicg.github.io/page-lifecycle/",
-    "score": 30
-  },
-  {
-    "name": "capture-all-screens",
-    "repo": "https://github.com/WICG/capture-all-screens",
-    "spec": null,
-    "score": 29.4
+    "stars": 145,
+    "description": "Lifecycle API to support system initiated discarding and freezing",
+    "has_pages": true,
+    "created_at": "2017-08-18T20:29:39Z",
+    "updated_at": "2022-10-29T02:01:34Z",
+    "score": 31
   },
   {
     "name": "csp-next",
     "repo": "https://github.com/WICG/csp-next",
     "spec": "https://wicg.github.io/csp-next/scripting-policy.html",
-    "score": 28.5
+    "stars": 36,
+    "description": "A Modest Content Security Proposal",
+    "has_pages": true,
+    "created_at": "2019-07-15T06:27:53Z",
+    "updated_at": "2021-11-18T09:30:42Z",
+    "score": 29
+  },
+  {
+    "name": "capture-all-screens",
+    "repo": "https://github.com/WICG/capture-all-screens",
+    "spec": null,
+    "stars": 1,
+    "description": null,
+    "has_pages": false,
+    "created_at": "2023-01-11T11:03:16Z",
+    "updated_at": "2023-01-16T17:59:26Z",
+    "score": 29
   },
   {
     "name": "devtools-protocol",
     "repo": "https://github.com/WICG/devtools-protocol",
     "spec": "https://wicg.github.io/devtools-protocol/specification/docs/domains/",
-    "score": 28.2
+    "stars": 111,
+    "description": "DevTools Protocol",
+    "has_pages": true,
+    "created_at": "2017-11-10T19:49:21Z",
+    "updated_at": "2023-02-21T03:07:46Z",
+    "score": 28
   },
   {
     "name": "performance-measure-memory",
     "repo": "https://github.com/WICG/performance-measure-memory",
     "spec": "",
-    "score": 27.9
+    "stars": 60,
+    "description": "performance.measureMemory API",
+    "has_pages": true,
+    "created_at": "2020-02-03T15:26:06Z",
+    "updated_at": "2023-01-19T19:18:30Z",
+    "score": 28
   },
   {
     "name": "digital-goods",
     "repo": "https://github.com/WICG/digital-goods",
-    "spec": "",
-    "score": 26.4
+    "spec": null,
+    "stars": 44,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2020-05-15T07:31:42Z",
+    "updated_at": "2023-02-10T04:25:30Z",
+    "score": 27
   },
   {
     "name": "screen-brightness",
     "repo": "https://github.com/WICG/screen-brightness",
     "spec": null,
-    "score": 25.5
-  },
-  {
-    "name": "ink-enhancement",
-    "repo": "https://github.com/WICG/ink-enhancement",
-    "spec": null,
-    "score": 25.2
-  },
-  {
-    "name": "web-smart-card",
-    "repo": "https://github.com/WICG/web-smart-card",
-    "spec": null,
-    "score": 25.2
-  },
-  {
-    "name": "overscroll-scrollend-events",
-    "repo": "https://github.com/WICG/overscroll-scrollend-events",
-    "spec": null,
-    "score": 24.599999999999998
+    "stars": 3,
+    "description": null,
+    "has_pages": false,
+    "created_at": "2022-10-13T07:13:28Z",
+    "updated_at": "2022-10-13T20:37:21Z",
+    "score": 26
   },
   {
     "name": "content-index",
     "repo": "https://github.com/WICG/content-index",
     "spec": "https://wicg.github.io/content-index/spec/",
-    "score": 24.599999999999998
+    "stars": 26,
+    "description": "Explainer and spec for the Content Indexing proposal",
+    "has_pages": true,
+    "created_at": "2019-04-25T13:12:39Z",
+    "updated_at": "2022-07-02T10:00:07Z",
+    "score": 25
+  },
+  {
+    "name": "ink-enhancement",
+    "repo": "https://github.com/WICG/ink-enhancement",
+    "spec": null,
+    "stars": 8,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2020-02-27T09:53:52Z",
+    "updated_at": "2022-05-23T20:08:26Z",
+    "score": 25
   },
   {
     "name": "canvas-color-space",
     "repo": "https://github.com/WICG/canvas-color-space",
     "spec": null,
-    "score": 23.099999999999998
-  },
-  {
-    "name": "wicg.github.io",
-    "repo": "https://github.com/WICG/wicg.github.io",
-    "spec": null,
-    "score": 22.8
-  },
-  {
-    "name": "css-parser-api",
-    "repo": "https://github.com/WICG/css-parser-api",
-    "spec": null,
-    "score": 21.3
+    "stars": 71,
+    "description": "Proposed web platform feature to add color management, wide gamut and high bit-depth support to the <canvas> element.",
+    "has_pages": false,
+    "created_at": "2016-05-14T02:45:13Z",
+    "updated_at": "2023-02-11T15:42:51Z",
+    "score": 23
   },
   {
     "name": "permissions-revoke",
     "repo": "https://github.com/WICG/permissions-revoke",
     "spec": "https://wicg.github.io/permissions-revoke/",
-    "score": 21.3
+    "stars": 1,
+    "description": "Incubation for permissions.revoke()",
+    "has_pages": true,
+    "created_at": "2017-09-20T21:26:33Z",
+    "updated_at": "2022-05-03T18:23:45Z",
+    "score": 22
+  },
+  {
+    "name": "css-parser-api",
+    "repo": "https://github.com/WICG/css-parser-api",
+    "spec": null,
+    "stars": 67,
+    "description": "This is the repo where the CSS Houdini parser API will be worked on",
+    "has_pages": true,
+    "created_at": "2016-05-14T16:45:00Z",
+    "updated_at": "2022-12-26T16:01:22Z",
+    "score": 21
   },
   {
     "name": "datacue",
     "repo": "https://github.com/WICG/datacue",
     "spec": "https://wicg.github.io/datacue/",
-    "score": 20.4
+    "stars": 24,
+    "description": "WICG incubation of Data Cue Standard",
+    "has_pages": true,
+    "created_at": "2018-12-13T11:39:36Z",
+    "updated_at": "2022-07-18T12:27:09Z",
+    "score": 21
   },
   {
     "name": "conditional-focus",
     "repo": "https://github.com/WICG/conditional-focus",
     "spec": "",
-    "score": 20.4
+    "stars": 5,
+    "description": "https://wicg.github.io/conditional-focus/",
+    "has_pages": true,
+    "created_at": "2021-09-06T18:54:15Z",
+    "updated_at": "2022-11-10T01:28:24Z",
+    "score": 21
   },
   {
     "name": "sms-one-time-codes",
     "repo": "https://github.com/WICG/sms-one-time-codes",
     "spec": "https://wicg.github.io/sms-one-time-codes/",
-    "score": 20.099999999999998
+    "stars": 100,
+    "description": "A way to format SMS messages for use with browser autofill features such as HTML’s autocomplete=one-time-code.",
+    "has_pages": true,
+    "created_at": "2020-04-02T23:29:42Z",
+    "updated_at": "2023-02-09T16:52:31Z",
+    "score": 20
   },
   {
     "name": "controls-list",
     "repo": "https://github.com/WICG/controls-list",
     "spec": "",
-    "score": 19.2
+    "stars": 12,
+    "description": "Customise browser native media controls buttons.",
+    "has_pages": true,
+    "created_at": "2017-03-03T19:52:34Z",
+    "updated_at": "2021-06-24T11:25:00Z",
+    "score": 19
+  },
+  {
+    "name": "web-smart-card",
+    "repo": "https://github.com/WICG/web-smart-card",
+    "spec": null,
+    "stars": 5,
+    "description": "Repository for the Web Smart Card Explainer",
+    "has_pages": false,
+    "created_at": "2022-08-11T09:23:46Z",
+    "updated_at": "2023-02-15T14:25:18Z",
+    "score": 19
+  },
+  {
+    "name": "lang-client-hint",
+    "repo": "https://github.com/WICG/lang-client-hint",
+    "spec": "",
+    "stars": 10,
+    "description": "Wouldn't it be nice if `Accept-Language` was a client hint?",
+    "has_pages": false,
+    "created_at": "2018-11-05T08:37:51Z",
+    "updated_at": "2021-08-18T14:31:42Z",
+    "score": 17
   },
   {
     "name": "raw-clipboard-access",
     "repo": "https://github.com/WICG/raw-clipboard-access",
     "spec": null,
-    "score": 17.4
+    "stars": 42,
+    "description": "An explainer for the Raw Clipboard Access feature",
+    "has_pages": false,
+    "created_at": "2019-08-05T22:55:54Z",
+    "updated_at": "2022-07-02T09:59:55Z",
+    "score": 17
   },
   {
     "name": "sparrow",
     "repo": "https://github.com/WICG/sparrow",
     "spec": null,
-    "score": 17.099999999999998
-  },
-  {
-    "name": "intervention-reporting",
-    "repo": "https://github.com/WICG/intervention-reporting",
-    "spec": "https://wicg.github.io/intervention-reporting/",
-    "score": 16.8
+    "stars": 53,
+    "description": null,
+    "has_pages": false,
+    "created_at": "2020-04-21T15:04:02Z",
+    "updated_at": "2022-10-25T08:14:16Z",
+    "score": 17
   },
   {
     "name": "prefer-current-tab",
     "repo": "https://github.com/WICG/prefer-current-tab",
     "spec": "",
-    "score": 16.8
+    "stars": 7,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2021-06-03T21:16:12Z",
+    "updated_at": "2023-02-20T06:05:52Z",
+    "score": 17
+  },
+  {
+    "name": "media-latency-hint",
+    "repo": "https://github.com/WICG/media-latency-hint",
+    "spec": null,
+    "stars": 9,
+    "description": null,
+    "has_pages": true,
+    "created_at": "2019-09-27T22:14:10Z",
+    "updated_at": "2022-09-13T15:25:30Z",
+    "score": 16
   },
   {
     "name": "reducing-memory-copies",
     "repo": "https://github.com/WICG/reducing-memory-copies",
     "spec": null,
-    "score": 16.2
+    "stars": 7,
+    "description": "Reducing memory copies in web-platform APIs",
+    "has_pages": true,
+    "created_at": "2020-10-26T15:32:13Z",
+    "updated_at": "2021-11-23T18:42:45Z",
+    "score": 16
+  },
+  {
+    "name": "element-capture",
+    "repo": "https://github.com/WICG/element-capture",
+    "spec": null,
+    "stars": 11,
+    "description": null,
+    "has_pages": false,
+    "created_at": "2022-10-24T09:44:54Z",
+    "updated_at": "2023-01-29T10:31:01Z",
+    "score": 15
   },
   {
     "name": "media-latency-hint",
@@ -687,36 +1236,55 @@
     "name": "pwa-url-handler",
     "repo": "https://github.com/WICG/pwa-url-handler",
     "spec": null,
-    "score": 12.6
+    "stars": 61,
+    "description": null,
+    "has_pages": false,
+    "created_at": "2020-05-27T23:51:38Z",
+    "updated_at": "2023-02-13T21:40:14Z",
+    "score": 12
   },
   {
     "name": "entries-api",
     "repo": "https://github.com/WICG/entries-api",
     "spec": "https://wicg.github.io/entries-api/",
-    "score": 11.7
+    "stars": 38,
+    "description": "Spec defining browser support for file/directory upload by drag-and-drop",
+    "has_pages": true,
+    "created_at": "2016-05-16T23:41:26Z",
+    "updated_at": "2023-02-17T21:56:20Z",
+    "score": 11
   },
   {
     "name": "storage-foundation-api-explainer",
     "repo": "https://github.com/WICG/storage-foundation-api-explainer",
     "spec": "",
-    "score": 9.299999999999999
+    "stars": 63,
+    "description": "Explainer showcasing a new web storage API, NativeIO",
+    "has_pages": false,
+    "created_at": "2019-12-09T09:01:59Z",
+    "updated_at": "2023-01-13T22:03:21Z",
+    "score": 9
   },
   {
     "name": "WebApiDevice",
     "repo": "https://github.com/WICG/WebApiDevice",
     "spec": "",
-    "score": 6.8999999999999995
+    "stars": 15,
+    "description": "This repository contains the data related to the new proposed Web API -- Managed Device Web API.",
+    "has_pages": true,
+    "created_at": "2020-11-18T12:44:52Z",
+    "updated_at": "2023-01-01T02:08:44Z",
+    "score": 7
   },
   {
     "name": "display-override",
     "repo": "https://github.com/WICG/display-override",
     "spec": null,
-    "score": 3.9
-  },
-  {
-    "name": "discourse-wicg-theme",
-    "repo": "https://github.com/WICG/discourse-wicg-theme",
-    "spec": null,
-    "score": 0.3
+    "stars": 4,
+    "description": null,
+    "has_pages": false,
+    "created_at": "2020-07-06T02:16:15Z",
+    "updated_at": "2022-03-09T21:19:15Z",
+    "score": 4
   }
 ]

@@ -3,19 +3,14 @@
   src: url("fonts/nexa/Nexa_Bold.otf");
 }
 
-/*ie does not support main*/
-
-main {
-  display: block;
-}
-
 html,
 body,
-p,
 h2,
 header,
 section,
 li,
+dt,
+dd,
 ul {
   margin: 0;
   padding: 0;
@@ -27,13 +22,13 @@ html {
 
 a {
   color: rgb(102, 93, 84);
-  text-decoration: none
+  text-decoration: none;
 }
 
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
-  background: #2B2B2B;
+  background: #2b2b2b;
   color: rgb(102, 93, 84);
 }
 
@@ -42,8 +37,9 @@ header {
   color: white;
   font-family: nexa, sans-serif;
   font-size: 1em;
-  background-color: #4E4E530;
+  background-color: #4e4e53;
   background-image: url("../images/code@1x.jpg");
+  transition: background-position 0.5s ease;
 }
 
 header:after {
@@ -51,15 +47,57 @@ header:after {
   width: auto;
   display: block;
   position: relative;
-  height: .5em;
-  background: linear-gradient(to right, #F89C20 0%, #F89C20 6%, #F89C20 6%, #F89C20 13%, #D02E27 13%, #D02E27 19%, #D02E27 19%, #D02E27 25%, #E54E26 25%, #E54E26 31%, #E54E26 31%, #E54E26 37%, #7F1333 37%, #7F1333 44%, #7F1333 44%, #7F1333 50%, #694D9F 50%, #694D9F 56%, #694D9F 56%, #694D9F 63%, #263C81 63%, #263C81 69%, #263C81 69%, #263C81 75%, #2EB3C4 75%, #2EB3C4 81%, #2EB3C4 81%, #2EB3C4 88%, #92A771 88%, #92A771 94%, #92A771 94%, #92A771 100%);
-  border-bottom: .2em solid rgb(200, 194, 183);
+  height: 0.5em;
+  background: linear-gradient(
+    to right,
+    #f89c20 0%,
+    #f89c20 6%,
+    #f89c20 6%,
+    #f89c20 13%,
+    #d02e27 13%,
+    #d02e27 19%,
+    #d02e27 19%,
+    #d02e27 25%,
+    #e54e26 25%,
+    #e54e26 31%,
+    #e54e26 31%,
+    #e54e26 37%,
+    #7f1333 37%,
+    #7f1333 44%,
+    #7f1333 44%,
+    #7f1333 50%,
+    #694d9f 50%,
+    #694d9f 56%,
+    #694d9f 56%,
+    #694d9f 63%,
+    #263c81 63%,
+    #263c81 69%,
+    #263c81 69%,
+    #263c81 75%,
+    #2eb3c4 75%,
+    #2eb3c4 81%,
+    #2eb3c4 81%,
+    #2eb3c4 88%,
+    #92a771 88%,
+    #92a771 94%,
+    #92a771 94%,
+    #92a771 100%
+  );
+  border-bottom: 0.2em solid rgb(200, 194, 183);
+}
+
+p.about {
+  font-size: 1em;
+}
+
+.generated {
+  font-weight: bold;
 }
 
 header img {
-  background-color: #F7F5F1;
-  padding: .3em;
-  border-radius: .3em;
+  background-color: #f7f5f1;
+  padding: 0.3em;
+  border-radius: 0.3em;
   margin-right: 1em;
   position: relative;
   left: 0px;
@@ -75,39 +113,49 @@ header h1 {
 
 p,
 .fancypill {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 #join {
   line-height: 1.5em;
   text-align: center;
   font-style: italic;
-  padding: .5em 0;
+  padding: 0.5em 0;
   font-size: 1em;
   font-weight: bold;
   background-size: contain;
-  padding-top: .5cm;
+  padding-top: 0.5cm;
+}
+
+/*has 3 columns in a grid*/
+.buttonlist {
+  --pill-bg-color: #2eb3c4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  margin: 0.5em;
+  padding: 0.5em;
 }
 
 .fancypill {
-  padding: 0;
-  margin: 0;
-  margin: auto;
-  text-align: center;
-  width: auto;
   margin-top: 1.2em;
   font-style: normal;
   min-width: 45%;
 }
 
 .fancypill > li {
-  width: 30%;
   line-height: 2.875em;
-  background-color: #2EB3C4;
+  background: var(--pill-bg-color);
 }
 
 .fancypill a {
   color: rgb(249, 245, 236);
+}
+
+.fancypill li:first-child,
+.fancypill li:last-child {
+  border-radius: 0.625em;
 }
 
 .fancypill li:first-child {
@@ -119,24 +167,33 @@ p,
 }
 
 section > p {
-  margin: 0 1em;
+  margin: 1em 1em;
 }
 
 pre.bash {
- box-shadow: inset 0 0 10px #000000;
- border-radius: 4px;
- border: 2px solid rgb(172,172,172);
- margin: 1em;
- padding: .6em .5em;
- background: linear-gradient(to bottom, rgb(76,76,76) 0%,rgb(0,0,0) 51%,rgb(17,17,17) 73%,rgb(28,28,28) 91%,rgb(19,19,19) 100%);
- color: rgb(163,201,160);
- font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+  box-shadow: inset 0 0 10px #000000;
+  border-radius: 4px;
+  border: 2px solid rgb(172, 172, 172);
+  margin: 1em;
+  padding: 0.6em 0.5em;
+  background: linear-gradient(
+    to bottom,
+    rgb(76, 76, 76) 0%,
+    rgb(0, 0, 0) 51%,
+    rgb(17, 17, 17) 73%,
+    rgb(28, 28, 28) 91%,
+    rgb(19, 19, 19) 100%
+  );
+  color: rgb(163, 201, 160);
+  font-family: Consolas, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 section > h2 {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-size: 1em;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
   color: rgb(94, 85, 76);
   background-color: rgb(229, 222, 213);
   line-height: 2.2em;
@@ -152,7 +209,7 @@ footer {
 
 #attributions {
   text-align: center;
-  font-size: .7em;
+  font-size: 0.7em;
   background-color: black;
   color: rgb(200, 200, 200);
   font-family: sans-serif;
@@ -163,21 +220,12 @@ footer {
   color: rgb(200, 200, 200);
 }
 
-.buttonlist {
-  display: flex;
-  list-style-type: none;
-  padding-bottom: .7em;
-  margin: 0 .2em;
-}
-
-.buttonlist > li {
-  padding: 0 1em;
-  margin: 0 .2em;
-}
-
 ul {
-  padding: 1em 2.2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+  grid-gap: 1em;
   list-style-type: none;
+  padding: 1em 2.2em;
   line-height: 2.2em;
 }
 
@@ -190,23 +238,21 @@ img {
   line-height: 2em;
 }
 
-.docslist > li,
-.linkslist > li {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  background-position: .9em 40%;
-  background-repeat: no-repeat;
-  padding-left: 2.3em;
-  background-size: 1em;
-}
-
-.docslist > li {
-  background-image: url("../images/document.svg");
+.linkslist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+  grid-gap: 1em;
+  padding-left: 1em;
 }
 
 .linkslist > li {
-  background-image: url("../images/link.svg");
+  text-align: center;
+}
+
+
+
+.docslist a.spec {
+  font-weight: bold;
 }
 
 main {
@@ -224,21 +270,39 @@ main {
   border: 0;
 }
 
-.accelerated {
-  overflow: hidden;
-  transition: height .7s;
-  will-change: auto;
+dt,
+dd {
+  padding-left: 1em;
 }
 
-section.collapsable {
-  overflow: hidden;
-  height: 2.35em;
-  will-change: auto;
+dd.meta {
+  font-size: 0.7em;
+  color: rgb(132, 132, 132);
+  font-family: sans-serif;
+  line-height: 1em;
+  padding-top: 0.4em;
+  padding-left: 1.4em;
+  margin-bottom: 1.5em;
+}
+
+dd.description {
+  font-size: 0.9em;
+  line-height: 1.5em;
+  padding-right: 0.5em;
+}
+
+span.github-stars {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+p a:link, .linkslist a:link, ol a:link {
+  text-decoration: underline;
 }
 
 #update-toast {
   display: none;
-  padding: .5cm .5cm .5cm .5cm;
+  padding: 0.5cm 0.5cm 0.5cm 0.5cm;
   background: black;
   border: 1px solid blue;
   border-bottom: none;
@@ -251,7 +315,7 @@ section.collapsable {
   border-radius: 1em 1em 0 0;
 }
 
-#update-toast.show{
+#update-toast.show {
   display: inline-block;
 }
 
@@ -260,29 +324,41 @@ section.collapsable {
   background: inherit;
   color: pink;
   font-size: inherit;
-  padding-right: .2cm;
-  padding-left: .2cm;
+  padding-right: 0.2cm;
+  padding-left: 0.2cm;
   text-decoration: underline;
 }
 
 #update-toast button:focus {
-  outline:0;
+  outline: 0;
 }
 
 @keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.multicol {
+  display: grid;
+}
+
+#archived dt > a.spec::after {
+  content: " (ARCHIVED)";
+  color: rgb(140, 80, 80);
+  font-weight: 600;
+  margin-right: 0.5em;
 }
 
 @media (min-width: 36em) {
   section > h2 {
-    font-size: .9em;
+    font-size: 0.9em;
   }
-  section.collapsable {
-    height: auto;
-  }
-  ul.multicol {
-    column-count: 2;
+  .multicol {
+    grid-template-columns: 1fr 1fr;
   }
   header {
     background-position: 50% 40%;
@@ -290,8 +366,8 @@ section.collapsable {
 }
 
 @media (min-width: 64em) {
-  ul.multicol {
-    column-count: 3;
+  .multicol {
+    grid-template-columns: 1fr 1fr 1fr;
   }
   header {
     background-position: 0% 60%;
