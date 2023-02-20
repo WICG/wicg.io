@@ -15,7 +15,7 @@
     "name": "webpackage",
     "repo": "https://github.com/WICG/webpackage",
     "spec": null,
-    "score": 1353
+    "score": 1352.7
   },
   {
     "name": "trust-token-api",
@@ -75,13 +75,13 @@
     "name": "webmonetization",
     "repo": "https://github.com/WICG/webmonetization",
     "spec": "https://webmonetization.org",
-    "score": 585.9
+    "score": 585.6
   },
   {
     "name": "web-app-launch",
     "repo": "https://github.com/WICG/web-app-launch",
     "spec": "",
-    "score": 556.8
+    "score": 555.3
   },
   {
     "name": "ua-client-hints",
@@ -219,7 +219,7 @@
     "name": "manifest-incubations",
     "repo": "https://github.com/WICG/manifest-incubations",
     "spec": "https://wicg.github.io/manifest-incubations/",
-    "score": 164.1
+    "score": 163.79999999999998
   },
   {
     "name": "local-font-access",
@@ -387,7 +387,7 @@
     "name": "close-watcher",
     "repo": "https://github.com/WICG/close-watcher",
     "spec": "https://wicg.github.io/close-watcher/",
-    "score": 60.9
+    "score": 60.599999999999994
   },
   {
     "name": "multicapture",
