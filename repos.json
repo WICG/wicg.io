@@ -27,7 +27,7 @@
     "name": "nav-speculation",
     "repo": "https://github.com/WICG/nav-speculation",
     "spec": "https://wicg.github.io/nav-speculation/",
-    "score": 1189.8
+    "score": 1189.5
   },
   {
     "name": "file-system-access",
@@ -57,7 +57,7 @@
     "name": "pending-beacon",
     "repo": "https://github.com/WICG/pending-beacon",
     "spec": "https://wicg.github.io/pending-beacon/",
-    "score": 627
+    "score": 629.6999999999999
   },
   {
     "name": "sanitizer-api",
@@ -69,7 +69,7 @@
     "name": "storage-buckets",
     "repo": "https://github.com/WICG/storage-buckets",
     "spec": "https://wicg.github.io/storage-buckets/explainer",
-    "score": 589.1999999999999
+    "score": 588.9
   },
   {
     "name": "webmonetization",
@@ -93,7 +93,7 @@
     "name": "navigation-api",
     "repo": "https://github.com/WICG/navigation-api",
     "spec": "https://wicg.github.io/navigation-api/",
-    "score": 462
+    "score": 461.4
   },
   {
     "name": "scroll-to-text-fragment",
@@ -117,7 +117,7 @@
     "name": "proposals",
     "repo": "https://github.com/WICG/proposals",
     "spec": "https://wicg.io/",
-    "score": 428.4
+    "score": 428.09999999999997
   },
   {
     "name": "import-maps",
@@ -219,7 +219,7 @@
     "name": "manifest-incubations",
     "repo": "https://github.com/WICG/manifest-incubations",
     "spec": "https://wicg.github.io/manifest-incubations/",
-    "score": 164.4
+    "score": 164.1
   },
   {
     "name": "local-font-access",
