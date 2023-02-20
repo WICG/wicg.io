@@ -5,7 +5,7 @@ on:
     branches:
     - gh-pages
   schedule:
-    - cron: "*/60 * * * *"
+    - cron: "0 8 * * *"
 jobs:
   cron:
     runs-on: ubuntu-latest
