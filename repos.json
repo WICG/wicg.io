@@ -15,7 +15,7 @@
     "name": "webpackage",
     "repo": "https://github.com/WICG/webpackage",
     "spec": null,
-    "score": 1354.2
+    "score": 1353.8999999999999
   },
   {
     "name": "trust-token-api",
@@ -33,7 +33,7 @@
     "name": "file-system-access",
     "repo": "https://github.com/WICG/file-system-access",
     "spec": "https://wicg.github.io/file-system-access/",
-    "score": 1044.6
+    "score": 1044
   },
   {
     "name": "view-transitions",
@@ -45,7 +45,7 @@
     "name": "webcomponents",
     "repo": "https://github.com/WICG/webcomponents",
     "spec": null,
-    "score": 914.4
+    "score": 914.1
   },
   {
     "name": "first-party-sets",
@@ -81,7 +81,7 @@
     "name": "web-app-launch",
     "repo": "https://github.com/WICG/web-app-launch",
     "spec": "",
-    "score": 557.6999999999999
+    "score": 557.1
   },
   {
     "name": "ua-client-hints",
@@ -210,15 +210,15 @@
     "score": 166.79999999999998
   },
   {
-    "name": "manifest-incubations",
-    "repo": "https://github.com/WICG/manifest-incubations",
-    "spec": "https://wicg.github.io/manifest-incubations/",
-    "score": 164.7
-  },
-  {
     "name": "portals",
     "repo": "https://github.com/WICG/portals",
     "spec": "https://wicg.github.io/portals/",
+    "score": 164.4
+  },
+  {
+    "name": "manifest-incubations",
+    "repo": "https://github.com/WICG/manifest-incubations",
+    "spec": "https://wicg.github.io/manifest-incubations/",
     "score": 164.4
   },
   {
@@ -306,12 +306,6 @@
     "score": 87.6
   },
   {
-    "name": "media-feeds",
-    "repo": "https://github.com/WICG/media-feeds",
-    "spec": "https://wicg.github.io/media-feeds/",
-    "score": 84.89999999999999
-  },
-  {
     "name": "background-sync",
     "repo": "https://github.com/WICG/background-sync",
     "spec": "https://wicg.github.io/background-sync/spec/",
@@ -321,6 +315,12 @@
     "name": "layout-instability",
     "repo": "https://github.com/WICG/layout-instability",
     "spec": "https://wicg.github.io/layout-instability/",
+    "score": 84.6
+  },
+  {
+    "name": "media-feeds",
+    "repo": "https://github.com/WICG/media-feeds",
+    "spec": "https://wicg.github.io/media-feeds/",
     "score": 84.6
   },
   {
