@@ -21,7 +21,6 @@
   "dependencies": {
     "http-server": "^14.1.1",
     "hyperhtml": "^2.34.2",
-    "simple-github": "^0.7.0",
     "viperhtml": "^2.17.0"
   }
 }
