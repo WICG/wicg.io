@@ -1,10 +1,41 @@
 const { promises: fs } = require("fs");
 const path = require("path");
-const gh = require("simple-github")({
-  owner: "wicg",
-  //debug: "true",
-  token: `${process.env.WICG_TOKEN}`,
-});
+
+const GITHUB_API = "https://api.github.com";
+const OWNER = "wicg";
+const token = process.env.WICG_TOKEN;
+
+// Minimal GitHub REST client: templates :owner, adds auth, and follows
+// Link-header pagination so list endpoints return every page.
+async function gh(route) {
+  let url = GITHUB_API + route.replace(/:owner/g, OWNER);
+  const headers = {
+    "User-Agent": "wicg.io",
+    Accept: "application/vnd.github+json",
+  };
+  if (token) headers.Authorization = `token ${token.replace(/^token\s+/, "")}`;
+  let output;
+  while (url) {
+    const response = await fetch(url, { headers });
+    if (!response.ok) {
+      throw new Error(`GitHub ${response.status} ${response.statusText} for ${url}`);
+    }
+    const body = await response.json();
+    const link = response.headers.get("link");
+    if (!link) return output ? output.concat(body) : body;
+    output = (output || []).concat(body);
+    url = nextLink(link);
+  }
+  return output;
+}
+
+function nextLink(linkHeader) {
+  for (const part of linkHeader.split(",")) {
+    const match = part.match(/<([^>]+)>;\s*rel="next"/);
+    if (match) return match[1];
+  }
+  return null;
+}
 
 const ms_to_days_ratio = 1000 * 60 * 60 * 24;
 
@@ -50,7 +81,7 @@ const ignore_set = new Set([
 (async () => {
   let active = [];
   let archived = [];
-  const repos = await gh.request("GET /orgs/:owner/repos", {});
+  const repos = await gh("/orgs/:owner/repos");
   for (repo of repos.filter((filter) => !ignore_set.has(filter.name))) {
     const repo_object = {
       name: repo?.name ?? null,
@@ -68,13 +99,11 @@ const ignore_set = new Set([
       archived.push(repo_object);
       continue;
     }
-    const commit_activity = await gh.request(
-      "GET /repos/:owner/" + repo.name + "/stats/commit_activity",
-      {}
+    const commit_activity = await gh(
+      "/repos/:owner/" + repo.name + "/stats/commit_activity"
     );
-    const issues = await gh.request(
-      "GET /repos/:owner/" + repo.name + "/issues?state=all",
-      {}
+    const issues = await gh(
+      "/repos/:owner/" + repo.name + "/issues?state=all"
     );
     repo_object["score"] = combined_score(
       commit_score(commit_activity),
